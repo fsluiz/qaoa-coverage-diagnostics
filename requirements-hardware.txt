@@ -1,0 +1,7 @@
+-r requirements.txt
+
+# IBM/Qiskit scripts. An IBM Quantum account is required only for submission
+# and result retrieval; submit_kingston.py is a dry run unless --submit is used.
+qiskit
+qiskit-aer
+qiskit-ibm-runtime

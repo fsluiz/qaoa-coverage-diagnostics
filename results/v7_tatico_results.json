@@ -1,0 +1,3217 @@
+{
+  "config": {
+    "strategic_alg": "walk_a0",
+    "active_bases": [
+      0,
+      22,
+      18,
+      4,
+      9,
+      11,
+      14,
+      16,
+      20,
+      23
+    ],
+    "k": 10,
+    "T_windows": 10,
+    "delta_u": 0.12,
+    "p_drone_fail": 0.15,
+    "jam_radius_km": 350.0,
+    "RANGE_KM": 200
+  },
+  "results": {
+    "none__greedy": {
+      "fail_mode": "none",
+      "dispatch_alg": "greedy",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            6,
+            5,
+            3,
+            4,
+            7,
+            2,
+            0,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "none__walk_a0": {
+      "fail_mode": "none",
+      "dispatch_alg": "walk_a0",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            3,
+            7,
+            8,
+            6,
+            0,
+            2,
+            1,
+            5,
+            4,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            7,
+            2,
+            5,
+            4,
+            9,
+            6,
+            3,
+            1,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            8,
+            0,
+            7,
+            3,
+            5,
+            4,
+            6,
+            1,
+            9,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            9,
+            3,
+            2,
+            0,
+            5,
+            7,
+            1,
+            4,
+            8,
+            6
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            8,
+            4,
+            2,
+            7,
+            5,
+            9,
+            0,
+            1,
+            6,
+            3
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            9,
+            7,
+            3,
+            6,
+            8,
+            4,
+            1,
+            5,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            9,
+            3,
+            4,
+            7,
+            5,
+            8,
+            1,
+            6,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            3,
+            2,
+            9,
+            8,
+            7,
+            5,
+            4,
+            1,
+            6,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            4,
+            2,
+            3,
+            5,
+            7,
+            9,
+            6,
+            1,
+            8,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            7,
+            0,
+            3,
+            8,
+            4,
+            9,
+            1,
+            5,
+            6,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "none__walk_a2": {
+      "fail_mode": "none",
+      "dispatch_alg": "walk_a2",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            3,
+            9,
+            6,
+            4,
+            0,
+            1,
+            2,
+            8,
+            7,
+            5
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            6,
+            0,
+            3,
+            4,
+            8,
+            7,
+            5,
+            2,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            7,
+            0,
+            6,
+            3,
+            2,
+            5,
+            4,
+            1,
+            9,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            9,
+            4,
+            2,
+            0,
+            5,
+            6,
+            1,
+            3,
+            7,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            7,
+            5,
+            1,
+            6,
+            2,
+            9,
+            0,
+            4,
+            8,
+            3
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            9,
+            6,
+            3,
+            7,
+            5,
+            4,
+            2,
+            8,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            8,
+            3,
+            2,
+            7,
+            4,
+            9,
+            5,
+            6,
+            1
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            2,
+            3,
+            9,
+            7,
+            5,
+            4,
+            1,
+            0,
+            8,
+            6
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            4,
+            1,
+            2,
+            5,
+            3,
+            9,
+            6,
+            7,
+            8,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            6,
+            0,
+            3,
+            7,
+            2,
+            9,
+            1,
+            4,
+            5,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "random_drone__greedy": {
+      "fail_mode": "random_drone",
+      "dispatch_alg": "greedy",
+      "avg_zone_cov": 1.0,
+      "total_urg": 12.1031,
+      "total_mics": 141,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34999,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            6
+          ],
+          "dispatched": [
+            1,
+            5,
+            3,
+            4,
+            7,
+            2,
+            0,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 7.4093,
+          "urg_mean": 0.3364,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            0
+          ],
+          "dispatched": [
+            6,
+            1,
+            5,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 1.6938,
+          "urg_mean": 0.3337,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            1,
+            9
+          ],
+          "dispatched": [
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.24,
+          "urg_mean": 0.3784,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            2,
+            7
+          ],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            3,
+            4,
+            8,
+            9
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4095,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            0,
+            2
+          ],
+          "dispatched": [
+            1,
+            5,
+            6,
+            7,
+            3,
+            4,
+            8,
+            9
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.24,
+          "urg_mean": 0.4391,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            6,
+            8
+          ],
+          "dispatched": [
+            1,
+            5,
+            2,
+            0,
+            3,
+            4,
+            7,
+            9
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.72,
+          "urg_mean": 0.4362,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            6,
+            8
+          ],
+          "dispatched": [
+            1,
+            5,
+            0,
+            2,
+            3,
+            4,
+            7,
+            9
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4493,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 7,
+          "n_failed": 3,
+          "failed_drones": [
+            2,
+            7,
+            9
+          ],
+          "dispatched": [
+            6,
+            1,
+            5,
+            0,
+            3,
+            4,
+            8
+          ],
+          "n_dispatched": 7,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4493,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            3
+          ],
+          "dispatched": [
+            1,
+            5,
+            6,
+            2,
+            7,
+            0,
+            4,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 14,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4453,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 7,
+          "n_failed": 3,
+          "failed_drones": [
+            0,
+            8,
+            9
+          ],
+          "dispatched": [
+            1,
+            5,
+            6,
+            3,
+            2,
+            4,
+            7
+          ],
+          "n_dispatched": 7,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.36,
+          "urg_mean": 0.4413,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "random_drone__walk_a0": {
+      "fail_mode": "random_drone",
+      "dispatch_alg": "walk_a0",
+      "avg_zone_cov": 1.0,
+      "total_urg": 12.1031,
+      "total_mics": 141,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34999,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            6
+          ],
+          "dispatched": [
+            3,
+            7,
+            4,
+            8,
+            0,
+            1,
+            2,
+            9,
+            5
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 7.4093,
+          "urg_mean": 0.3364,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            0
+          ],
+          "dispatched": [
+            2,
+            7,
+            3,
+            1,
+            6,
+            9,
+            5,
+            8,
+            4
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 1.6938,
+          "urg_mean": 0.3337,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            1,
+            9
+          ],
+          "dispatched": [
+            7,
+            0,
+            6,
+            3,
+            4,
+            5,
+            8,
+            2
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.24,
+          "urg_mean": 0.3784,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            2,
+            7
+          ],
+          "dispatched": [
+            9,
+            5,
+            3,
+            0,
+            6,
+            1,
+            8,
+            4
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4095,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            0,
+            2
+          ],
+          "dispatched": [
+            8,
+            7,
+            3,
+            6,
+            1,
+            5,
+            9,
+            4
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.24,
+          "urg_mean": 0.4391,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            6,
+            8
+          ],
+          "dispatched": [
+            0,
+            9,
+            4,
+            3,
+            5,
+            7,
+            2,
+            1
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.72,
+          "urg_mean": 0.4362,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            6,
+            8
+          ],
+          "dispatched": [
+            0,
+            7,
+            3,
+            2,
+            9,
+            1,
+            5,
+            4
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4493,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 7,
+          "n_failed": 3,
+          "failed_drones": [
+            2,
+            7,
+            9
+          ],
+          "dispatched": [
+            4,
+            1,
+            8,
+            3,
+            6,
+            5,
+            0
+          ],
+          "n_dispatched": 7,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4493,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            3
+          ],
+          "dispatched": [
+            4,
+            2,
+            5,
+            7,
+            8,
+            9,
+            1,
+            6,
+            0
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 14,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4453,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 7,
+          "n_failed": 3,
+          "failed_drones": [
+            0,
+            8,
+            9
+          ],
+          "dispatched": [
+            4,
+            1,
+            3,
+            7,
+            5,
+            6,
+            2
+          ],
+          "n_dispatched": 7,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.36,
+          "urg_mean": 0.4413,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "random_drone__walk_a2": {
+      "fail_mode": "random_drone",
+      "dispatch_alg": "walk_a2",
+      "avg_zone_cov": 1.0,
+      "total_urg": 12.1031,
+      "total_mics": 141,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34999,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            6
+          ],
+          "dispatched": [
+            2,
+            9,
+            5,
+            4,
+            0,
+            1,
+            3,
+            8,
+            7
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 7.4093,
+          "urg_mean": 0.3364,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            0
+          ],
+          "dispatched": [
+            2,
+            6,
+            1,
+            4,
+            5,
+            9,
+            7,
+            3,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 1.6938,
+          "urg_mean": 0.3337,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            1,
+            9
+          ],
+          "dispatched": [
+            7,
+            0,
+            6,
+            3,
+            4,
+            5,
+            2,
+            8
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.24,
+          "urg_mean": 0.3784,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            2,
+            7
+          ],
+          "dispatched": [
+            9,
+            4,
+            1,
+            0,
+            5,
+            6,
+            3,
+            8
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4095,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            0,
+            2
+          ],
+          "dispatched": [
+            7,
+            6,
+            3,
+            8,
+            4,
+            9,
+            1,
+            5
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.24,
+          "urg_mean": 0.4391,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            6,
+            8
+          ],
+          "dispatched": [
+            0,
+            9,
+            5,
+            2,
+            4,
+            7,
+            1,
+            3
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.72,
+          "urg_mean": 0.4362,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 8,
+          "n_failed": 2,
+          "failed_drones": [
+            6,
+            8
+          ],
+          "dispatched": [
+            0,
+            7,
+            2,
+            3,
+            5,
+            1,
+            9,
+            4
+          ],
+          "n_dispatched": 8,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4493,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 7,
+          "n_failed": 3,
+          "failed_drones": [
+            2,
+            7,
+            9
+          ],
+          "dispatched": [
+            3,
+            1,
+            8,
+            6,
+            5,
+            4,
+            0
+          ],
+          "n_dispatched": 7,
+          "zone_cov": 1.0,
+          "mics_collected": 13,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4493,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            3
+          ],
+          "dispatched": [
+            5,
+            1,
+            2,
+            4,
+            6,
+            9,
+            7,
+            8,
+            0
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 14,
+          "urg_collected": 0.48,
+          "urg_mean": 0.4453,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 7,
+          "n_failed": 3,
+          "failed_drones": [
+            0,
+            8,
+            9
+          ],
+          "dispatched": [
+            5,
+            1,
+            3,
+            6,
+            2,
+            7,
+            4
+          ],
+          "n_dispatched": 7,
+          "zone_cov": 1.0,
+          "mics_collected": 15,
+          "urg_collected": 0.36,
+          "urg_mean": 0.4413,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "targeted_best__greedy": {
+      "fail_mode": "targeted_best",
+      "dispatch_alg": "greedy",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            3,
+            4,
+            7,
+            2,
+            0,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            1,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "targeted_best__walk_a0": {
+      "fail_mode": "targeted_best",
+      "dispatch_alg": "walk_a0",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            2,
+            9,
+            7,
+            6,
+            1,
+            3,
+            0,
+            4,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            0,
+            7,
+            2,
+            3,
+            8,
+            9,
+            6,
+            1,
+            4
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            8,
+            0,
+            7,
+            3,
+            4,
+            6,
+            1,
+            9,
+            2
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            9,
+            3,
+            2,
+            0,
+            7,
+            6,
+            1,
+            8,
+            4
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            8,
+            4,
+            2,
+            7,
+            0,
+            9,
+            1,
+            6,
+            3
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            0,
+            9,
+            4,
+            3,
+            8,
+            7,
+            6,
+            1,
+            2
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            0,
+            9,
+            3,
+            4,
+            8,
+            2,
+            6,
+            1,
+            7
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            3,
+            2,
+            9,
+            8,
+            7,
+            4,
+            6,
+            1,
+            0
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            4,
+            2,
+            3,
+            7,
+            8,
+            9,
+            1,
+            6,
+            0
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            7,
+            0,
+            3,
+            8,
+            2,
+            9,
+            1,
+            6,
+            4
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "targeted_best__walk_a2": {
+      "fail_mode": "targeted_best",
+      "dispatch_alg": "walk_a2",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            2,
+            9,
+            6,
+            4,
+            0,
+            1,
+            3,
+            8,
+            7
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            0,
+            6,
+            1,
+            3,
+            4,
+            9,
+            7,
+            2,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            8,
+            0,
+            7,
+            3,
+            2,
+            6,
+            1,
+            4,
+            9
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            9,
+            4,
+            1,
+            0,
+            3,
+            6,
+            2,
+            7,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            7,
+            4,
+            1,
+            6,
+            2,
+            9,
+            0,
+            3,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            0,
+            9,
+            6,
+            3,
+            7,
+            4,
+            2,
+            1,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            0,
+            8,
+            2,
+            3,
+            7,
+            4,
+            9,
+            1,
+            6
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            2,
+            1,
+            9,
+            8,
+            6,
+            4,
+            3,
+            0,
+            7
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            4,
+            1,
+            2,
+            3,
+            6,
+            9,
+            7,
+            8,
+            0
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 9,
+          "n_failed": 1,
+          "failed_drones": [
+            5
+          ],
+          "dispatched": [
+            6,
+            0,
+            3,
+            7,
+            2,
+            9,
+            1,
+            4,
+            8
+          ],
+          "n_dispatched": 9,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "area_jam__greedy": {
+      "fail_mode": "area_jam",
+      "dispatch_alg": "greedy",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            6,
+            5,
+            3,
+            4,
+            7,
+            2,
+            0,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            5,
+            6,
+            0,
+            2,
+            3,
+            4,
+            7,
+            8,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "area_jam__walk_a0": {
+      "fail_mode": "area_jam",
+      "dispatch_alg": "walk_a0",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            3,
+            7,
+            8,
+            6,
+            0,
+            2,
+            1,
+            5,
+            4,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            7,
+            2,
+            5,
+            4,
+            9,
+            6,
+            3,
+            1,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            8,
+            0,
+            7,
+            3,
+            5,
+            4,
+            6,
+            1,
+            9,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            9,
+            3,
+            2,
+            0,
+            5,
+            7,
+            1,
+            4,
+            8,
+            6
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            8,
+            4,
+            2,
+            7,
+            5,
+            9,
+            0,
+            1,
+            6,
+            3
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            9,
+            7,
+            3,
+            6,
+            8,
+            4,
+            1,
+            5,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            9,
+            3,
+            4,
+            7,
+            5,
+            8,
+            1,
+            6,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            3,
+            2,
+            9,
+            8,
+            7,
+            5,
+            4,
+            1,
+            6,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            4,
+            2,
+            3,
+            5,
+            7,
+            9,
+            6,
+            1,
+            8,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            7,
+            0,
+            3,
+            8,
+            4,
+            9,
+            1,
+            5,
+            6,
+            2
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    },
+    "area_jam__walk_a2": {
+      "fail_mode": "area_jam",
+      "dispatch_alg": "walk_a2",
+      "avg_zone_cov": 1.0,
+      "total_urg": 8.8631,
+      "total_mics": 170,
+      "total_crit_res": 0,
+      "avg_frac_crit": 0.34665,
+      "history": [
+        {
+          "t": 0,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            3,
+            9,
+            6,
+            4,
+            0,
+            1,
+            2,
+            8,
+            7,
+            5
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 8.8631,
+          "urg_mean": 0.2799,
+          "frac_crit": 0.1333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 1,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            6,
+            0,
+            3,
+            4,
+            8,
+            7,
+            5,
+            2,
+            9
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3257,
+          "frac_crit": 0.1667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 2,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            7,
+            0,
+            6,
+            3,
+            2,
+            5,
+            4,
+            1,
+            9,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3624,
+          "frac_crit": 0.2667,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 3,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            9,
+            4,
+            2,
+            0,
+            5,
+            6,
+            1,
+            3,
+            7,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.3935,
+          "frac_crit": 0.3333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 4,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            7,
+            5,
+            1,
+            6,
+            2,
+            9,
+            0,
+            4,
+            8,
+            3
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4151,
+          "frac_crit": 0.4,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 5,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            1,
+            9,
+            6,
+            3,
+            7,
+            5,
+            4,
+            2,
+            8,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4282,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 6,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            0,
+            8,
+            3,
+            2,
+            7,
+            4,
+            9,
+            5,
+            6,
+            1
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 7,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            2,
+            3,
+            9,
+            7,
+            5,
+            4,
+            1,
+            0,
+            8,
+            6
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 8,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            4,
+            1,
+            2,
+            5,
+            3,
+            9,
+            6,
+            7,
+            8,
+            0
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        },
+        {
+          "t": 9,
+          "n_oper": 10,
+          "n_failed": 0,
+          "failed_drones": [],
+          "dispatched": [
+            6,
+            0,
+            3,
+            7,
+            2,
+            9,
+            1,
+            4,
+            5,
+            8
+          ],
+          "n_dispatched": 10,
+          "zone_cov": 1.0,
+          "mics_collected": 17,
+          "urg_collected": 0.0,
+          "urg_mean": 0.4333,
+          "frac_crit": 0.4333,
+          "n_crit_resolved": 0
+        }
+      ]
+    }
+  }
+}

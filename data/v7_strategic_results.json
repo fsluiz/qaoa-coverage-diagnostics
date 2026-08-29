@@ -1,0 +1,90 @@
+{
+  "greedy": {
+    "k": 10,
+    "bases": [
+      10,
+      12,
+      21,
+      0,
+      2,
+      6,
+      16,
+      18,
+      20,
+      23
+    ],
+    "base_names": [
+      "Ipiranga",
+      "Tabatinga",
+      "Porto Velho",
+      "Surucucu",
+      "Normandia",
+      "Maturac\u00e1",
+      "Cruzeiro do Sul",
+      "Santa Rosa do Purus",
+      "Pl\u00e1cido de Castro",
+      "Pimenteiras do Oeste"
+    ],
+    "coverage": 1.0
+  },
+  "walk_a0": {
+    "k": 10,
+    "bases": [
+      0,
+      22,
+      18,
+      4,
+      9,
+      11,
+      14,
+      16,
+      20,
+      23
+    ],
+    "base_names": [
+      "Surucucu",
+      "Humait\u00e1",
+      "Santa Rosa do Purus",
+      "Uiramut\u00e3",
+      "Cucui",
+      "Vila Bittencourt",
+      "Palmeira do Javari",
+      "Cruzeiro do Sul",
+      "Pl\u00e1cido de Castro",
+      "Pimenteiras do Oeste"
+    ],
+    "p_opt": 0.525,
+    "k_mean": 10.6,
+    "coverage": 1.0
+  },
+  "walk_a2": {
+    "k": 10,
+    "bases": [
+      0,
+      21,
+      6,
+      16,
+      10,
+      14,
+      18,
+      3,
+      23,
+      20
+    ],
+    "base_names": [
+      "Surucucu",
+      "Porto Velho",
+      "Maturac\u00e1",
+      "Cruzeiro do Sul",
+      "Ipiranga",
+      "Palmeira do Javari",
+      "Santa Rosa do Purus",
+      "Bonfim",
+      "Pimenteiras do Oeste",
+      "Pl\u00e1cido de Castro"
+    ],
+    "p_opt": 0.215,
+    "k_mean": 11.255,
+    "coverage": 1.0
+  }
+}

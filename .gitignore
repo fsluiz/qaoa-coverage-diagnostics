@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary outputs
+*.log
+*.tmp
+*.bak
+
+# LaTeX build products (the versioned PDF is kept explicitly)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.out
+paper/*.synctex.gz
+paper/*.toc
+
+# The manuscript is maintained on Overleaf and must not be versioned here.
+/paper/
+/paper_v*.pdf
+/paper_v*.tex
+
+# Official IBGE archives are downloaded and hash-verified by the preparation script.
+/data/.cache/
+
+# Unseeded Bloqade samples are validation artifacts, not canonical results.
+/results/bloqade_3x3_sampled.json
+
+# Credentials must never be committed
+*token*
+*credentials*
+*.pem

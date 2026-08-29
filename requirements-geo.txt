@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# Required only when redownloading and regenerating the official IBGE table.
+geopandas>=0.12
+Shapely>=1.8
+pyproj>=3.4

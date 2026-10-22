@@ -1,0 +1,24 @@
+{
+ "n": 773,
+ "R_km": 200.0,
+ "n_ZZ": 39974,
+ "k_opt": 47,
+ "n_components": 4,
+ "block_sizes": [
+  770,
+  1,
+  1,
+  1
+ ],
+ "largest_block": 770,
+ "log2_exact_cost": 770.0,
+ "forced": 3,
+ "phi": 0.0638,
+ "deg1_targets": 3,
+ "isolated": [
+  "Barcelos (AM)",
+  "Santa Isabel do Rio Negro (AM)",
+  "S\u00e3o Gabriel da Cachoeira (AM)"
+ ],
+ "direct_sum": true
+}

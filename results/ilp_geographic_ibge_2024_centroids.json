@@ -19,7 +19,7 @@
       "k_opt": 389,
       "k_incumbent": 389,
       "mip_gap": 0.0,
-      "t_ilp_s": 0.0615,
+      "t_ilp_s": 0.0584,
       "selected_cd_mun": [
         "1100023",
         "1100056",
@@ -423,7 +423,7 @@
       "k_opt": 237,
       "k_incumbent": 237,
       "mip_gap": 0.0,
-      "t_ilp_s": 0.3962,
+      "t_ilp_s": 0.3788,
       "selected_cd_mun": [
         "1100056",
         "1100072",
@@ -675,7 +675,7 @@
       "k_opt": 152,
       "k_incumbent": 152,
       "mip_gap": 1.8698493046318422e-16,
-      "t_ilp_s": 0.9092,
+      "t_ilp_s": 0.8619,
       "selected_cd_mun": [
         "1100072",
         "1100080",
@@ -842,7 +842,7 @@
       "k_opt": 105,
       "k_incumbent": 105,
       "mip_gap": 8.120488408686853e-16,
-      "t_ilp_s": 1.6144,
+      "t_ilp_s": 1.5342,
       "selected_cd_mun": [
         "1100254",
         "1100403",
@@ -962,7 +962,7 @@
       "k_opt": 78,
       "k_incumbent": 78,
       "mip_gap": 0.0,
-      "t_ilp_s": 0.5922,
+      "t_ilp_s": 0.5586,
       "selected_cd_mun": [
         "1100080",
         "1100452",
@@ -1055,7 +1055,7 @@
       "k_opt": 59,
       "k_incumbent": 59,
       "mip_gap": 0.0,
-      "t_ilp_s": 6.0835,
+      "t_ilp_s": 5.7313,
       "selected_cd_mun": [
         "1100064",
         "1100106",
@@ -1129,7 +1129,7 @@
       "k_opt": 47,
       "k_incumbent": 47,
       "mip_gap": 0.0,
-      "t_ilp_s": 1.6992,
+      "t_ilp_s": 1.5231,
       "selected_cd_mun": [
         "1100205",
         "1100320",
@@ -1191,7 +1191,7 @@
       "k_opt": 31,
       "k_incumbent": 31,
       "mip_gap": 8.286991164962946e-13,
-      "t_ilp_s": 2.681,
+      "t_ilp_s": 2.5287,
       "selected_cd_mun": [
         "1100098",
         "1100114",
@@ -1237,7 +1237,7 @@
       "k_opt": 22,
       "k_incumbent": 22,
       "mip_gap": 0.0,
-      "t_ilp_s": 1.6211,
+      "t_ilp_s": 1.5173,
       "selected_cd_mun": [
         "1100254",
         "1200708",

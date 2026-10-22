@@ -1,0 +1,330 @@
+{
+ "description": "Exact enumeration and statevector audit of the 3x3 Rydberg interpretation",
+ "cases": [
+  {
+   "spacing_um": 5.0,
+   "blockade_radius_um": 8.439639489080086,
+   "blockade_reaches_grid_edges": true,
+   "blockade_reaches_grid_diagonals": true,
+   "grid": {
+    "n_edges": 12,
+    "domination_number": 3,
+    "n_minimum_dominating_sets": 10,
+    "minimum_dominating_sets": [
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      2,
+      3,
+      8
+     ],
+     [
+      2,
+      3,
+      7
+     ],
+     [
+      1,
+      6,
+      8
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      1,
+      4,
+      7
+     ],
+     [
+      1,
+      3,
+      8
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      0,
+      2,
+      7
+     ]
+    ]
+   },
+   "blockade_graph": {
+    "n_edges": 20,
+    "domination_number_not_an_encoded_objective": 1,
+    "maximum_independent_set_size": 4,
+    "n_maximum_independent_sets": 1
+   },
+   "mds_vs_blockade": {
+    "n_blockade_compatible_mds": 4,
+    "n_blockade_incompatible_mds": 6,
+    "compatible_sets": [
+     [
+      2,
+      3,
+      8
+     ],
+     [
+      1,
+      6,
+      8
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      0,
+      2,
+      7
+     ]
+    ],
+    "incompatible_sets": [
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      2,
+      3,
+      7
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      1,
+      4,
+      7
+     ],
+     [
+      1,
+      3,
+      8
+     ],
+     [
+      0,
+      5,
+      7
+     ]
+    ],
+    "all_mds_are_blockade_allowed": false
+   },
+   "final_classical_hamiltonian": {
+    "omega_rad_per_us": 0.0,
+    "global_detuning_rad_per_us": 1.0,
+    "ground_energy": -11.322444858418656,
+    "ground_degeneracy": 2,
+    "ground_cardinalities": [
+     2
+    ],
+    "ground_bit_sets": [
+     [
+      2,
+      6
+     ],
+     [
+      0,
+      8
+     ]
+    ],
+    "n_ground_states_that_are_grid_mds": 0,
+    "n_ground_states_that_dominate_grid": 0,
+    "lowest_grid_mds_energy": -9.029027147514869,
+    "n_states_below_lowest_grid_mds": 13,
+    "ground_manifold_equals_grid_mds": false
+   },
+   "dynamics_at_reported_duration": {
+    "duration_us": 2.6,
+    "P_all_grid_mds": 0.07540584005631733,
+    "P_blockade_compatible_grid_mds": 0.07506818373084335,
+    "P_blockade_incompatible_grid_mds": 0.00033765632547397387,
+    "P_final_hamiltonian_ground_manifold": 0.03147813617990922,
+    "P_any_grid_dominating_set": 0.07540594460337594,
+    "P_any_blockade_independent_set": 0.9990081877680469,
+    "uniform_grid_mds_baseline": 0.01953125
+   }
+  },
+  {
+   "spacing_um": 7.0,
+   "blockade_radius_um": 8.439639489080086,
+   "blockade_reaches_grid_edges": true,
+   "blockade_reaches_grid_diagonals": false,
+   "grid": {
+    "n_edges": 12,
+    "domination_number": 3,
+    "n_minimum_dominating_sets": 10,
+    "minimum_dominating_sets": [
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      2,
+      3,
+      8
+     ],
+     [
+      2,
+      3,
+      7
+     ],
+     [
+      1,
+      6,
+      8
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      1,
+      4,
+      7
+     ],
+     [
+      1,
+      3,
+      8
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      0,
+      2,
+      7
+     ]
+    ]
+   },
+   "blockade_graph": {
+    "n_edges": 12,
+    "domination_number_not_an_encoded_objective": 3,
+    "maximum_independent_set_size": 5,
+    "n_maximum_independent_sets": 1
+   },
+   "mds_vs_blockade": {
+    "n_blockade_compatible_mds": 8,
+    "n_blockade_incompatible_mds": 2,
+    "compatible_sets": [
+     [
+      2,
+      3,
+      8
+     ],
+     [
+      2,
+      3,
+      7
+     ],
+     [
+      1,
+      6,
+      8
+     ],
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      1,
+      3,
+      8
+     ],
+     [
+      0,
+      5,
+      7
+     ],
+     [
+      0,
+      5,
+      6
+     ],
+     [
+      0,
+      2,
+      7
+     ]
+    ],
+    "incompatible_sets": [
+     [
+      3,
+      4,
+      5
+     ],
+     [
+      1,
+      4,
+      7
+     ]
+    ],
+    "all_mds_are_blockade_allowed": false
+   },
+   "final_classical_hamiltonian": {
+    "omega_rad_per_us": 0.0,
+    "global_detuning_rad_per_us": 1.0,
+    "ground_energy": -20.940465546115227,
+    "ground_degeneracy": 1,
+    "ground_cardinalities": [
+     4
+    ],
+    "ground_bit_sets": [
+     [
+      0,
+      2,
+      6,
+      8
+     ]
+    ],
+    "n_ground_states_that_are_grid_mds": 0,
+    "n_ground_states_that_dominate_grid": 0,
+    "lowest_grid_mds_energy": -18.54294170949111,
+    "n_states_below_lowest_grid_mds": 1,
+    "ground_manifold_equals_grid_mds": false
+   },
+   "dynamics_at_reported_duration": {
+    "duration_us": 2.6,
+    "P_all_grid_mds": 0.31273703894397964,
+    "P_blockade_compatible_grid_mds": 0.31273585734317044,
+    "P_blockade_incompatible_grid_mds": 1.1816008092432184e-06,
+    "P_final_hamiltonian_ground_manifold": 0.003870237677000118,
+    "P_any_grid_dominating_set": 0.3745072875814441,
+    "P_any_blockade_independent_set": 0.9979946248159369,
+    "uniform_grid_mds_baseline": 0.01953125
+   }
+  }
+ ],
+ "scientific_conclusion": "The blockade supplies an independence-type exclusion, not domination. For neither audited spacing is the final Rydberg ground manifold the set of minimum dominating sets.  P_all_grid_mds is therefore a target-set overlap of a heuristic dynamics, not success probability of a faithful MDS encoding.",
+ "allowed_next_draft_language": "Rydberg-Ising heuristic whose output is scored against externally enumerated minimum-dominating-set bitstrings",
+ "prohibited_next_draft_language": "native or faithful encoding of the domination constraint by blockade"
+}

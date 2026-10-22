@@ -1,0 +1,61 @@
+{
+ "backend": "ibm_kingston",
+ "shots": 100000,
+ "jobs": [
+  {
+   "tag": "rung1_qaoa_p1",
+   "inst": "rung1",
+   "kind": "qaoa",
+   "p": 1,
+   "k": null,
+   "n": 24,
+   "params": [
+    -0.04,
+    0.35
+   ],
+   "logical_cx": 34,
+   "p_opt_noiseless": 0.001825377751751246,
+   "physical_cx": 49,
+   "physical_depth": 64
+  },
+  {
+   "tag": "rung1_qaoa_p2",
+   "inst": "rung1",
+   "kind": "qaoa",
+   "p": 2,
+   "k": null,
+   "n": 24,
+   "params": [
+    -0.04,
+    -0.04,
+    0.35,
+    0.35
+   ],
+   "logical_cx": 68,
+   "p_opt_noiseless": 0.0004683293462262668,
+   "physical_cx": 92,
+   "physical_depth": 117
+  },
+  {
+   "tag": "rung1_qaoa_p3",
+   "inst": "rung1",
+   "kind": "qaoa",
+   "p": 3,
+   "k": null,
+   "n": 24,
+   "params": [
+    -0.04,
+    -0.04,
+    -0.04,
+    0.35,
+    0.35,
+    0.35
+   ],
+   "logical_cx": 102,
+   "p_opt_noiseless": 0.00017023693864614886,
+   "physical_cx": 146,
+   "physical_depth": 188
+  }
+ ],
+ "job_id": "dakjch39k43c73aik9rg"
+}

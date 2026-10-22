@@ -1,0 +1,547 @@
+{
+ "description": "Consolidated same-sector XY-mixer audit",
+ "inputs": [
+  "results/same_sector_mixer_control.json",
+  "results/mixer_scale_sensitivity.json"
+ ],
+ "design": {
+  "cases": "prespecified seeds 12 and 17 paired over m=1,2,3",
+  "fixed": "instance, k_opt sector, uniform Dicke initial state, exact cost, p=1, optimizer protocol, and parameter windows",
+  "primary_raw_contrast": "shared-task edge weights versus unit weights on identical support",
+  "scale_sensitivity": "shared-task weights divided by their RMS versus the same unit-weight support",
+  "secondary_topology_contrast": "weighted support versus complete-graph unit-weight XY",
+  "inference": "descriptive only; the six rows contain only two independent instance seeds"
+ },
+ "rows": [
+  {
+   "seed": 12,
+   "m": 1,
+   "k_opt": 2,
+   "sector_dimension": 66,
+   "cooperation_edge_density": 1.0,
+   "raw_weight_rms": 9.630286820361285,
+   "all_endpoints_converged": true,
+   "scale_mapping": {
+    "raw_weighted_beta": 0.05098287016142975,
+    "beta_for_same_unitary_after_rms_normalization": 0.4909796625798075,
+    "same_unitary_beta_inside_normalized_window": true
+   },
+   "mixers": {
+    "problem_weighted_raw": {
+     "expected_energy": 27.28054009195803,
+     "p_opt": 0.22466332563570207,
+     "parameters": [
+      0.04102084640762749,
+      0.05098287016142975
+     ]
+    },
+    "problem_weighted_rms_normalized": {
+     "expected_energy": 27.280540091958006,
+     "p_opt": 0.2246633256637178,
+     "parameters": [
+      0.04102084641739964,
+      0.49097966260251014
+     ]
+    },
+    "support_unweighted": {
+     "expected_energy": 25.573270268097268,
+     "p_opt": 0.1936061411071352,
+     "parameters": [
+      0.4676179668130119,
+      1.7612456465604807
+     ]
+    },
+    "complete_unweighted": {
+     "expected_energy": 25.573270268097268,
+     "p_opt": 0.1936061411071352,
+     "parameters": [
+      0.4676179668130119,
+      1.7612456465604807
+     ]
+    }
+   },
+   "comparisons": {
+    "problem_weighted_raw_minus_support_unweighted": {
+     "expected_energy_difference": 1.7072698238607629,
+     "p_opt_difference": 0.031057184528566872,
+     "p_opt_ratio": 1.160414253137667
+    },
+    "problem_weighted_raw_minus_complete_unweighted": {
+     "expected_energy_difference": 1.7072698238607629,
+     "p_opt_difference": 0.031057184528566872,
+     "p_opt_ratio": 1.160414253137667
+    },
+    "problem_weighted_rms_normalized_minus_support_unweighted": {
+     "expected_energy_difference": 1.707269823860738,
+     "p_opt_difference": 0.0310571845565826,
+     "p_opt_ratio": 1.1604142532823718
+    },
+    "problem_weighted_rms_normalized_minus_complete_unweighted": {
+     "expected_energy_difference": 1.707269823860738,
+     "p_opt_difference": 0.0310571845565826,
+     "p_opt_ratio": 1.1604142532823718
+    }
+   }
+  },
+  {
+   "seed": 12,
+   "m": 2,
+   "k_opt": 5,
+   "sector_dimension": 792,
+   "cooperation_edge_density": 1.0,
+   "raw_weight_rms": 9.630286820361285,
+   "all_endpoints_converged": true,
+   "scale_mapping": {
+    "raw_weighted_beta": 0.010740312153129726,
+    "beta_for_same_unitary_after_rms_normalization": 0.10343228657485133,
+    "same_unitary_beta_inside_normalized_window": true
+   },
+   "mixers": {
+    "problem_weighted_raw": {
+     "expected_energy": 26.87295520189607,
+     "p_opt": 0.3213088409401861,
+     "parameters": [
+      0.4012000906855303,
+      0.010740312153129726
+     ]
+    },
+    "problem_weighted_rms_normalized": {
+     "expected_energy": 26.87295520189606,
+     "p_opt": 0.3213088413203018,
+     "parameters": [
+      0.4012000907964706,
+      0.10343228668749141
+     ]
+    },
+    "support_unweighted": {
+     "expected_energy": 31.13523312642963,
+     "p_opt": 0.1620231966268133,
+     "parameters": [
+      0.4659003022812404,
+      0.04927275822060257
+     ]
+    },
+    "complete_unweighted": {
+     "expected_energy": 31.13523312642963,
+     "p_opt": 0.1620231966268133,
+     "parameters": [
+      0.4659003022812404,
+      0.04927275822060257
+     ]
+    }
+   },
+   "comparisons": {
+    "problem_weighted_raw_minus_support_unweighted": {
+     "expected_energy_difference": -4.26227792453356,
+     "p_opt_difference": 0.15928564431337278,
+     "p_opt_ratio": 1.9831039482590513
+    },
+    "problem_weighted_raw_minus_complete_unweighted": {
+     "expected_energy_difference": -4.26227792453356,
+     "p_opt_difference": 0.15928564431337278,
+     "p_opt_ratio": 1.9831039482590513
+    },
+    "problem_weighted_rms_normalized_minus_support_unweighted": {
+     "expected_energy_difference": -4.262277924533571,
+     "p_opt_difference": 0.1592856446934885,
+     "p_opt_ratio": 1.9831039506051087
+    },
+    "problem_weighted_rms_normalized_minus_complete_unweighted": {
+     "expected_energy_difference": -4.262277924533571,
+     "p_opt_difference": 0.1592856446934885,
+     "p_opt_ratio": 1.9831039506051087
+    }
+   }
+  },
+  {
+   "seed": 12,
+   "m": 3,
+   "k_opt": 8,
+   "sector_dimension": 495,
+   "cooperation_edge_density": 1.0,
+   "raw_weight_rms": 9.630286820361285,
+   "all_endpoints_converged": true,
+   "scale_mapping": {
+    "raw_weighted_beta": 0.010357779683595122,
+    "beta_for_same_unitary_after_rms_normalization": 0.09974838917513199,
+    "same_unitary_beta_inside_normalized_window": true
+   },
+   "mixers": {
+    "problem_weighted_raw": {
+     "expected_energy": 26.3071381794573,
+     "p_opt": 0.2774320790188406,
+     "parameters": [
+      0.4206558009353746,
+      0.010357779683595122
+     ]
+    },
+    "problem_weighted_rms_normalized": {
+     "expected_energy": 26.307138179457333,
+     "p_opt": 0.2774320776950243,
+     "parameters": [
+      0.42065580255692153,
+      0.09974839033901234
+     ]
+    },
+    "support_unweighted": {
+     "expected_energy": 26.774712101906395,
+     "p_opt": 0.26646182009609004,
+     "parameters": [
+      0.05963314227974572,
+      3.072058502518014
+     ]
+    },
+    "complete_unweighted": {
+     "expected_energy": 26.774712101906395,
+     "p_opt": 0.26646182009609004,
+     "parameters": [
+      0.05963314227974572,
+      3.072058502518014
+     ]
+    }
+   },
+   "comparisons": {
+    "problem_weighted_raw_minus_support_unweighted": {
+     "expected_energy_difference": -0.4675739224490947,
+     "p_opt_difference": 0.010970258922750553,
+     "p_opt_ratio": 1.041170096784577
+    },
+    "problem_weighted_raw_minus_complete_unweighted": {
+     "expected_energy_difference": -0.4675739224490947,
+     "p_opt_difference": 0.010970258922750553,
+     "p_opt_ratio": 1.041170096784577
+    },
+    "problem_weighted_rms_normalized_minus_support_unweighted": {
+     "expected_energy_difference": -0.4675739224490627,
+     "p_opt_difference": 0.010970257598934274,
+     "p_opt_ratio": 1.0411700918164495
+    },
+    "problem_weighted_rms_normalized_minus_complete_unweighted": {
+     "expected_energy_difference": -0.4675739224490627,
+     "p_opt_difference": 0.010970257598934274,
+     "p_opt_ratio": 1.0411700918164495
+    }
+   }
+  },
+  {
+   "seed": 17,
+   "m": 1,
+   "k_opt": 2,
+   "sector_dimension": 66,
+   "cooperation_edge_density": 0.9393939393939394,
+   "raw_weight_rms": 10.354989447199495,
+   "all_endpoints_converged": true,
+   "scale_mapping": {
+    "raw_weighted_beta": 2.845234776900386,
+    "beta_for_same_unitary_after_rms_normalization": 29.462376089608505,
+    "same_unitary_beta_inside_normalized_window": false
+   },
+   "mixers": {
+    "problem_weighted_raw": {
+     "expected_energy": 29.525765422303092,
+     "p_opt": 0.09662886463145738,
+     "parameters": [
+      0.4688466268918403,
+      2.845234776900386
+     ]
+    },
+    "problem_weighted_rms_normalized": {
+     "expected_energy": 29.725291194618435,
+     "p_opt": 0.07128104603195405,
+     "parameters": [
+      0.47258532987275925,
+      0.1016650800727804
+     ]
+    },
+    "support_unweighted": {
+     "expected_energy": 29.481724620689167,
+     "p_opt": 0.07837815266532033,
+     "parameters": [
+      0.47125776768948574,
+      0.07033685019817468
+     ]
+    },
+    "complete_unweighted": {
+     "expected_energy": 29.16782519075696,
+     "p_opt": 0.08383899204332519,
+     "parameters": [
+      0.012309616555457264,
+      3.079489320801729
+     ]
+    }
+   },
+   "comparisons": {
+    "problem_weighted_raw_minus_support_unweighted": {
+     "expected_energy_difference": 0.04404080161392443,
+     "p_opt_difference": 0.018250711966137048,
+     "p_opt_ratio": 1.232854581863759
+    },
+    "problem_weighted_raw_minus_complete_unweighted": {
+     "expected_energy_difference": 0.35794023154613086,
+     "p_opt_difference": 0.01278987258813219,
+     "p_opt_ratio": 1.152552795261694
+    },
+    "problem_weighted_rms_normalized_minus_support_unweighted": {
+     "expected_energy_difference": 0.24356657392926806,
+     "p_opt_difference": -0.007097106633366282,
+     "p_opt_ratio": 0.909450447707394
+    },
+    "problem_weighted_rms_normalized_minus_complete_unweighted": {
+     "expected_energy_difference": 0.5574660038614745,
+     "p_opt_difference": -0.01255794601137114,
+     "p_opt_ratio": 0.8502135378144621
+    }
+   }
+  },
+  {
+   "seed": 17,
+   "m": 2,
+   "k_opt": 5,
+   "sector_dimension": 792,
+   "cooperation_edge_density": 0.9393939393939394,
+   "raw_weight_rms": 10.354989447199495,
+   "all_endpoints_converged": true,
+   "scale_mapping": {
+    "raw_weighted_beta": 2.085160786127724,
+    "beta_for_same_unitary_after_rms_normalization": 21.591817936066786,
+    "same_unitary_beta_inside_normalized_window": false
+   },
+   "mixers": {
+    "problem_weighted_raw": {
+     "expected_energy": 28.3848268994512,
+     "p_opt": 0.05838824911120405,
+     "parameters": [
+      0.43970698061296376,
+      2.085160786127724
+     ]
+    },
+    "problem_weighted_rms_normalized": {
+     "expected_energy": 28.60474055893403,
+     "p_opt": 0.036290307573821234,
+     "parameters": [
+      0.4387393674653505,
+      0.2750096823146076
+     ]
+    },
+    "support_unweighted": {
+     "expected_energy": 29.40104613311344,
+     "p_opt": 0.12084785857513805,
+     "parameters": [
+      0.38744754436380524,
+      0.0734759750404526
+     ]
+    },
+    "complete_unweighted": {
+     "expected_energy": 28.418744330274084,
+     "p_opt": 0.045677572998834626,
+     "parameters": [
+      0.02739868222134939,
+      1.4149792195378645
+     ]
+    }
+   },
+   "comparisons": {
+    "problem_weighted_raw_minus_support_unweighted": {
+     "expected_energy_difference": -1.016219233662241,
+     "p_opt_difference": -0.062459609463934,
+     "p_opt_ratio": 0.483155016560767
+    },
+    "problem_weighted_raw_minus_complete_unweighted": {
+     "expected_energy_difference": -0.033917430822885564,
+     "p_opt_difference": 0.012710676112369423,
+     "p_opt_ratio": 1.2782695156043802
+    },
+    "problem_weighted_rms_normalized_minus_support_unweighted": {
+     "expected_energy_difference": -0.7963055741794101,
+     "p_opt_difference": -0.08455755100131682,
+     "p_opt_ratio": 0.30029748149204866
+    },
+    "problem_weighted_rms_normalized_minus_complete_unweighted": {
+     "expected_energy_difference": 0.18599622865994547,
+     "p_opt_difference": -0.009387265425013391,
+     "p_opt_ratio": 0.7944885244832757
+    }
+   }
+  },
+  {
+   "seed": 17,
+   "m": 3,
+   "k_opt": 8,
+   "sector_dimension": 495,
+   "cooperation_edge_density": 0.9393939393939394,
+   "raw_weight_rms": 10.354989447199495,
+   "all_endpoints_converged": true,
+   "scale_mapping": {
+    "raw_weighted_beta": 0.010581586125647397,
+    "beta_for_same_unitary_after_rms_normalization": 0.10957221266571139,
+    "same_unitary_beta_inside_normalized_window": true
+   },
+   "mixers": {
+    "problem_weighted_raw": {
+     "expected_energy": 28.730781183439536,
+     "p_opt": 0.05147216753189697,
+     "parameters": [
+      0.37951609232286293,
+      0.010581586125647397
+     ]
+    },
+    "problem_weighted_rms_normalized": {
+     "expected_energy": 28.730781183439532,
+     "p_opt": 0.05147216771172458,
+     "parameters": [
+      0.3795160913926861,
+      0.10957221243246955
+     ]
+    },
+    "support_unweighted": {
+     "expected_energy": 26.73277831530575,
+     "p_opt": 0.06197607039603408,
+     "parameters": [
+      0.38158491926674215,
+      0.10573335440330207
+     ]
+    },
+    "complete_unweighted": {
+     "expected_energy": 26.232070557584922,
+     "p_opt": 0.061763280002894494,
+     "parameters": [
+      0.09466447661597063,
+      3.043867071884179
+     ]
+    }
+   },
+   "comparisons": {
+    "problem_weighted_raw_minus_support_unweighted": {
+     "expected_energy_difference": 1.998002868133785,
+     "p_opt_difference": -0.010503902864137112,
+     "p_opt_ratio": 0.8305167979025455
+    },
+    "problem_weighted_raw_minus_complete_unweighted": {
+     "expected_energy_difference": 2.4987106258546135,
+     "p_opt_difference": -0.010291112470997524,
+     "p_opt_ratio": 0.8333781419880026
+    },
+    "problem_weighted_rms_normalized_minus_support_unweighted": {
+     "expected_energy_difference": 1.9980028681337814,
+     "p_opt_difference": -0.0105039026843095,
+     "p_opt_ratio": 0.8305168008041107
+    },
+    "problem_weighted_rms_normalized_minus_complete_unweighted": {
+     "expected_energy_difference": 2.49871062585461,
+     "p_opt_difference": -0.010291112291169913,
+     "p_opt_ratio": 0.8333781448995645
+    }
+   }
+  }
+ ],
+ "summaries": {
+  "problem_weighted_raw_minus_support_unweighted": {
+   "n": 6,
+   "weighted_lower_energy": 3,
+   "control_lower_energy": 3,
+   "weighted_larger_p_opt": 4,
+   "control_larger_p_opt": 2,
+   "energy_difference": {
+    "n": 6,
+    "median": -0.21176656041758513,
+    "minimum": -4.26227792453356,
+    "maximum": 1.998002868133785
+   },
+   "p_opt_ratio": {
+    "n": 6,
+    "median": 1.100792174961122,
+    "minimum": 0.483155016560767,
+    "maximum": 1.9831039482590513
+   }
+  },
+  "problem_weighted_raw_minus_complete_unweighted": {
+   "n": 6,
+   "weighted_lower_energy": 3,
+   "control_lower_energy": 3,
+   "weighted_larger_p_opt": 5,
+   "control_larger_p_opt": 1,
+   "energy_difference": {
+    "n": 6,
+    "median": 0.16201140036162265,
+    "minimum": -4.26227792453356,
+    "maximum": 2.4987106258546135
+   },
+   "p_opt_ratio": {
+    "n": 6,
+    "median": 1.1564835241996807,
+    "minimum": 0.8333781419880026,
+    "maximum": 1.9831039482590513
+   }
+  },
+  "problem_weighted_rms_normalized_minus_support_unweighted": {
+   "n": 6,
+   "weighted_lower_energy": 3,
+   "control_lower_energy": 3,
+   "weighted_larger_p_opt": 3,
+   "control_larger_p_opt": 3,
+   "energy_difference": {
+    "n": 6,
+    "median": -0.11200367425989732,
+    "minimum": -4.262277924533571,
+    "maximum": 1.9980028681337814
+   },
+   "p_opt_ratio": {
+    "n": 6,
+    "median": 0.9753102697619218,
+    "minimum": 0.30029748149204866,
+    "maximum": 1.9831039506051087
+   }
+  },
+  "problem_weighted_rms_normalized_minus_complete_unweighted": {
+   "n": 6,
+   "weighted_lower_energy": 2,
+   "control_lower_energy": 4,
+   "weighted_larger_p_opt": 3,
+   "control_larger_p_opt": 3,
+   "energy_difference": {
+    "n": 6,
+    "median": 0.37173111626071,
+    "minimum": -4.262277924533571,
+    "maximum": 2.49871062585461
+   },
+   "p_opt_ratio": {
+    "n": 6,
+    "median": 0.9456918148154558,
+    "minimum": 0.7944885244832757,
+    "maximum": 1.9831039506051087
+   }
+  }
+ },
+ "scale_window_sensitivity": {
+  "cases_whose_raw_optimum_maps_outside_normalized_beta_window": [
+   {
+    "seed": 17,
+    "m": 1
+   },
+   {
+    "seed": 17,
+    "m": 2
+   }
+  ],
+  "cases_whose_weighted_energy_changes_by_more_than_1e-8": 2,
+  "weighted_energy_change_normalized_minus_raw": {
+   "n": 6,
+   "median": 1.4210854715202004e-14,
+   "minimum": -2.4868995751603507e-14,
+   "maximum": 0.21991365948283104
+  },
+  "normalized_over_raw_p_opt_ratio": {
+   "n": 6,
+   "median": 0.9999999976765119,
+   "minimum": 0.6215344376006906,
+   "maximum": 1.0000000034936865
+  },
+  "interpretation": "A finite common beta window is not scale invariant. The normalized analysis therefore tests relative weight heterogeneity rather than raw coupling magnitude."
+ },
+ "scientific_interpretation": {
+  "same_support_result": "Weighted and unit-weight mixers each have lower expected energy in three of six cases, both with raw and RMS-normalized weights.",
+  "sampling_result": "Raw weights have larger P(opt) in four of six support-matched cases, but after RMS normalization the split is three to three and the median ratio is below one.",
+  "topology_result": "The complete unweighted control has lower energy in four of six cases after RMS normalization; P(opt) again splits three to three.",
+  "decision": "The supplied sector explains the earlier QWOA/QAOA sampling contrast, but the problem-informed edge weights and near-complete geometry do not provide a robust p=1 mixer advantage on this pilot. Any positive effect is case-, metric-, and scale-window-dependent. No p>1 or population-level inference is licensed."
+ }
+}

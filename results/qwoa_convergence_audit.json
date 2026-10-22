@@ -1,0 +1,190 @@
+{
+ "description": "Audited conclusion of the prespecified convergence-first QWOA/QAOA pilot",
+ "inputs": [
+  "results/qwoa_convergence_pilot.json",
+  "results/qwoa_p1_high_resolution.json"
+ ],
+ "depth_convergence": {
+  "1": {
+   "cases": 6,
+   "jointly_converged": 6
+  },
+  "2": {
+   "cases": 6,
+   "jointly_converged": 0
+  },
+  "3": {
+   "cases": 6,
+   "jointly_converged": 0
+  }
+ },
+ "p1": {
+  "rows": [
+   {
+    "seed": 12,
+    "m": 1,
+    "qwoa_converged_after_adaptive_check": true,
+    "qaoa_converged": true,
+    "adaptive_check_used": false,
+    "qwoa_expected_energy": 27.28054009195803,
+    "qaoa_expected_energy": 7.631307505127231,
+    "qwoa_p_opt": 0.22466332563570207,
+    "qaoa_p_opt_unconditional": 0.00806925908465873,
+    "qaoa_p_k_opt": 0.02259147520810454,
+    "qaoa_p_opt_given_k_opt": 0.35718159218588513,
+    "unconditional_p_opt_ratio": 27.84187783272839,
+    "conditional_p_opt_ratio": 0.6289890928051588
+   },
+   {
+    "seed": 12,
+    "m": 2,
+    "qwoa_converged_after_adaptive_check": true,
+    "qaoa_converged": true,
+    "adaptive_check_used": true,
+    "qwoa_expected_energy": 26.87295520189607,
+    "qaoa_expected_energy": 11.485123227235892,
+    "qwoa_p_opt": 0.3213088409401861,
+    "qaoa_p_opt_unconditional": 1.924953574582737e-06,
+    "qaoa_p_k_opt": 0.00013756624365259375,
+    "qaoa_p_opt_given_k_opt": 0.013992920962819668,
+    "unconditional_p_opt_ratio": 166917.70917635487,
+    "conditional_p_opt_ratio": 22.96224225048722
+   },
+   {
+    "seed": 12,
+    "m": 3,
+    "qwoa_converged_after_adaptive_check": true,
+    "qaoa_converged": true,
+    "adaptive_check_used": false,
+    "qwoa_expected_energy": 26.3071381794573,
+    "qaoa_expected_energy": 12.165696679050717,
+    "qwoa_p_opt": 0.2774320790188406,
+    "qaoa_p_opt_unconditional": 3.978592459632876e-07,
+    "qaoa_p_k_opt": 0.00018306321993489714,
+    "qaoa_p_opt_given_k_opt": 0.0021733434280505853,
+    "unconditional_p_opt_ratio": 697312.1319504048,
+    "conditional_p_opt_ratio": 127.65220417450898
+   },
+   {
+    "seed": 17,
+    "m": 1,
+    "qwoa_converged_after_adaptive_check": true,
+    "qaoa_converged": true,
+    "adaptive_check_used": false,
+    "qwoa_expected_energy": 29.525765422303092,
+    "qaoa_expected_energy": 8.279825716873816,
+    "qwoa_p_opt": 0.09662886463145738,
+    "qaoa_p_opt_unconditional": 1.0693774955871756e-05,
+    "qaoa_p_k_opt": 9.548963754104848e-05,
+    "qaoa_p_opt_given_k_opt": 0.1119888527304838,
+    "unconditional_p_opt_ratio": 9035.991970113439,
+    "conditional_p_opt_ratio": 0.8628435980499569
+   },
+   {
+    "seed": 17,
+    "m": 2,
+    "qwoa_converged_after_adaptive_check": true,
+    "qaoa_converged": true,
+    "adaptive_check_used": false,
+    "qwoa_expected_energy": 28.3848268994512,
+    "qaoa_expected_energy": 11.497648916825373,
+    "qwoa_p_opt": 0.05838824911120405,
+    "qaoa_p_opt_unconditional": 8.287653510651647e-07,
+    "qaoa_p_k_opt": 0.00018118282338860887,
+    "qaoa_p_opt_given_k_opt": 0.004574193820170207,
+    "unconditional_p_opt_ratio": 70452.08759772712,
+    "conditional_p_opt_ratio": 12.764708144577794
+   },
+   {
+    "seed": 17,
+    "m": 3,
+    "qwoa_converged_after_adaptive_check": true,
+    "qaoa_converged": true,
+    "adaptive_check_used": true,
+    "qwoa_expected_energy": 28.730781183439536,
+    "qaoa_expected_energy": 12.184005197383234,
+    "qwoa_p_opt": 0.05147216753189697,
+    "qaoa_p_opt_unconditional": 4.9609359537928466e-08,
+    "qaoa_p_k_opt": 0.00016429120975076748,
+    "qaoa_p_opt_given_k_opt": 0.00030195991382123664,
+    "unconditional_p_opt_ratio": 1037549.527172273,
+    "conditional_p_opt_ratio": 170.46026699546954
+   }
+  ],
+  "unconditional_p_opt_ratio": {
+   "n": 6,
+   "median": 118684.898387041,
+   "minimum": 27.84187783272839,
+   "maximum": 1037549.527172273
+  },
+  "conditional_p_opt_ratio": {
+   "n": 6,
+   "median": 17.863475197532505,
+   "minimum": 0.6289890928051588,
+   "maximum": 170.46026699546954
+  },
+  "qaoa_probability_of_k_opt": {
+   "n": 6,
+   "median": 0.00017273701656968818,
+   "minimum": 9.548963754104848e-05,
+   "maximum": 0.02259147520810454
+  },
+  "qwoa_unconditional_p_opt_wins": 6,
+  "qwoa_conditional_p_opt_wins": 4,
+  "qaoa_lower_expected_energy": 6,
+  "by_multiplicity_descriptive_only": {
+   "1": {
+    "n": 2,
+    "unconditional_p_opt_ratio": {
+     "n": 2,
+     "median": 4531.916923973084,
+     "minimum": 27.84187783272839,
+     "maximum": 9035.991970113439
+    },
+    "conditional_p_opt_ratio": {
+     "n": 2,
+     "median": 0.7459163454275579,
+     "minimum": 0.6289890928051588,
+     "maximum": 0.8628435980499569
+    }
+   },
+   "2": {
+    "n": 2,
+    "unconditional_p_opt_ratio": {
+     "n": 2,
+     "median": 118684.898387041,
+     "minimum": 70452.08759772712,
+     "maximum": 166917.70917635487
+    },
+    "conditional_p_opt_ratio": {
+     "n": 2,
+     "median": 17.863475197532505,
+     "minimum": 12.764708144577794,
+     "maximum": 22.96224225048722
+    }
+   },
+   "3": {
+    "n": 2,
+    "unconditional_p_opt_ratio": {
+     "n": 2,
+     "median": 867430.829561339,
+     "minimum": 697312.1319504048,
+     "maximum": 1037549.527172273
+    },
+    "conditional_p_opt_ratio": {
+     "n": 2,
+     "median": 149.05623558498925,
+     "minimum": 127.65220417450898,
+     "maximum": 170.46026699546954
+    }
+   }
+  }
+ },
+ "scientific_interpretation": {
+  "primary_objective": "QAOA has lower converged expected energy in all six p=1 cases.",
+  "absolute_sampling_metric": "QWOA has larger absolute P(opt) in all six p=1 cases, but it is initialized with oracle knowledge of k_opt while QAOA explores all cardinalities.",
+  "cardinality_diagnostic": "After conditioning QAOA on k_opt, QWOA wins four of six cases and loses both m=1 cases; the ratio spans more than two orders of magnitude. Conditioning does not make the ansatzes fully controlled because QAOA angles were optimized on the full-register expectation.",
+  "depth_result": "No p=2 or p=3 case reached paired optimizer convergence; their point estimates are best-known values only and cannot support a depth-scaling claim.",
+  "decision": "The existing claim of a robust QWOA mixer advantage is not supported. Treat the comparison as a sector-prior/objective-mismatch diagnostic. A mixer-only claim would require a same-sector control such as an unweighted XY mixer from the same Dicke state, plus converged p>1 optimization and compiled costs for a faithful oracle."
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "R_km": 200.0,
+ "rung2": {
+  "n_b": 79,
+  "k_opt": 31,
+  "n_blocks": 70,
+  "largest_block": 3,
+  "n_optimal_covers": 4,
+  "in_sector_strings": 8.764097060628673e+21,
+  "p_ideal": 9.908165028830371e-20,
+  "baseline": 4.564075423091068e-22,
+  "eta_ideal": 217.09030001349018,
+  "shots_for_one_ideal_hit": 1.0092686154199503e+19
+ },
+ "rung2_angles": {
+  "gamma_transferred": -0.04,
+  "beta_transferred": 0.35,
+  "p_ideal_transferred": 9.908165028830371e-20,
+  "gamma_opt": -0.759612486690145,
+  "beta_opt": 0.7145860191199371,
+  "p_ideal_optimised": 1.985780220566269e-09,
+  "gain_from_optimising": 20041856537.392418,
+  "shots_for_one_hit_optimised": 503580401.1155061,
+  "ansatz_limited": true
+ },
+ "rung3": {
+  "n_b": 773,
+  "n_ZZ": 39974,
+  "mean_degree": 103.4,
+  "treewidth_ub": 151,
+  "treewidth_seconds": 2.2,
+  "max_clique_found": 113,
+  "treewidth_lb": 112,
+  "strip": {
+   "north_south": {
+    "extent_km": 2502.4,
+    "worst_strip": 228,
+    "pathwidth_bound": 227
+   },
+   "east_west": {
+    "extent_km": 3293.4,
+    "worst_strip": 259,
+    "pathwidth_bound": 258
+   }
+  },
+  "strip_bound_max_density": 227,
+  "strip_bound_mean_density": 201.4,
+  "uniform_in_outline": {
+   "draws": 200,
+   "seed": 20260930,
+   "polygon_area_km2": 5055000.0,
+   "bounding_box_area_km2": 8710000.0,
+   "strip_bound_mean": 148.2,
+   "strip_bound_ci95": [
+    134.975,
+    164.025
+   ],
+   "strip_bound_max": 172
+  },
+  "clustering_factor": 1.53
+ }
+}

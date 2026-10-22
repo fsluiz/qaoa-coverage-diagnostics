@@ -1,0 +1,289 @@
+{
+ "schema_version": 1,
+ "workflow": "audited version-4 offline reproduction",
+ "mode": "quick",
+ "status": "passed",
+ "started_utc": "2026-09-30T19:03:27.110436+00:00",
+ "finished_utc": "2026-09-30T19:40:55.414476+00:00",
+ "duration_s": 2248.304,
+ "environment": {
+  "python": "3.11.2",
+  "implementation": "CPython",
+  "platform": "Linux-6.2.15-lux-amd64-x86_64-with-glibc2.36",
+  "packages": {
+   "numpy": "1.24.2",
+   "pandas": "1.5.3",
+   "scipy": "1.10.1",
+   "matplotlib": "3.6.3",
+   "openpyxl": "3.0.9",
+   "geopandas": "0.12.2",
+   "Shapely": "1.8.5",
+   "pyproj": "3.4.1"
+  }
+ },
+ "commands": [
+  {
+   "command": "/usr/bin/python3 scripts/verify_reproduction_manifest.py --manifest reproducibility/manifest_v4.json",
+   "returncode": 0,
+   "duration_s": 0.549
+  },
+  {
+   "command": "/usr/bin/python3 scripts/verify_arco_provenance.py",
+   "returncode": 0,
+   "duration_s": 0.409
+  },
+  {
+   "command": "/usr/bin/python3 scripts/freeze_instances.py",
+   "returncode": 0,
+   "duration_s": 0.541
+  },
+  {
+   "command": "/usr/bin/python3 scripts/run_m_ladder.py",
+   "returncode": 0,
+   "duration_s": 0.525
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_triviality.py",
+   "returncode": 0,
+   "duration_s": 0.525
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_ilp_geographic.py --coordinate-type centroid",
+   "returncode": 0,
+   "duration_s": 19.114
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_continental_blocks.py",
+   "returncode": 0,
+   "duration_s": 3.246
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_ilp_symmetry.py",
+   "returncode": 0,
+   "duration_s": 424.078
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_block_decomposition.py",
+   "returncode": 0,
+   "duration_s": 1.612
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_block_factorisation.py",
+   "returncode": 0,
+   "duration_s": 20.585
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_ladder_rungs.py",
+   "returncode": 0,
+   "duration_s": 54.973
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_qwoa_simulability.py",
+   "returncode": 0,
+   "duration_s": 146.009
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_dimension_sweep.py",
+   "returncode": 0,
+   "duration_s": 5.825
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_coverage_preserving_2d.py",
+   "returncode": 0,
+   "duration_s": 116.71
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_frozen_target_sweep.py",
+   "returncode": 0,
+   "duration_s": 1.575
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_ensemble_squeeze.py",
+   "returncode": 0,
+   "duration_s": 2.751
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_exact_encoding.py",
+   "returncode": 0,
+   "duration_s": 0.129
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_protection_2d.py",
+   "returncode": 0,
+   "duration_s": 246.957
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_graceful_degradation.py",
+   "returncode": 0,
+   "duration_s": 0.398
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_tactical_replanning.py",
+   "returncode": 0,
+   "duration_s": 0.513
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_persistent_surveillance.py",
+   "returncode": 0,
+   "duration_s": 0.572
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_kingston.py --counts",
+   "returncode": 0,
+   "duration_s": 33.924
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_kingston.py --plan results/kingston_rerun_plan_arco.json --counts results/kingston_100k_arco_optangles_counts.json --out results/kingston_100k_arco_optangles.json",
+   "returncode": 0,
+   "duration_s": 18.733
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_kingston.py --plan results/kingston_transferred_arco_plan.json --counts results/kingston_transferred_arco_counts.json --out results/kingston_transferred_arco.json",
+   "returncode": 0,
+   "duration_s": 3.947
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_exact51.py --counts results/exact51_counts.json --out results/exact51_results.json",
+   "returncode": 0,
+   "duration_s": 1.504
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_exact51.py --plan results/exact51_matched_plan.json --counts results/exact51_matched_counts.json --out results/exact51_matched_results.json",
+   "returncode": 0,
+   "duration_s": 1.503
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_statistical_audit.py",
+   "returncode": 0,
+   "duration_s": 6.695
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_hardware_decomposition.py",
+   "returncode": 0,
+   "duration_s": 23.699
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_block_product_null.py",
+   "returncode": 0,
+   "duration_s": 852.832
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_exact51_cross_block.py",
+   "returncode": 0,
+   "duration_s": 153.78
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_joint_separate_batch.py",
+   "returncode": 0,
+   "duration_s": 32.082
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_interleaved_batch.py",
+   "returncode": 0,
+   "duration_s": 23.792
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_rydberg_encoding_audit.py",
+   "returncode": 0,
+   "duration_s": 1.176
+  },
+  {
+   "command": "/usr/bin/python3 scripts/calc_factorisation_scope.py",
+   "returncode": 0,
+   "duration_s": 2.108
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_qwoa_convergence.py",
+   "returncode": 0,
+   "duration_s": 0.088
+  },
+  {
+   "command": "/usr/bin/python3 scripts/check_qwoa_gradients.py",
+   "returncode": 0,
+   "duration_s": 1.03
+  },
+  {
+   "command": "/usr/bin/python3 scripts/analyze_same_sector_mixer_control.py",
+   "returncode": 0,
+   "duration_s": 0.096
+  },
+  {
+   "command": "/usr/bin/python3 scripts/check_same_sector_mixer_gradients.py",
+   "returncode": 0,
+   "duration_s": 1.706
+  },
+  {
+   "command": "/usr/bin/python3 scripts/run_qwoa_20seeds.py",
+   "returncode": 0,
+   "duration_s": 1.26
+  },
+  {
+   "command": "/usr/bin/python3 scripts/make_block_figure.py",
+   "returncode": 0,
+   "duration_s": 3.869
+  },
+  {
+   "command": "/usr/bin/python3 scripts/make_exact51_layout_figure.py",
+   "returncode": 0,
+   "duration_s": 2.549
+  },
+  {
+   "command": "/usr/bin/python3 scripts/make_ilp_figure.py",
+   "returncode": 0,
+   "duration_s": 1.041
+  },
+  {
+   "command": "/usr/bin/python3 scripts/make_nzz_figure.py",
+   "returncode": 0,
+   "duration_s": 1.193
+  },
+  {
+   "command": "/usr/bin/python3 scripts/make_squeeze_figure.py",
+   "returncode": 0,
+   "duration_s": 1.948
+  },
+  {
+   "command": "/usr/bin/python3 scripts/make_dial_figure.py",
+   "returncode": 0,
+   "duration_s": 1.06
+  },
+  {
+   "command": "/usr/bin/python3 scripts/verify_paper_claims.py",
+   "returncode": 0,
+   "duration_s": 24.303
+  },
+  {
+   "command": "/usr/bin/python3 scripts/verify_research_audit.py",
+   "returncode": 0,
+   "duration_s": 0.111
+  },
+  {
+   "command": "latexmk -g -pdf -interaction=nonstopmode supplement_v4.tex",
+   "returncode": 0,
+   "duration_s": 1.403
+  },
+  {
+   "command": "latexmk -g -pdf -interaction=nonstopmode paper_v4.tex",
+   "returncode": 0,
+   "duration_s": 1.717
+  },
+  {
+   "command": "latexmk -g -pdf -interaction=nonstopmode supplement_v4.tex",
+   "returncode": 0,
+   "duration_s": 0.705
+  },
+  {
+   "command": "latexmk -g -pdf -interaction=nonstopmode paper_v4.tex",
+   "returncode": 0,
+   "duration_s": 0.827
+  }
+ ],
+ "pdf_pages": {
+  "paper_v4.pdf": 19,
+  "supplement_v4.pdf": 13
+ },
+ "error": null,
+ "ibm_network_access": false,
+ "resume": null,
+ "cumulative_command_duration_s": 2248.277
+}

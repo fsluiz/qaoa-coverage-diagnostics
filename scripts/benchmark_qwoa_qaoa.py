@@ -34,6 +34,7 @@ Author: assistant for F. S. Luiz (IFGW/UNICAMP). Pure NumPy/SciPy.
 """
 from __future__ import annotations
 import json
+import os
 import time
 import math
 import itertools
@@ -81,7 +82,11 @@ def _pairwise_km(lats, lons):
     return D
 
 
-def build_instance():
+def build_instance(
+    min_task_degree: int = 1,
+    target_mean_degree: tuple[float, float] = (3.5, 6.0),
+    rng_seed: int | None = None,
+):
     """Dense, non-trivial coverage instance on a CLUSTER of real PEF bases.
 
     Degenerate (single-base-per-task) instances make the QWOA/QAOA comparison
@@ -91,7 +96,7 @@ def build_instance():
     every task is reachable. R is the physically-motivated density knob (Sec. on
     R/delta in the paper). The chosen R is reported and frozen with the instance.
     """
-    TARGET_KT_LO, TARGET_KT_HI = 3.5, 6.0
+    TARGET_KT_LO, TARGET_KT_HI = target_mean_degree
     df = pd.read_excel(DATA_DIR / "pef_planilha.xlsx")
     cols = {c.lower(): c for c in df.columns}
     def pick(*cands):
@@ -119,7 +124,7 @@ def build_instance():
     names_q = [base_names[i] for i in q_idx]
 
     # 2. tasks uniform in the cluster bbox (small margin)
-    rng = np.random.RandomState(RNG_SEED)
+    rng = np.random.RandomState(RNG_SEED if rng_seed is None else rng_seed)
     n_T = N_ZONES + N_MICS
     mlat = 0.1 * (lats_q.max() - lats_q.min() + 1e-6)
     mlon = 0.1 * (lons_q.max() - lons_q.min() + 1e-6)
@@ -136,17 +141,20 @@ def build_instance():
     for R in range(80, 1201, 20):
         Acand = (dist <= R).astype(int)
         kt = Acand.sum(axis=0)
-        if kt.min() >= 1 and TARGET_KT_LO <= kt.mean() <= TARGET_KT_HI:
+        if kt.min() >= min_task_degree and TARGET_KT_LO <= kt.mean() <= TARGET_KT_HI:
             R_chosen, A_q = float(R), Acand
             break
-    if A_q is None:                                # fallback: smallest R with all reachable
+    if A_q is None:                                # fallback: smallest R meeting strict degree
         for R in range(80, 2001, 20):
             Acand = (dist <= R).astype(int)
-            if Acand.sum(axis=0).min() >= 1:
+            if Acand.sum(axis=0).min() >= min_task_degree:
                 R_chosen, A_q = float(R), Acand
                 break
+    if A_q is None:
+        raise RuntimeError(f"could not construct an instance with minimum task degree {min_task_degree}")
     return dict(A_q=A_q, names_q=names_q, lats_q=lats_q, lons_q=lons_q,
                 q_idx=[int(i) for i in q_idx], n_B_full=n_B,
+                task_lats=task_lats, task_lons=task_lons,
                 R_chosen=R_chosen, cluster_spread_km=float(spreads[seed]))
 
 
@@ -415,7 +423,9 @@ def main():
 
     rng = np.random.RandomState(0)
 
-    for m in (1, 2):
+    m_values = tuple(int(v) for v in os.environ.get("M_VALUES", "1,2,3").split(","))
+    print(f"m values: {m_values}")
+    for m in m_values:
         print(f"\n{'='*70}\n m = {m}\n{'='*70}")
         pc = precompute(A_q, m)
         k_opt, opt_states = classical_optimum(pc)

@@ -6,9 +6,12 @@ cost of every circuit, and (with --submit) runs them with DD + Pauli twirling.
 
   RUN SET
    Rung-1 (frozen_rung1.json, 24q):  QAOA p=1,2,3      -- core result + noise-depth.
-   Overshoot (frozen_overshoot.json, 14q):
-       QAOA p=1,2,3 ; QWOA-direct k=9 p=1,2 ;
-       QWOA-descent k=12,11,10,9 p=1  -- tests greedy+descent P(opt)-per-CX.
+   Overshoot (frozen_overshoot.json, 14q): QAOA p=1,2,3.
+
+  The exact global QWOA mixer studied in the manuscript is evaluated spectrally
+  and is not compiled by this submission program.  An explicitly labelled
+  first-order Trotter prototype can be included with
+  ``--include-qwoa-trotter-prototype``; it is a different ansatz.
 
   USAGE
     python submit_kingston.py                 # DRY RUN: build, optimize, transpile, report CX
@@ -74,9 +77,22 @@ def qaoa_circuit(inst, p, params, measure=True):
     return qc
 
 
-def qwoa_circuit(inst, k, p, params, measure=True):
+def qwoa_first_order_trotter_circuit(inst, k, p, params, measure=True,
+                                     trotter_steps=1):
+    """Digital first-order approximation to the global weighted XY mixer.
+
+    This is intentionally not called ``qwoa_circuit``: incident edge terms do
+    not commute, so their ordered product is not the exact global evolution
+    used by the manuscript's noiseless QWOA results.
+    """
+    if trotter_steps < 1:
+        raise ValueError("trotter_steps must be positive")
     n = inst["A"].shape[1]
     g, b = params[:p], params[p:]
+    weights = {}
+    for i, j in inst["xy_edges"]:
+        shared = int(np.dot(inst["A"][:, i], inst["A"][:, j]))
+        weights[(i, j)] = float(shared if shared > 0 else 0.1)
     qc = dicke_circuit(n, k)                          # exact Dicke initial state |D^n_k>
     for L in range(p):
         for q in range(n):
@@ -84,15 +100,30 @@ def qwoa_circuit(inst, k, p, params, measure=True):
                 qc.rz(2 * g[L] * inst["h"][q], q)
         for (i, j), Jij in inst["J"].items():
             qc.rzz(2 * g[L] * Jij, i, j)
-        for (i, j) in inst["xy_edges"]:              # XY mixer: exp(-i b (XX+YY)) per edge
-            qc.rxx(2 * b[L], i, j)
-            qc.ryy(2 * b[L], i, j)
+        for _ in range(trotter_steps):
+            for (i, j) in inst["xy_edges"]:
+                # Qiskit RXX(theta)RYY(theta) equals
+                # exp[-i theta (XX+YY)/2] for one edge.
+                theta = b[L] * weights[(i, j)] / trotter_steps
+                qc.rxx(theta, i, j)
+                qc.ryy(theta, i, j)
     if measure:
         qc.measure_all()
     return qc
 
 
+def qwoa_circuit(*_args, **_kwargs):
+    raise RuntimeError(
+        "qwoa_circuit was a legacy unweighted ordered-edge product and is disabled; "
+        "use the exact sector implementation QWOASector for the published ansatz, "
+        "or qwoa_first_order_trotter_circuit for the labelled digital prototype"
+    )
+
+
 # ----------------------------------------------------------------------------
+ANGLE_OVERRIDE = None        # set by --angles; applies to the large-n (Arco) branch only
+
+
 def arco_subproblem_angles(inst, n_sub=20, p=1, n_starts=8, seed=0):
     """(turing fix) Optimize QAOA angles on the n_sub HIGHEST-DEGREE bases (2^20
     statevector, tractable), then transfer to the full instance with a gamma rescale
@@ -184,18 +215,25 @@ def optimise_angles(inst, kind, p, k=None, n_starts=8, seed=0):
             g0, b0 = base["gamma"][0], base["beta"][0]
             params = np.array([g0] * p + [b0] * p)
             return params, _noiseless_popt_full(inst, p, params)
+        if ANGLE_OVERRIDE is not None:
+            # Explicit angles, e.g. the block-factorised optimum from calc_ladder_rungs.py.
+            # The Arco branch otherwise re-derives angles from its own 20-base subproblem
+            # heuristic, which is a different algorithm and will not reproduce them.
+            g0, b0 = ANGLE_OVERRIDE
+            params = np.array([g0] * p + [b0] * p)
+            return params, _mps_noiseless_popt(inst, p, params)
         params, _ = arco_subproblem_angles(inst, p=p, seed=seed)   # Arco (79q)
         return params, _mps_noiseless_popt(inst, p, params)
     energy, feasible, is_opt, card = diag_energies(inst)
     # target metric: P(opt) for QAOA / QWOA-direct at k_opt; P(feasible@k) for descent k!=k_opt.
-    if kind == "qwoa" and k != inst["k_opt"]:
+    if kind == "qwoa_trotter" and k != inst["k_opt"]:
         target_mask = feasible & (card == k)              # feasible cover at this cardinality
     else:
         target_mask = is_opt                              # the global optimum
 
     def neg_metric(params):
         qc = (qaoa_circuit(inst, p, params, False) if kind == "qaoa"
-              else qwoa_circuit(inst, k, p, params, False))
+              else qwoa_first_order_trotter_circuit(inst, k, p, params, False))
         pr = Statevector(qc).probabilities()
         return -float(pr[target_mask].sum())              # maximize P(target)
 
@@ -212,7 +250,7 @@ def optimise_angles(inst, kind, p, k=None, n_starts=8, seed=0):
 
 
 # ----------------------------------------------------------------------------
-def build_run_set(insts):
+def build_run_set(insts, include_qwoa_trotter=False):
     """Yield dicts describing each circuit to run."""
     jobs = []
     for p in (1, 2, 3):
@@ -221,10 +259,13 @@ def build_run_set(insts):
         jobs.append(dict(tag=f"arco_qaoa_p{p}", inst="arco", kind="qaoa", p=p, k=None))
     for p in (1, 2, 3):
         jobs.append(dict(tag=f"ov_qaoa_p{p}", inst="overshoot", kind="qaoa", p=p, k=None))
-    for p in (1, 2):
-        jobs.append(dict(tag=f"ov_qwoa_direct_k9_p{p}", inst="overshoot", kind="qwoa", p=p, k=9))
-    for k in (12, 11, 10, 9):                         # descent at p=1
-        jobs.append(dict(tag=f"ov_qwoa_descent_k{k}_p1", inst="overshoot", kind="qwoa", p=1, k=k))
+    if include_qwoa_trotter:
+        for p in (1, 2):
+            jobs.append(dict(tag=f"ov_qwoa_trotter_k9_p{p}", inst="overshoot",
+                             kind="qwoa_trotter", p=p, k=9))
+        for k in (12, 11, 10, 9):
+            jobs.append(dict(tag=f"ov_qwoa_trotter_descent_k{k}_p1", inst="overshoot",
+                             kind="qwoa_trotter", p=1, k=k))
     return jobs
 
 
@@ -233,14 +274,25 @@ def main():
     ap.add_argument("--submit", action="store_true")
     ap.add_argument("--backend", default="ibm_kingston")
     ap.add_argument("--shots", type=int, default=8192)
+    ap.add_argument("--include-qwoa-trotter-prototype", action="store_true",
+                    help="include the labelled weighted first-order Trotter prototype; "
+                         "this is not the exact global QWOA ansatz studied in the paper")
     ap.add_argument("--only", default=None,
                     help="run only one instance group (e.g. --only arco): fresh angles, separate plan")
+    ap.add_argument("--angles", default=None, metavar="GAMMA,BETA",
+                    help="override the large-n angle search with explicit values, e.g. "
+                         "--angles -0.7596,0.7146 for the block-factorised Arco optimum")
     args = ap.parse_args()
 
+    if args.angles:
+        global ANGLE_OVERRIDE
+        ANGLE_OVERRIDE = tuple(float(x) for x in args.angles.split(","))
+        print(f"angle override in force for the large-n branch: "
+              f"gamma={ANGLE_OVERRIDE[0]:+.6f} beta={ANGLE_OVERRIDE[1]:+.6f}")
     insts = dict(rung1=load_instance(DATA_DIR / "frozen_rung1.json"),
                  arco=load_instance(DATA_DIR / "frozen_arco.json"),
                  overshoot=load_instance(DATA_DIR / "frozen_overshoot.json"))
-    jobs = build_run_set(insts)
+    jobs = build_run_set(insts, args.include_qwoa_trotter_prototype)
     if args.only:
         jobs = [j for j in jobs if j["inst"] == args.only]
         print(f"  --only {args.only}: {len(jobs)} circuits (FRESH angles, reuse disabled)")
@@ -269,7 +321,7 @@ def main():
         else:
             params, p_opt_nl = optimise_angles(inst, j["kind"], j["p"], k=j["k"])
         qc = (qaoa_circuit(inst, j["p"], params) if j["kind"] == "qaoa"
-              else qwoa_circuit(inst, j["k"], j["p"], params))
+              else qwoa_first_order_trotter_circuit(inst, j["k"], j["p"], params))
         dec = transpile(qc, basis_gates=["cx", "rz", "sx", "x"], optimization_level=1)
         logcx = dec.count_ops().get("cx", 0)
         n = inst["A"].shape[1]
@@ -277,7 +329,9 @@ def main():
               f"{dec.depth():>6} {p_opt_nl:>10.3e}")
         circuits.append(qc)
         meta.append(dict(**j, n=n, params=params.tolist(), logical_cx=logcx,
-                         p_opt_noiseless=p_opt_nl))
+                         p_opt_noiseless=p_opt_nl,
+                         mixer_evolution=("first_order_weighted_trotter"
+                                          if j["kind"] == "qwoa_trotter" else None)))
 
     summary = dict(backend=args.backend, shots=args.shots, jobs=meta)
     json.dump(summary, open(plan_path, "w"), indent=1)

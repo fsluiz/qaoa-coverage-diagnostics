@@ -64,6 +64,15 @@ def greedy_k(A):
     return c
 
 
+def _rung1_kopt(A):
+    """Derive the optimum rather than asserting it, as freeze_arco already does."""
+    from run_m_ladder import ilp_min_cover
+    k, _ = ilp_min_cover(A, 1)
+    k = int(k)
+    assert k == 10, f"Rung-1 optimum drifted from the published value: {k} != 10"
+    return k
+
+
 def freeze_rung1():
     from run_m_ladder import build_instance, coverage
     blat, blon, tlat, tlon, seed, n_b = build_instance()      # anchored seed-0
@@ -73,7 +82,7 @@ def freeze_rung1():
     out = dict(
         name="PEF-24 frontier (Rung 1)", n_b=int(n_b), n_t=int(A.shape[0]),
         R_km=R, m=m, lam=lam, task_seed=int(seed), generator="anchored (run_m_ladder)",
-        k_opt=10, k_greedy=int(greedy_k(A)),
+        k_opt=_rung1_kopt(A), k_greedy=int(greedy_k(A)),
         links=int(A.sum()), n_ZZ=int(n_zz),
         base_lats=blat.tolist(), base_lons=blon.tolist(),
         task_lats=tlat.tolist(), task_lons=tlon.tolist(),

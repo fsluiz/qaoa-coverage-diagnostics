@@ -31,7 +31,7 @@
       "orcid": "0000-0003-2251-2632"
     }
   ],
-  "description": "<p>Code accompanying Classical simulability and hardware diagnostics for QAOA on geographic coverage benchmarks.</p><p>This code-only deposit excludes the article, supplemental manuscript, figures, raw data, result archives and calibration responses. The article will be deposited separately on arXiv. Archived-input workflows require external inputs not included in this release.</p>",
+  "description": "<p>Code accompanying Classical simulability and hardware diagnostics for QAOA on geographic coverage benchmarks.</p><p>This code-only deposit excludes the article, supplemental manuscript, figures, raw data, result archives and calibration responses. The associated preprint is available at <a href=\"https://arxiv.org/abs/2611.27507\">arXiv:2611.27507</a>. Archived-input workflows require external inputs not included in this release.</p>",
   "keywords": [
     "QAOA",
     "hardware diagnostics",
@@ -43,6 +43,11 @@
       "identifier": "https://github.com/fsluiz/qaoa-coverage-diagnostics",
       "relation": "isSupplementTo",
       "resource_type": "software"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/2611.27507",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
     }
   ],
   "license": "mit"

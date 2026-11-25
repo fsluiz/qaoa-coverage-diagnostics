@@ -9,8 +9,8 @@ Authors: F. S. Luiz, D. Abreu, A. J. G. Abelém, J. E. da Fonseca,
 A. F. P. Santos, and M. C. de Oliveira.
 
 This repository and its Zenodo software archive contain code only.
-The article and supplemental manuscript are excluded and will be deposited
-separately on arXiv. The arXiv identifier will be added after the separate article deposit.
+The article and supplemental manuscript are excluded from this software deposit.
+The associated preprint is [arXiv:2611.27507](https://arxiv.org/abs/2611.27507).
 
 ## Contents
 
@@ -44,7 +44,7 @@ explicitly; importing the code does not submit jobs.
 
 Software repository: https://github.com/fsluiz/qaoa-coverage-diagnostics
 Software DOI: https://doi.org/10.5281/zenodo.24539594
-Article: separate arXiv deposit, identifier pending.
+Article: [https://arxiv.org/abs/2611.27507](https://arxiv.org/abs/2611.27507) (preprint).
 
 See `CITATION.cff` and `.zenodo.json` for the six-author metadata.
 

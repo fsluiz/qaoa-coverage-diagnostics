@@ -1,14 +1,16 @@
 # QAOA coverage diagnostics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24539594.svg)](https://doi.org/10.5281/zenodo.24539594)
+
 Code accompanying **Classical simulability and hardware diagnostics for QAOA
 on geographic coverage benchmarks**. Version 8.0.0.
 
 Authors: F. S. Luiz, D. Abreu, A. J. G. Abelém, J. E. da Fonseca,
 A. F. P. Santos, and M. C. de Oliveira.
 
-This repository and its planned Zenodo software deposit contain code only.
+This repository and its Zenodo software archive contain code only.
 The article and supplemental manuscript are excluded and will be deposited
-separately on arXiv. No arXiv identifier or Zenodo DOI is invented here.
+separately on arXiv. The arXiv identifier will be added after the separate article deposit.
 
 ## Contents
 
@@ -41,7 +43,7 @@ explicitly; importing the code does not submit jobs.
 ## Publication and citation
 
 Software repository: https://github.com/fsluiz/qaoa-coverage-diagnostics
-Software DOI: pending Zenodo release
+Software DOI: https://doi.org/10.5281/zenodo.24539594
 Article: separate arXiv deposit, identifier pending.
 
 See `CITATION.cff` and `.zenodo.json` for the six-author metadata.

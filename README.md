@@ -48,4 +48,4 @@ See `CITATION.cff` and `.zenodo.json` for the six-author metadata.
 
 ## License
 
-Pending author confirmation; no new license is granted by this candidate.
+MIT; see LICENSE.

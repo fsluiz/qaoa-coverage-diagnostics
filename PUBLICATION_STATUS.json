@@ -4,8 +4,8 @@
   "doi": null,
   "contents": "code only",
   "manuscript_destination": "arXiv, separate deposit",
-  "license": "pending",
-  "ready_for_zenodo_release": false,
+  "license": "MIT",
+  "ready_for_zenodo_release": true,
   "article_arxiv_identifier": null,
   "journal_submission_completed": false
 }

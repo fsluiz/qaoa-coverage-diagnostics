@@ -1,5 +1,0 @@
--r requirements.txt
-
-# bloqade_3x3_sim.py records results obtained with Bloqade 0.32.0.
-bloqade==0.32.0
-qutip

@@ -38,11 +38,7 @@ paper/*.fls
 paper/*.out
 paper/*.synctex.gz
 paper/*.toc
-
-# The manuscript is maintained on Overleaf and must not be versioned here.
-/paper/
-/paper_v*.pdf
-/paper_v*.tex
+paper/*Notes.bib
 
 # Official IBGE archives are downloaded and hash-verified by the preparation script.
 /data/.cache/
@@ -54,3 +50,20 @@ paper/*.toc
 *token*
 *credentials*
 *.pem
+
+# Article is deposited separately on arXiv; this repository is code-only.
+/paper/
+/data/
+/results/
+/figures/
+*.pdf
+*.tex
+*.bib
+*.bbl
+*.qpy
+*.xlsx
+*.zip
+*.tar.gz
+/analysis/*/generated/
+/analysis/*/calibration_archives/
+/analysis/*/results/

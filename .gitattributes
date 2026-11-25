@@ -1,6 +1,6 @@
 *.py text eol=lf
 *.md text eol=lf
 *.json -text
-*.csv -text
+*.csv -text whitespace=cr-at-eol
 *.qpy binary
 *.xlsx binary

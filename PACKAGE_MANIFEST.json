@@ -4,7 +4,7 @@
   "manuscript_included": false,
   "raw_data_included": true,
   "files": {
-    ".gitattributes": "e22499a52a9746293598915518dc159f7428edb4959e7012280691712480576e",
+    ".gitattributes": "66fb0b017022246368aa95a386b933fcd314c4be6a70fab23a85d0ab6336b361",
     ".gitignore": "fd2f887a7a4bd3e4b1b8ad797224467e47ec7179f4421e007f4ccdc3da84194b",
     ".zenodo.json": "8b9e62d547c9c8d38fcccfbea9b43cea9de427853abc928f298a5cc96748ef6c",
     "CITATION.cff": "a43a27c2a33c516a4599607262355a57f3e1085c82a2e3d79ecd5e1f2195514c",

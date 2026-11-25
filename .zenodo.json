@@ -1,6 +1,6 @@
 {
-  "title": "QAOA coverage diagnostics — research software",
-  "version": "8.0.0",
+  "title": "QAOA coverage diagnostics — code and reproducibility data",
+  "version": "8.1.0",
   "upload_type": "software",
   "access_right": "open",
   "creators": [
@@ -31,7 +31,7 @@
       "orcid": "0000-0003-2251-2632"
     }
   ],
-  "description": "<p>Code accompanying Classical simulability and hardware diagnostics for QAOA on geographic coverage benchmarks.</p><p>This code-only deposit excludes the article, supplemental manuscript, figures, raw data, result archives and calibration responses. The associated preprint is available at <a href=\"https://arxiv.org/abs/2611.27507\">arXiv:2611.27507</a>. Archived-input workflows require external inputs not included in this release.</p>",
+  "description": "<p>Code and reproducibility data accompanying <a href=\"https://arxiv.org/abs/2611.27507\">arXiv:2611.27507</a>.</p><p>Includes frozen instances, raw hardware counts, native circuits and QPY registry, physical layouts, complete E01–E03 job-associated calibrations, exact references, supporting numerical archives and offline reproduction instructions with SHA-256 manifests. The article and supplemental manuscript are distributed separately through arXiv.</p>",
   "keywords": [
     "QAOA",
     "hardware diagnostics",

@@ -1,0 +1,49 @@
+{
+ "description": "Adaptive high-resolution SHGO replication for the two p=1 QWOA cases whose initial 1024/2048-point searches disagreed",
+ "protocol": {
+  "samples": 4096,
+  "iterations": 3,
+  "objective": "expectation of cardinality + 13 * number of violated tasks",
+  "optimizer": "SHGO Sobol sampling with exact-gradient L-BFGS-B local refinement",
+  "selection_rule": "only cases failing the prespecified two-resolution p=1 convergence check",
+  "interpretation": "replication audit, not a new performance-selected ensemble"
+ },
+ "rows": [
+  {
+   "seed": 12,
+   "m": 2,
+   "n": 4096,
+   "iterations": 3,
+   "expected_energy": 26.872955201896055,
+   "parameters": [
+    0.40120009067823953,
+    0.010740312144713736
+   ],
+   "p_opt": 0.3213088408828864,
+   "nfev": 16015,
+   "n_local_minima": 1049,
+   "runtime_s": 408.423,
+   "success": true,
+   "message": "Optimization terminated successfully.",
+   "replicates_pilot_level": "shgo_n2048_iters2"
+  },
+  {
+   "seed": 17,
+   "m": 3,
+   "n": 4096,
+   "iterations": 3,
+   "expected_energy": 28.73078118343954,
+   "parameters": [
+    0.37951609145512477,
+    0.01058158605581966
+   ],
+   "p_opt": 0.0514721675591589,
+   "nfev": 21999,
+   "n_local_minima": 917,
+   "runtime_s": 172.321,
+   "success": true,
+   "message": "Optimization terminated successfully.",
+   "replicates_pilot_level": "shgo_n1024_iters1"
+  }
+ ]
+}

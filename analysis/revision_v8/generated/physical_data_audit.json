@@ -1,0 +1,4637 @@
+{
+  "scope": "Offline provenance and descriptive resource audit; no causal attribution.",
+  "method": "Backward native-gate cones; barriers skipped; shared gates may count in several cones.",
+  "sources_sha256": {
+    "analysis/revision_v7/generated/block_covariance.json": "391ede8e9e80319af0047d8a6501e18a824ed832a6b105a33e228e7d1043582d",
+    "results/exact51_physical_layout.json": "8542dd6725a9bbf47add13608e3f681611a6a5037d9e5dca09a9f55aa65521f2",
+    "results/ibm_circuits/index.json": "93d96d096d3a4f7f833f9747936852ce027e877104ed7089e05fdcc4867e1c6b",
+    "results/resource_model_exact.json": "46b5b613e4a69a4bec08c3c1a0db9293084a46ba998eb83271c20ac60eb3a287",
+    "results/ibm_circuits/exact51_defaults.qpy": "b14c003bf9b4f9e947e66ea5d06cee38344cba58346784bc0bdc77d6cec9565e",
+    "results/ibm_circuits/exact51_defaults.ops.json": "b3f725c19b153500e9a17035214e3d6191995389db4cd76dde8434316d6e0bf8",
+    "results/ibm_circuits/exact51_matched.qpy": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+    "results/ibm_circuits/exact51_matched.ops.json": "8d47e1f9d0cd6ef0c830002c60e5bbe52db330ef37f950cfa9df84451bbf06a7",
+    "analysis/ibm_variance_campaign/results/e01_20261008_plan.json": "113094f42d0efb1f420f22ec1c68a661d56147e0cb1f1f72684c03b8d25d9c84",
+    "analysis/ibm_variance_campaign/results/e01_20261008_counts.json": "a032e6b075c2a63414ade62df572aadbabcb692919e9beee733e54c8ae203038",
+    "analysis/revision_v8/calibration_archives/e01_20261008_properties.json": "5f2094153cfea397c325f0f1b361cf77063d468603d59dda4087a7939906a263",
+    "analysis/ibm_variance_campaign/results/e02_20261014_plan.json": "a2c05d90d2b000ea0fbc0c4b4e157f284e1adc741699ef6d174dfcb16274300f",
+    "analysis/ibm_variance_campaign/results/e02_20261014_counts.json": "6a0f2c289753be44cfd778a256efe311a554bb3f743d39fbc798c6ae7ce89c74",
+    "analysis/revision_v8/calibration_archives/e02_20261014_properties.json": "fa95382dfa858457b03e7f6baee87d0ede1f97bd2afb1c1b41ff274b17914ebd",
+    "analysis/ibm_variance_campaign/results/e03_20261014_plan.json": "b0c1535147e50e7b92baecd5c602767930e1e37962f29c130709ce0229cedd21",
+    "analysis/ibm_variance_campaign/results/e03_20261014_counts.json": "6587e60dd3bcc4c03a61d82c400847cc6ed04ba0ad7b3665ea15c5325613067b",
+    "analysis/revision_v8/calibration_archives/e03_20261014_properties.json": "731de51ce0d686412c9e8fdb8cd530874e4f5add50a0c994bdf3495580138c6b",
+    "analysis/ibm_variance_campaign/results/e01_20261008_analysis_v2.json": "b2eb06e63f1d5449146a8bd5d57c2d381211036eb7becc02ffe3828cf8f37cfa",
+    "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations.json": "2bef8eac64e2ef41215daf1443fb231bd37fd32804524fe1b1ae743388fd6744",
+    "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations_v2.json": "9e327b2d3d68bb93563794f2a6d16bf4d2e7f84daf48089b6300202d308c0930",
+    "analysis/ibm_variance_campaign/results/e01_vs_historical.json": "f41f5ac7d238ca5467d9a7c6dc899752c5aaeba4c8593b3cbfd1d646630e818c",
+    "analysis/ibm_variance_campaign/results/e02_20261014_analysis_v2.json": "f46e842a22abd340f13ed2d9457ad4b8f6decb748473ec4f44143046bc74da16",
+    "analysis/ibm_variance_campaign/results/e02_20261014_metrics.json": "3a4bb6da61d6eaae8a4508aa5d835633ce44a47d38af015dfca7b4b80cb2f600",
+    "analysis/ibm_variance_campaign/results/e03_20261014_analysis_v2.json": "fb66fe63c080ad8179692f92e1de5fcb547277dabd57ff1fb493b9a7e3b7531f",
+    "analysis/revision_v7/results/between_jobs.json": "06b9ed6d0bf641e26cc500098c3322ab6b022ad40a9c0026b7c20fb609b96450",
+    "analysis/revision_v7/results/e01_analysis.json": "bbc3366ae49053d2fe6fc699d3ba08e4abc5c140c7f5467f850e149334cf7055",
+    "analysis/revision_v7/results/e02_analysis.json": "3245f5ec5f7ac9365cf82cd5bab5711537f4ecc9d7e283057acedc05c5ea9797",
+    "analysis/revision_v7/results/e03_analysis.json": "f8d8d2cf110845e644cc6f1efe5f7697e0dffe80e726d7eb35874b15fb8b12fa"
+  },
+  "contexts": [
+    {
+      "context": "defaults",
+      "job_id": "dakjjpfi3e6s738rmbng",
+      "calibration_date": "2026-09-15 08:20:34-03:00",
+      "qpy_sha256": "b14c003bf9b4f9e947e66ea5d06cee38344cba58346784bc0bdc77d6cec9565e",
+      "source_circuit": "exact51_defaults.qpy",
+      "source_circuit_job_id": "dakjjpfi3e6s738rmbng",
+      "faithful_shots": 100000,
+      "calibration_error_values_available": true,
+      "blocks": [
+        {
+          "logical_qubits": [
+            21,
+            22,
+            36,
+            46
+          ],
+          "size": 4,
+          "measured_physical_qubits": [
+            98,
+            90,
+            89,
+            91
+          ],
+          "C_alpha": 0.864261860867255,
+          "native_two_qubit_gates_in_backward_cone": 14,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              89,
+              90
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              91,
+              98
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "98": 0.0048828125,
+              "90": 0.004638671875,
+              "89": 0.00537109375,
+              "91": 0.003662109375
+            },
+            "mean_readout_error": 0.004638671875,
+            "max_readout_error": 0.00537109375,
+            "gate_count_weighted_mean_error": 0.0021038483255518626,
+            "max_two_qubit_error": 0.002794470304384289
+          }
+        },
+        {
+          "logical_qubits": [
+            0,
+            1,
+            31,
+            32,
+            33
+          ],
+          "size": 5,
+          "measured_physical_qubits": [
+            57,
+            68,
+            70,
+            67,
+            69
+          ],
+          "C_alpha": 0.18316485248069989,
+          "native_two_qubit_gates_in_backward_cone": 144,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              64,
+              65
+            ],
+            [
+              65,
+              66
+            ],
+            [
+              65,
+              77
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ],
+            [
+              68,
+              69
+            ],
+            [
+              69,
+              70
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "57": 0.0107421875,
+              "68": 0.014892578125,
+              "70": 0.016357421875,
+              "67": 0.008056640625,
+              "69": 0.006591796875
+            },
+            "mean_readout_error": 0.011328125,
+            "max_readout_error": 0.016357421875,
+            "gate_count_weighted_mean_error": 0.0020927241232457103,
+            "max_two_qubit_error": 0.0034795434804869574
+          }
+        },
+        {
+          "logical_qubits": [
+            2,
+            3,
+            4,
+            5,
+            34,
+            35
+          ],
+          "size": 6,
+          "measured_physical_qubits": [
+            148,
+            149,
+            138,
+            152,
+            150,
+            151
+          ],
+          "C_alpha": 0.14260209263687923,
+          "native_two_qubit_gates_in_backward_cone": 46,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              138,
+              151
+            ],
+            [
+              148,
+              149
+            ],
+            [
+              149,
+              150
+            ],
+            [
+              150,
+              151
+            ],
+            [
+              151,
+              152
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "148": 0.00341796875,
+              "149": 0.007080078125,
+              "138": 0.005859375,
+              "152": 0.00634765625,
+              "150": 0.004638671875,
+              "151": 0.00439453125
+            },
+            "mean_readout_error": 0.005289713541666667,
+            "max_readout_error": 0.007080078125,
+            "gate_count_weighted_mean_error": 0.0020225567319081383,
+            "max_two_qubit_error": 0.003029196965556924
+          }
+        },
+        {
+          "logical_qubits": [
+            15,
+            16,
+            17,
+            24,
+            41,
+            49,
+            50
+          ],
+          "size": 7,
+          "measured_physical_qubits": [
+            142,
+            141,
+            123,
+            122,
+            124,
+            143,
+            136
+          ],
+          "C_alpha": 0.4785214457860225,
+          "native_two_qubit_gates_in_backward_cone": 55,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              122,
+              123
+            ],
+            [
+              123,
+              124
+            ],
+            [
+              123,
+              136
+            ],
+            [
+              136,
+              143
+            ],
+            [
+              141,
+              142
+            ],
+            [
+              142,
+              143
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "142": 0.013671875,
+              "141": 0.005126953125,
+              "123": 0.01220703125,
+              "122": 0.006103515625,
+              "124": 0.00537109375,
+              "143": 0.006591796875,
+              "136": 0.009033203125
+            },
+            "mean_readout_error": 0.00830078125,
+            "max_readout_error": 0.013671875,
+            "gate_count_weighted_mean_error": 0.0016407857244072701,
+            "max_two_qubit_error": 0.0021928277103215876
+          }
+        },
+        {
+          "logical_qubits": [
+            6,
+            7,
+            9,
+            27,
+            28,
+            29,
+            30,
+            47,
+            48
+          ],
+          "size": 9,
+          "measured_physical_qubits": [
+            63,
+            77,
+            66,
+            38,
+            49,
+            48,
+            47,
+            64,
+            65
+          ],
+          "C_alpha": 0.5712367741929762,
+          "native_two_qubit_gates_in_backward_cone": 158,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              63,
+              64
+            ],
+            [
+              64,
+              65
+            ],
+            [
+              65,
+              66
+            ],
+            [
+              65,
+              77
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ],
+            [
+              68,
+              69
+            ],
+            [
+              69,
+              70
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "63": 0.012451171875,
+              "77": 0.002197265625,
+              "66": 0.007080078125,
+              "38": 0.00390625,
+              "49": 0.007568359375,
+              "48": 0.005859375,
+              "47": 0.002685546875,
+              "64": 0.0048828125,
+              "65": 0.0107421875
+            },
+            "mean_readout_error": 0.006374782986111111,
+            "max_readout_error": 0.012451171875,
+            "gate_count_weighted_mean_error": 0.0021275226944937786,
+            "max_two_qubit_error": 0.0034795434804869574
+          }
+        },
+        {
+          "logical_qubits": [
+            12,
+            13,
+            14,
+            25,
+            26,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43,
+            44,
+            45
+          ],
+          "size": 13,
+          "measured_physical_qubits": [
+            23,
+            22,
+            41,
+            50,
+            46,
+            37,
+            45,
+            56,
+            43,
+            42,
+            44,
+            21,
+            36
+          ],
+          "C_alpha": 0.6704586044270279,
+          "native_two_qubit_gates_in_backward_cone": 162,
+          "shared_two_qubit_gates": 72,
+          "native_gate_couplers": [
+            [
+              21,
+              22
+            ],
+            [
+              21,
+              36
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              41,
+              42
+            ],
+            [
+              42,
+              43
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              43,
+              56
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "23": 0.017333984375,
+              "22": 0.009765625,
+              "41": 0.008056640625,
+              "50": 0.00341796875,
+              "46": 0.009033203125,
+              "37": 0.010009765625,
+              "45": 0.0087890625,
+              "56": 0.010009765625,
+              "43": 0.00830078125,
+              "42": 0.003662109375,
+              "44": 0.003662109375,
+              "21": 0.005859375,
+              "36": 0.00732421875
+            },
+            "mean_readout_error": 0.008094200721153846,
+            "max_readout_error": 0.017333984375,
+            "gate_count_weighted_mean_error": 0.002360705951768347,
+            "max_two_qubit_error": 0.00429341228995489
+          }
+        }
+      ]
+    },
+    {
+      "context": "matched",
+      "job_id": "dat665lvr3kc73el167g",
+      "calibration_date": "2026-09-28 09:25:27-03:00",
+      "qpy_sha256": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+      "source_circuit": "exact51_matched.qpy",
+      "source_circuit_job_id": "dat665lvr3kc73el167g",
+      "faithful_shots": 100000,
+      "calibration_error_values_available": true,
+      "blocks": [
+        {
+          "logical_qubits": [
+            21,
+            22,
+            36,
+            46
+          ],
+          "size": 4,
+          "measured_physical_qubits": [
+            129,
+            109,
+            110,
+            118
+          ],
+          "C_alpha": 0.4946282010612357,
+          "native_two_qubit_gates_in_backward_cone": 14,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              109,
+              110
+            ],
+            [
+              109,
+              118
+            ],
+            [
+              118,
+              129
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "129": 0.0107421875,
+              "109": 0.00390625,
+              "110": 0.0068359375,
+              "118": 0.00341796875
+            },
+            "mean_readout_error": 0.0062255859375,
+            "max_readout_error": 0.0107421875,
+            "gate_count_weighted_mean_error": 0.00197000643864062,
+            "max_two_qubit_error": 0.0024071396965057446
+          }
+        },
+        {
+          "logical_qubits": [
+            0,
+            1,
+            31,
+            32,
+            33
+          ],
+          "size": 5,
+          "measured_physical_qubits": [
+            48,
+            38,
+            30,
+            49,
+            29
+          ],
+          "C_alpha": 0.2337499123129126,
+          "native_two_qubit_gates_in_backward_cone": 144,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "48": 0.003173828125,
+              "38": 0.0048828125,
+              "30": 0.006103515625,
+              "49": 0.0126953125,
+              "29": 0.007568359375
+            },
+            "mean_readout_error": 0.006884765625,
+            "max_readout_error": 0.0126953125,
+            "gate_count_weighted_mean_error": 0.0021997768513200406,
+            "max_two_qubit_error": 0.003333336983974977
+          }
+        },
+        {
+          "logical_qubits": [
+            2,
+            3,
+            4,
+            5,
+            34,
+            35
+          ],
+          "size": 6,
+          "measured_physical_qubits": [
+            97,
+            107,
+            104,
+            117,
+            106,
+            105
+          ],
+          "C_alpha": 0.45902807067927054,
+          "native_two_qubit_gates_in_backward_cone": 46,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              97,
+              107
+            ],
+            [
+              104,
+              105
+            ],
+            [
+              105,
+              106
+            ],
+            [
+              105,
+              117
+            ],
+            [
+              106,
+              107
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "97": 0.009521484375,
+              "107": 0.019775390625,
+              "104": 0.025634765625,
+              "117": 0.003662109375,
+              "106": 0.007568359375,
+              "105": 0.0107421875
+            },
+            "mean_readout_error": 0.0128173828125,
+            "max_readout_error": 0.025634765625,
+            "gate_count_weighted_mean_error": 0.001672460246586736,
+            "max_two_qubit_error": 0.0021611275454153644
+          }
+        },
+        {
+          "logical_qubits": [
+            15,
+            16,
+            17,
+            24,
+            41,
+            49,
+            50
+          ],
+          "size": 7,
+          "measured_physical_qubits": [
+            148,
+            147,
+            151,
+            138,
+            152,
+            149,
+            150
+          ],
+          "C_alpha": 0.5055285620024894,
+          "native_two_qubit_gates_in_backward_cone": 55,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              138,
+              151
+            ],
+            [
+              147,
+              148
+            ],
+            [
+              148,
+              149
+            ],
+            [
+              149,
+              150
+            ],
+            [
+              150,
+              151
+            ],
+            [
+              151,
+              152
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "148": 0.005126953125,
+              "147": 0.013427734375,
+              "151": 0.005126953125,
+              "138": 0.006103515625,
+              "152": 0.0078125,
+              "149": 0.005615234375,
+              "150": 0.009033203125
+            },
+            "mean_readout_error": 0.007463727678571429,
+            "max_readout_error": 0.013427734375,
+            "gate_count_weighted_mean_error": 0.0020169423871527555,
+            "max_two_qubit_error": 0.0026600807104003032
+          }
+        },
+        {
+          "logical_qubits": [
+            6,
+            7,
+            9,
+            27,
+            28,
+            29,
+            30,
+            47,
+            48
+          ],
+          "size": 9,
+          "measured_physical_qubits": [
+            53,
+            58,
+            50,
+            66,
+            67,
+            57,
+            47,
+            52,
+            51
+          ],
+          "C_alpha": 0.5296656183072708,
+          "native_two_qubit_gates_in_backward_cone": 158,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              52,
+              53
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "53": 0.010009765625,
+              "58": 0.017822265625,
+              "50": 0.00634765625,
+              "66": 0.008544921875,
+              "67": 0.005615234375,
+              "57": 0.005126953125,
+              "47": 0.00244140625,
+              "52": 0.015625,
+              "51": 0.01904296875
+            },
+            "mean_readout_error": 0.010064019097222222,
+            "max_readout_error": 0.01904296875,
+            "gate_count_weighted_mean_error": 0.0022025540161717616,
+            "max_two_qubit_error": 0.003333336983974977
+          }
+        },
+        {
+          "logical_qubits": [
+            12,
+            13,
+            14,
+            25,
+            26,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43,
+            44,
+            45
+          ],
+          "size": 13,
+          "measured_physical_qubits": [
+            41,
+            36,
+            23,
+            68,
+            46,
+            44,
+            45,
+            26,
+            25,
+            24,
+            37,
+            21,
+            22
+          ],
+          "C_alpha": 0.5013768755208929,
+          "native_two_qubit_gates_in_backward_cone": 162,
+          "shared_two_qubit_gates": 72,
+          "native_gate_couplers": [
+            [
+              21,
+              22
+            ],
+            [
+              21,
+              36
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              25,
+              37
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "41": 0.0068359375,
+              "36": 0.00830078125,
+              "23": 0.005126953125,
+              "68": 0.011474609375,
+              "46": 0.010009765625,
+              "44": 0.00537109375,
+              "45": 0.004150390625,
+              "26": 0.01171875,
+              "25": 0.0078125,
+              "24": 0.019287109375,
+              "37": 0.005859375,
+              "21": 0.00439453125,
+              "22": 0.01416015625
+            },
+            "mean_readout_error": 0.008807842548076924,
+            "max_readout_error": 0.019287109375,
+            "gate_count_weighted_mean_error": 0.0019355032183842763,
+            "max_two_qubit_error": 0.003142987544930448
+          }
+        }
+      ]
+    },
+    {
+      "context": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "calibration_date": "2026-10-08 08:55:19-03:00",
+      "qpy_sha256": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+      "source_circuit": "exact51_matched.qpy",
+      "source_circuit_job_id": "dat665lvr3kc73el167g",
+      "faithful_shots": 40000,
+      "calibration_error_values_available": true,
+      "blocks": [
+        {
+          "logical_qubits": [
+            21,
+            22,
+            36,
+            46
+          ],
+          "size": 4,
+          "measured_physical_qubits": [
+            129,
+            109,
+            110,
+            118
+          ],
+          "C_alpha": 0.3069480621780499,
+          "native_two_qubit_gates_in_backward_cone": 14,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              109,
+              110
+            ],
+            [
+              109,
+              118
+            ],
+            [
+              118,
+              129
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "129": 0.0050048828125,
+              "109": 0.00390625,
+              "110": 0.003662109375,
+              "118": 0.0035400390625
+            },
+            "mean_readout_error": 0.0040283203125,
+            "max_readout_error": 0.0050048828125,
+            "gate_count_weighted_mean_error": 0.0019120781958144773,
+            "max_two_qubit_error": 0.002259021814703721,
+            "directional_readout": {
+              "129": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00927734375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.000732421875
+                }
+              },
+              "109": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007568359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.000244140625
+                }
+              },
+              "110": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.005126953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002197265625
+                }
+              },
+              "118": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-07 17:42:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00732421875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00146484375
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            0,
+            1,
+            31,
+            32,
+            33
+          ],
+          "size": 5,
+          "measured_physical_qubits": [
+            48,
+            38,
+            30,
+            49,
+            29
+          ],
+          "C_alpha": 0.11631731623516861,
+          "native_two_qubit_gates_in_backward_cone": 144,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "48": 0.0069580078125,
+              "38": 0.0084228515625,
+              "30": 0.046630859375,
+              "49": 0.0087890625,
+              "29": 0.006103515625
+            },
+            "mean_readout_error": 0.015380859375,
+            "max_readout_error": 0.046630859375,
+            "gate_count_weighted_mean_error": 0.002257102513991289,
+            "max_two_qubit_error": 0.006070352793723699,
+            "directional_readout": {
+              "48": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.012451171875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00146484375
+                }
+              },
+              "38": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0146484375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002197265625
+                }
+              },
+              "30": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00537109375
+                }
+              },
+              "49": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.012939453125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004638671875
+                }
+              },
+              "29": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.010986328125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001220703125
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            2,
+            3,
+            4,
+            5,
+            34,
+            35
+          ],
+          "size": 6,
+          "measured_physical_qubits": [
+            97,
+            107,
+            104,
+            117,
+            106,
+            105
+          ],
+          "C_alpha": 0.5029200496979593,
+          "native_two_qubit_gates_in_backward_cone": 46,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              97,
+              107
+            ],
+            [
+              104,
+              105
+            ],
+            [
+              105,
+              106
+            ],
+            [
+              105,
+              117
+            ],
+            [
+              106,
+              107
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "97": 0.0108642578125,
+              "107": 0.032470703125,
+              "104": 0.0155029296875,
+              "117": 0.0018310546875,
+              "106": 0.01025390625,
+              "105": 0.00634765625
+            },
+            "mean_readout_error": 0.01287841796875,
+            "max_readout_error": 0.032470703125,
+            "gate_count_weighted_mean_error": 0.001652811886546009,
+            "max_two_qubit_error": 0.0032173454873934693,
+            "directional_readout": {
+              "97": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01220703125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.009521484375
+                }
+              },
+              "107": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0263671875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.03857421875
+                }
+              },
+              "104": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.016845703125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01416015625
+                }
+              },
+              "117": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.003173828125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00048828125
+                }
+              },
+              "106": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0126953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0078125
+                }
+              },
+              "105": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009521484375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.003173828125
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            15,
+            16,
+            17,
+            24,
+            41,
+            49,
+            50
+          ],
+          "size": 7,
+          "measured_physical_qubits": [
+            148,
+            147,
+            151,
+            138,
+            152,
+            149,
+            150
+          ],
+          "C_alpha": 0.5024214635571348,
+          "native_two_qubit_gates_in_backward_cone": 55,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              138,
+              151
+            ],
+            [
+              147,
+              148
+            ],
+            [
+              148,
+              149
+            ],
+            [
+              149,
+              150
+            ],
+            [
+              150,
+              151
+            ],
+            [
+              151,
+              152
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "148": 0.0042724609375,
+              "147": 0.0048828125,
+              "151": 0.003662109375,
+              "138": 0.0081787109375,
+              "152": 0.006103515625,
+              "149": 0.00244140625,
+              "150": 0.0078125
+            },
+            "mean_readout_error": 0.005336216517857143,
+            "max_readout_error": 0.0081787109375,
+            "gate_count_weighted_mean_error": 0.0022812601294541807,
+            "max_two_qubit_error": 0.003188310534276678,
+            "directional_readout": {
+              "148": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006591796875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001953125
+                }
+              },
+              "147": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0
+                }
+              },
+              "151": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006591796875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.000732421875
+                }
+              },
+              "138": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.010986328125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00537109375
+                }
+              },
+              "152": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-07 17:42:53-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00927734375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004638671875
+                }
+              },
+              "149": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0009765625
+                }
+              },
+              "150": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007568359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.008056640625
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            6,
+            7,
+            9,
+            27,
+            28,
+            29,
+            30,
+            47,
+            48
+          ],
+          "size": 9,
+          "measured_physical_qubits": [
+            53,
+            58,
+            50,
+            66,
+            67,
+            57,
+            47,
+            52,
+            51
+          ],
+          "C_alpha": 0.5386054175243549,
+          "native_two_qubit_gates_in_backward_cone": 158,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              52,
+              53
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "53": 0.0068359375,
+              "58": 0.0146484375,
+              "50": 0.005615234375,
+              "66": 0.00830078125,
+              "67": 0.0062255859375,
+              "57": 0.0079345703125,
+              "47": 0.013916015625,
+              "52": 0.021240234375,
+              "51": 0.0191650390625
+            },
+            "mean_readout_error": 0.011542426215277778,
+            "max_readout_error": 0.021240234375,
+            "gate_count_weighted_mean_error": 0.0021471259864197594,
+            "max_two_qubit_error": 0.006070352793723699,
+            "directional_readout": {
+              "53": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01025390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00341796875
+                }
+              },
+              "58": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00439453125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.02490234375
+                }
+              },
+              "50": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-07 17:41:37-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002685546875
+                }
+              },
+              "66": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0126953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "67": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-07 17:41:48-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001953125
+                }
+              },
+              "57": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.015380859375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00048828125
+                }
+              },
+              "47": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.026123046875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001708984375
+                }
+              },
+              "52": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0244140625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01806640625
+                }
+              },
+              "51": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02001953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.018310546875
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            12,
+            13,
+            14,
+            25,
+            26,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43,
+            44,
+            45
+          ],
+          "size": 13,
+          "measured_physical_qubits": [
+            41,
+            36,
+            23,
+            68,
+            46,
+            44,
+            45,
+            26,
+            25,
+            24,
+            37,
+            21,
+            22
+          ],
+          "C_alpha": 0.5231620131143154,
+          "native_two_qubit_gates_in_backward_cone": 162,
+          "shared_two_qubit_gates": 72,
+          "native_gate_couplers": [
+            [
+              21,
+              22
+            ],
+            [
+              21,
+              36
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              25,
+              37
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "41": 0.009033203125,
+              "36": 0.009033203125,
+              "23": 0.003662109375,
+              "68": 0.011474609375,
+              "46": 0.0150146484375,
+              "44": 0.0040283203125,
+              "45": 0.00341796875,
+              "26": 0.0089111328125,
+              "25": 0.0072021484375,
+              "24": 0.02001953125,
+              "37": 0.0062255859375,
+              "21": 0.00634765625,
+              "22": 0.0157470703125
+            },
+            "mean_readout_error": 0.009239783653846154,
+            "max_readout_error": 0.02001953125,
+            "gate_count_weighted_mean_error": 0.0018868587335119623,
+            "max_two_qubit_error": 0.003989606403976553,
+            "directional_readout": {
+              "41": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01025390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0078125
+                }
+              },
+              "36": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.012939453125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005126953125
+                }
+              },
+              "23": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.004150390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.003173828125
+                }
+              },
+              "68": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0126953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01025390625
+                }
+              },
+              "46": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.024658203125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00537109375
+                }
+              },
+              "44": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0068359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001220703125
+                }
+              },
+              "45": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.005615234375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001220703125
+                }
+              },
+              "26": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01171875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.006103515625
+                }
+              },
+              "25": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00927734375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005126953125
+                }
+              },
+              "24": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02294921875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01708984375
+                }
+              },
+              "37": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00732421875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005126953125
+                }
+              },
+              "21": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007568359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005126953125
+                }
+              },
+              "22": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.017822265625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-08 05:46:30-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.013671875
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "context": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "calibration_date": "2026-10-14 14:27:28-03:00",
+      "qpy_sha256": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+      "source_circuit": "exact51_matched.qpy",
+      "source_circuit_job_id": "dat665lvr3kc73el167g",
+      "faithful_shots": 40000,
+      "calibration_error_values_available": true,
+      "blocks": [
+        {
+          "logical_qubits": [
+            21,
+            22,
+            36,
+            46
+          ],
+          "size": 4,
+          "measured_physical_qubits": [
+            129,
+            109,
+            110,
+            118
+          ],
+          "C_alpha": 0.4389716428283332,
+          "native_two_qubit_gates_in_backward_cone": 14,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              109,
+              110
+            ],
+            [
+              109,
+              118
+            ],
+            [
+              118,
+              129
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "129": 0.0185546875,
+              "109": 0.007080078125,
+              "110": 0.0059814453125,
+              "118": 0.0054931640625
+            },
+            "mean_readout_error": 0.00927734375,
+            "max_readout_error": 0.0185546875,
+            "gate_count_weighted_mean_error": 0.0018889060768917051,
+            "max_two_qubit_error": 0.002164667842986967,
+            "directional_readout": {
+              "129": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.014892578125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.022216796875
+                }
+              },
+              "109": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0068359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00732421875
+                }
+              },
+              "110": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009521484375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00244140625
+                }
+              },
+              "118": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:47-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01025390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004150390625
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            0,
+            1,
+            31,
+            32,
+            33
+          ],
+          "size": 5,
+          "measured_physical_qubits": [
+            48,
+            38,
+            30,
+            49,
+            29
+          ],
+          "C_alpha": 0.2845046319798543,
+          "native_two_qubit_gates_in_backward_cone": 144,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "48": 0.007080078125,
+              "38": 0.0126953125,
+              "30": 0.008544921875,
+              "49": 0.0069580078125,
+              "29": 0.0120849609375
+            },
+            "mean_readout_error": 0.00947265625,
+            "max_readout_error": 0.0126953125,
+            "gate_count_weighted_mean_error": 0.0022909332151131428,
+            "max_two_qubit_error": 0.004975821656225343,
+            "directional_readout": {
+              "48": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.012451171875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001708984375
+                }
+              },
+              "38": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.013427734375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.011962890625
+                }
+              },
+              "30": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.010986328125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.006103515625
+                }
+              },
+              "49": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004150390625
+                }
+              },
+              "29": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.015625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.008544921875
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            2,
+            3,
+            4,
+            5,
+            34,
+            35
+          ],
+          "size": 6,
+          "measured_physical_qubits": [
+            97,
+            107,
+            104,
+            117,
+            106,
+            105
+          ],
+          "C_alpha": 0.5198710387589891,
+          "native_two_qubit_gates_in_backward_cone": 46,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              97,
+              107
+            ],
+            [
+              104,
+              105
+            ],
+            [
+              105,
+              106
+            ],
+            [
+              105,
+              117
+            ],
+            [
+              106,
+              107
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "97": 0.0084228515625,
+              "107": 0.01513671875,
+              "104": 0.0130615234375,
+              "117": 0.003662109375,
+              "106": 0.0089111328125,
+              "105": 0.005126953125
+            },
+            "mean_readout_error": 0.009053548177083334,
+            "max_readout_error": 0.01513671875,
+            "gate_count_weighted_mean_error": 0.0018348395789714088,
+            "max_two_qubit_error": 0.0023910360375092865,
+            "directional_readout": {
+              "97": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0126953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004150390625
+                }
+              },
+              "107": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.016845703125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.013427734375
+                }
+              },
+              "104": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.006591796875
+                }
+              },
+              "117": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00439453125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0029296875
+                }
+              },
+              "106": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.010009765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0078125
+                }
+              },
+              "105": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00146484375
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            15,
+            16,
+            17,
+            24,
+            41,
+            49,
+            50
+          ],
+          "size": 7,
+          "measured_physical_qubits": [
+            148,
+            147,
+            151,
+            138,
+            152,
+            149,
+            150
+          ],
+          "C_alpha": 0.49475369667075847,
+          "native_two_qubit_gates_in_backward_cone": 55,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              138,
+              151
+            ],
+            [
+              147,
+              148
+            ],
+            [
+              148,
+              149
+            ],
+            [
+              149,
+              150
+            ],
+            [
+              150,
+              151
+            ],
+            [
+              151,
+              152
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "148": 0.0047607421875,
+              "147": 0.005615234375,
+              "151": 0.005615234375,
+              "138": 0.0255126953125,
+              "152": 0.005859375,
+              "149": 0.0054931640625,
+              "150": 0.009521484375
+            },
+            "mean_readout_error": 0.0089111328125,
+            "max_readout_error": 0.0255126953125,
+            "gate_count_weighted_mean_error": 0.0032141582682585577,
+            "max_two_qubit_error": 0.0052473577850472575,
+            "directional_readout": {
+              "148": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00634765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.003173828125
+                }
+              },
+              "147": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00244140625
+                }
+              },
+              "151": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.008544921875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002685546875
+                }
+              },
+              "138": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02587890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.025146484375
+                }
+              },
+              "152": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:48-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "149": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006103515625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0048828125
+                }
+              },
+              "150": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01318359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005859375
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            6,
+            7,
+            9,
+            27,
+            28,
+            29,
+            30,
+            47,
+            48
+          ],
+          "size": 9,
+          "measured_physical_qubits": [
+            53,
+            58,
+            50,
+            66,
+            67,
+            57,
+            47,
+            52,
+            51
+          ],
+          "C_alpha": 0.5114584611427071,
+          "native_two_qubit_gates_in_backward_cone": 158,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              52,
+              53
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "53": 0.0054931640625,
+              "58": 0.0172119140625,
+              "50": 0.003662109375,
+              "66": 0.01318359375,
+              "67": 0.016357421875,
+              "57": 0.0054931640625,
+              "47": 0.015380859375,
+              "52": 0.014404296875,
+              "51": 0.0281982421875
+            },
+            "mean_readout_error": 0.013264973958333334,
+            "max_readout_error": 0.0281982421875,
+            "gate_count_weighted_mean_error": 0.0022917479689400387,
+            "max_two_qubit_error": 0.004975821656225343,
+            "directional_readout": {
+              "53": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00830078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002685546875
+                }
+              },
+              "58": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.013427734375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.02099609375
+                }
+              },
+              "50": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:45-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0009765625
+                }
+              },
+              "66": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0166015625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.009765625
+                }
+              },
+              "67": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:46-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02587890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01708984375
+                }
+              },
+              "57": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006591796875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00439453125
+                }
+              },
+              "47": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0166015625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01416015625
+                }
+              },
+              "52": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02490234375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "51": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.033935546875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0224609375
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            12,
+            13,
+            14,
+            25,
+            26,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43,
+            44,
+            45
+          ],
+          "size": 13,
+          "measured_physical_qubits": [
+            41,
+            36,
+            23,
+            68,
+            46,
+            44,
+            45,
+            26,
+            25,
+            24,
+            37,
+            21,
+            22
+          ],
+          "C_alpha": 0.5096109387837003,
+          "native_two_qubit_gates_in_backward_cone": 162,
+          "shared_two_qubit_gates": 72,
+          "native_gate_couplers": [
+            [
+              21,
+              22
+            ],
+            [
+              21,
+              36
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              25,
+              37
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "41": 0.008544921875,
+              "36": 0.0059814453125,
+              "23": 0.0037841796875,
+              "68": 0.0118408203125,
+              "46": 0.0098876953125,
+              "44": 0.0074462890625,
+              "45": 0.02294921875,
+              "26": 0.0076904296875,
+              "25": 0.0047607421875,
+              "24": 0.016845703125,
+              "37": 0.008056640625,
+              "21": 0.00390625,
+              "22": 0.0194091796875
+            },
+            "mean_readout_error": 0.010084885817307692,
+            "max_readout_error": 0.02294921875,
+            "gate_count_weighted_mean_error": 0.002055055414217504,
+            "max_two_qubit_error": 0.0026804931447012292,
+            "directional_readout": {
+              "41": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.013427734375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.003662109375
+                }
+              },
+              "36": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002197265625
+                }
+              },
+              "23": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006103515625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00146484375
+                }
+              },
+              "68": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01806640625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005615234375
+                }
+              },
+              "46": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.017333984375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00244140625
+                }
+              },
+              "44": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009033203125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005859375
+                }
+              },
+              "45": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.041748046875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004150390625
+                }
+              },
+              "26": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005615234375
+                }
+              },
+              "25": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007568359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001953125
+                }
+              },
+              "24": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.017822265625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.015869140625
+                }
+              },
+              "37": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0146484375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00146484375
+                }
+              },
+              "21": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.005859375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001953125
+                }
+              },
+              "22": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0283203125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 12:05:20-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.010498046875
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "context": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "calibration_date": "2026-10-14 18:25:47-03:00",
+      "qpy_sha256": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+      "source_circuit": "exact51_matched.qpy",
+      "source_circuit_job_id": "dat665lvr3kc73el167g",
+      "faithful_shots": 40000,
+      "calibration_error_values_available": true,
+      "blocks": [
+        {
+          "logical_qubits": [
+            21,
+            22,
+            36,
+            46
+          ],
+          "size": 4,
+          "measured_physical_qubits": [
+            129,
+            109,
+            110,
+            118
+          ],
+          "C_alpha": 0.3625826862068003,
+          "native_two_qubit_gates_in_backward_cone": 14,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              109,
+              110
+            ],
+            [
+              109,
+              118
+            ],
+            [
+              118,
+              129
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "129": 0.0054931640625,
+              "109": 0.0098876953125,
+              "110": 0.0057373046875,
+              "118": 0.004150390625
+            },
+            "mean_readout_error": 0.006317138671875,
+            "max_readout_error": 0.0098876953125,
+            "gate_count_weighted_mean_error": 0.0018889060768917051,
+            "max_two_qubit_error": 0.002164667842986967,
+            "directional_readout": {
+              "129": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007080078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "109": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01708984375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002685546875
+                }
+              },
+              "110": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.008544921875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0029296875
+                }
+              },
+              "118": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:47-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01025390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0029296875
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            0,
+            1,
+            31,
+            32,
+            33
+          ],
+          "size": 5,
+          "measured_physical_qubits": [
+            48,
+            38,
+            30,
+            49,
+            29
+          ],
+          "C_alpha": 0.23041005016709712,
+          "native_two_qubit_gates_in_backward_cone": 144,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "48": 0.006103515625,
+              "38": 0.0072021484375,
+              "30": 0.00732421875,
+              "49": 0.0079345703125,
+              "29": 0.010009765625
+            },
+            "mean_readout_error": 0.00771484375,
+            "max_readout_error": 0.010009765625,
+            "gate_count_weighted_mean_error": 0.0022909332151131428,
+            "max_two_qubit_error": 0.004975821656225343,
+            "directional_readout": {
+              "48": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0068359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00537109375
+                }
+              },
+              "38": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.011962890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00244140625
+                }
+              },
+              "30": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.010498046875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004150390625
+                }
+              },
+              "49": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009521484375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00634765625
+                }
+              },
+              "29": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.017333984375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002685546875
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            2,
+            3,
+            4,
+            5,
+            34,
+            35
+          ],
+          "size": 6,
+          "measured_physical_qubits": [
+            97,
+            107,
+            104,
+            117,
+            106,
+            105
+          ],
+          "C_alpha": 0.4885426014668728,
+          "native_two_qubit_gates_in_backward_cone": 46,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              97,
+              107
+            ],
+            [
+              104,
+              105
+            ],
+            [
+              105,
+              106
+            ],
+            [
+              105,
+              117
+            ],
+            [
+              106,
+              107
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "97": 0.006103515625,
+              "107": 0.0233154296875,
+              "104": 0.015869140625,
+              "117": 0.0050048828125,
+              "106": 0.0074462890625,
+              "105": 0.0078125
+            },
+            "mean_readout_error": 0.01092529296875,
+            "max_readout_error": 0.0233154296875,
+            "gate_count_weighted_mean_error": 0.0018348395789714088,
+            "max_two_qubit_error": 0.0023910360375092865,
+            "directional_readout": {
+              "97": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009521484375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002685546875
+                }
+              },
+              "107": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01953125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.027099609375
+                }
+              },
+              "104": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.015625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01611328125
+                }
+              },
+              "117": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0068359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.003173828125
+                }
+              },
+              "106": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.011474609375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00341796875
+                }
+              },
+              "105": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.013671875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001953125
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            15,
+            16,
+            17,
+            24,
+            41,
+            49,
+            50
+          ],
+          "size": 7,
+          "measured_physical_qubits": [
+            148,
+            147,
+            151,
+            138,
+            152,
+            149,
+            150
+          ],
+          "C_alpha": 0.5049228791895202,
+          "native_two_qubit_gates_in_backward_cone": 55,
+          "shared_two_qubit_gates": 0,
+          "native_gate_couplers": [
+            [
+              138,
+              151
+            ],
+            [
+              147,
+              148
+            ],
+            [
+              148,
+              149
+            ],
+            [
+              149,
+              150
+            ],
+            [
+              150,
+              151
+            ],
+            [
+              151,
+              152
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "148": 0.0029296875,
+              "147": 0.0050048828125,
+              "151": 0.007080078125,
+              "138": 0.0086669921875,
+              "152": 0.0087890625,
+              "149": 0.0037841796875,
+              "150": 0.00927734375
+            },
+            "mean_readout_error": 0.006504603794642857,
+            "max_readout_error": 0.00927734375,
+            "gate_count_weighted_mean_error": 0.0032141582682585577,
+            "max_two_qubit_error": 0.0052473577850472575,
+            "directional_readout": {
+              "148": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0048828125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0009765625
+                }
+              },
+              "147": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.009765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.000244140625
+                }
+              },
+              "151": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0068359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00732421875
+                }
+              },
+              "138": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.011474609375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005859375
+                }
+              },
+              "152": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:48-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00732421875
+                }
+              },
+              "149": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006591796875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0009765625
+                }
+              },
+              "150": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.010986328125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.007568359375
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            6,
+            7,
+            9,
+            27,
+            28,
+            29,
+            30,
+            47,
+            48
+          ],
+          "size": 9,
+          "measured_physical_qubits": [
+            53,
+            58,
+            50,
+            66,
+            67,
+            57,
+            47,
+            52,
+            51
+          ],
+          "C_alpha": 0.5437137335730944,
+          "native_two_qubit_gates_in_backward_cone": 158,
+          "shared_two_qubit_gates": 135,
+          "native_gate_couplers": [
+            [
+              25,
+              37
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              29,
+              38
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              48
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              48,
+              49
+            ],
+            [
+              49,
+              50
+            ],
+            [
+              50,
+              51
+            ],
+            [
+              51,
+              52
+            ],
+            [
+              51,
+              58
+            ],
+            [
+              52,
+              53
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "53": 0.0048828125,
+              "58": 0.017578125,
+              "50": 0.0059814453125,
+              "66": 0.007568359375,
+              "67": 0.0072021484375,
+              "57": 0.005615234375,
+              "47": 0.004638671875,
+              "52": 0.0186767578125,
+              "51": 0.031005859375
+            },
+            "mean_readout_error": 0.011461046006944444,
+            "max_readout_error": 0.031005859375,
+            "gate_count_weighted_mean_error": 0.0022917479689400387,
+            "max_two_qubit_error": 0.004975821656225343,
+            "directional_readout": {
+              "53": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.006591796875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.003173828125
+                }
+              },
+              "58": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00390625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.03125
+                }
+              },
+              "50": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:45-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0029296875
+                }
+              },
+              "66": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.014404296875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.000732421875
+                }
+              },
+              "67": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-13 22:53:46-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02587890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00439453125
+                }
+              },
+              "57": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00732421875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "47": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0087890625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00048828125
+                }
+              },
+              "52": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.028076171875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00927734375
+                }
+              },
+              "51": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.033935546875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.028076171875
+                }
+              }
+            }
+          }
+        },
+        {
+          "logical_qubits": [
+            12,
+            13,
+            14,
+            25,
+            26,
+            37,
+            38,
+            39,
+            40,
+            42,
+            43,
+            44,
+            45
+          ],
+          "size": 13,
+          "measured_physical_qubits": [
+            41,
+            36,
+            23,
+            68,
+            46,
+            44,
+            45,
+            26,
+            25,
+            24,
+            37,
+            21,
+            22
+          ],
+          "C_alpha": 0.5046987209586291,
+          "native_two_qubit_gates_in_backward_cone": 162,
+          "shared_two_qubit_gates": 72,
+          "native_gate_couplers": [
+            [
+              21,
+              22
+            ],
+            [
+              21,
+              36
+            ],
+            [
+              22,
+              23
+            ],
+            [
+              23,
+              24
+            ],
+            [
+              24,
+              25
+            ],
+            [
+              25,
+              26
+            ],
+            [
+              25,
+              37
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              37,
+              45
+            ],
+            [
+              44,
+              45
+            ],
+            [
+              45,
+              46
+            ],
+            [
+              46,
+              47
+            ],
+            [
+              47,
+              57
+            ],
+            [
+              57,
+              67
+            ],
+            [
+              66,
+              67
+            ],
+            [
+              67,
+              68
+            ]
+          ],
+          "calibration_descriptors": {
+            "readout_errors": {
+              "41": 0.0062255859375,
+              "36": 0.0072021484375,
+              "23": 0.004638671875,
+              "68": 0.017333984375,
+              "46": 0.0712890625,
+              "44": 0.003662109375,
+              "45": 0.004150390625,
+              "26": 0.010498046875,
+              "25": 0.0054931640625,
+              "24": 0.019287109375,
+              "37": 0.0079345703125,
+              "21": 0.0087890625,
+              "22": 0.0142822265625
+            },
+            "mean_readout_error": 0.013906625600961538,
+            "max_readout_error": 0.0712890625,
+            "gate_count_weighted_mean_error": 0.002055055414217504,
+            "max_two_qubit_error": 0.0026804931447012292,
+            "directional_readout": {
+              "41": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00830078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.004150390625
+                }
+              },
+              "36": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007568359375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0068359375
+                }
+              },
+              "23": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007080078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.002197265625
+                }
+              },
+              "68": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.021240234375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.013427734375
+                }
+              },
+              "46": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.138671875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "44": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.005859375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00146484375
+                }
+              },
+              "45": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.00634765625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.001953125
+                }
+              },
+              "26": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01123046875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.009765625
+                }
+              },
+              "25": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.007080078125
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.00390625
+                }
+              },
+              "24": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.02197265625
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.0166015625
+                }
+              },
+              "37": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.0107421875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005126953125
+                }
+              },
+              "21": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.01171875
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.005859375
+                }
+              },
+              "22": {
+                "prob_meas0_prep1": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas0_prep1",
+                  "unit": "",
+                  "value": 0.017333984375
+                },
+                "prob_meas1_prep0": {
+                  "date": "2026-10-14 15:44:05-03:00",
+                  "name": "prob_meas1_prep0",
+                  "unit": "",
+                  "value": 0.01123046875
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "calibration_archive_search": {
+    "directories": [
+      "results",
+      "analysis/ibm_variance_campaign/results",
+      "analysis/revision_v7/results"
+    ],
+    "json_files_scanned": 100,
+    "campaign_jobs": {
+      "db3p76amb58s73885pa0": {
+        "files": [
+          "analysis/ibm_variance_campaign/results/e01_20261008_analysis_v2.json",
+          "analysis/ibm_variance_campaign/results/e01_20261008_counts.json",
+          "analysis/ibm_variance_campaign/results/e01_20261008_plan.json",
+          "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations.json",
+          "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations_v2.json",
+          "analysis/ibm_variance_campaign/results/e01_vs_historical.json",
+          "analysis/revision_v7/results/between_jobs.json",
+          "analysis/revision_v7/results/e01_analysis.json"
+        ],
+        "possible_calibration_payloads": []
+      },
+      "db7sc2or1c5c738l75m0": {
+        "files": [
+          "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations.json",
+          "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations_v2.json",
+          "analysis/ibm_variance_campaign/results/e02_20261014_analysis_v2.json",
+          "analysis/ibm_variance_campaign/results/e02_20261014_counts.json",
+          "analysis/ibm_variance_campaign/results/e02_20261014_metrics.json",
+          "analysis/ibm_variance_campaign/results/e02_20261014_plan.json",
+          "analysis/revision_v7/results/between_jobs.json",
+          "analysis/revision_v7/results/e02_analysis.json"
+        ],
+        "possible_calibration_payloads": []
+      },
+      "db7vad6r6oqs7388dh6g": {
+        "files": [
+          "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations.json",
+          "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations_v2.json",
+          "analysis/ibm_variance_campaign/results/e03_20261014_analysis_v2.json",
+          "analysis/ibm_variance_campaign/results/e03_20261014_counts.json",
+          "analysis/ibm_variance_campaign/results/e03_20261014_plan.json",
+          "analysis/revision_v7/results/between_jobs.json",
+          "analysis/revision_v7/results/e03_analysis.json"
+        ],
+        "possible_calibration_payloads": []
+      }
+    },
+    "separately_recovered_archives": {
+      "db3p76amb58s73885pa0": "analysis/revision_v8/calibration_archives/e01_20261008_properties.json",
+      "db7sc2or1c5c738l75m0": "analysis/revision_v8/calibration_archives/e02_20261014_properties.json",
+      "db7vad6r6oqs7388dh6g": "analysis/revision_v8/calibration_archives/e03_20261014_properties.json"
+    }
+  },
+  "missing_inputs": [
+    "Execution-time schedules/idle durations and noise characterization for mechanism attribution."
+  ],
+  "interpretation": "Reused layout is verified by QPY hashes; recovered campaign values are matched by job ID, backend and calibration date. Calibration descriptors do not determine covariance attenuation."
+}

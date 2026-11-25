@@ -182,9 +182,9 @@ def main() -> None:
     from matplotlib.lines import Line2D
     handles = [
         Line2D([], [], marker="s", ls="", ms=4, mfc="#bbbbbb", mec="k", mew=0.3,
-               label="PEF base (drone site)"),
+               label="candidate site (PEF position)"),
         Line2D([], [], marker="o", ls="", ms=2.5, mfc="#bbbbbb", mec="none",
-               label="waypoint (synthetic sensor)"),
+               label="synthetic target"),
         Line2D([], [], color="#888888", lw=0.8, label=r"link, distance $\leq R$"),
         Line2D([], [], marker="o", ls="", ms=6, mfc="none", mec="k", mew=0.5,
                label=r"ILP cover ($k_{\rm opt}=10$)"),
@@ -318,7 +318,7 @@ def main() -> None:
 
     fig.canvas.draw()
     top = max(a.get_position().y1 for a in (ax_a, ax_b, ax_c)) + 0.012
-    for a, lab in ((ax_a, "(a) bases, waypoints and blocks"),
+    for a, lab in ((ax_a, "(a) sites, targets and blocks"),
                    (ax_b, "(b) Kingston: 24 qubits in one run"),
                    (ax_c, "(c) Kingston: 13 blocks run separately")):
         fig.text(a.get_position().x0, top, lab, fontsize=7, ha="left", va="bottom")

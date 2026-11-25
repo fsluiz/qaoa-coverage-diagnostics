@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "method": "Independent weighted energy moments from raw bitstring counts",
+  "scope": "Pearson r, z, total variance and cone classification; permutation p-values not repeated.",
+  "sources_sha256": {
+    "data/frozen_rung1.json": "1891988fc3b6d2450150aa6c1eb465c9d3303a20be29391614ff6bf90d6dcf7d",
+    "results/exact51_plan.json": "88147bde394d011cc5f9c4efca6be161dd0b6063e72024d62edad375df5dc307",
+    "results/exact51_cross_block.json": "d4c7f0ba3ffa24ab8bb345f86220d2222bdd373f1cb702237d422f7cc71bec25",
+    "results/exact51_counts.json": "526c9a1a6eeda66399f79f3586260c033edc9b5aed90f6e57bb668288447a7d0",
+    "results/ibm_circuits/exact51_defaults.ops.json": "b3f725c19b153500e9a17035214e3d6191995389db4cd76dde8434316d6e0bf8",
+    "results/exact51_matched_counts.json": "5d5d6370b02f624b2b2a65f0946131599657ec3d55ce3ffbe61d7ab6f22d8cf7",
+    "results/ibm_circuits/exact51_matched.ops.json": "8d47e1f9d0cd6ef0c830002c60e5bbe52db330ef37f950cfa9df84451bbf06a7"
+  },
+  "runs": [
+    {
+      "context": "defaults",
+      "job_id": "dakjjpfi3e6s738rmbng",
+      "shots": 100000,
+      "pairs_checked": 78,
+      "max_absolute_r_difference": 5.191160001860595e-16,
+      "cone_classification_verified": true
+    },
+    {
+      "context": "matched",
+      "job_id": "dat665lvr3kc73el167g",
+      "shots": 100000,
+      "pairs_checked": 78,
+      "max_absolute_r_difference": 3.5648567431323386e-16,
+      "cone_classification_verified": true
+    }
+  ]
+}

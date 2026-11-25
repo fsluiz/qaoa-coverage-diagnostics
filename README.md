@@ -1,53 +1,43 @@
 # QAOA coverage diagnostics
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24539594.svg)](https://doi.org/10.5281/zenodo.24539594)
-
-Code accompanying **Classical simulability and hardware diagnostics for QAOA
-on geographic coverage benchmarks**. Version 8.0.0.
+Code and reproducibility data accompanying **Classical simulability and hardware
+diagnostics for QAOA on geographic coverage benchmarks**, version 8.1.0.
 
 Authors: F. S. Luiz, D. Abreu, A. J. G. Abelém, J. E. da Fonseca,
-A. F. P. Santos, and M. C. de Oliveira.
+A. F. P. Santos and M. C. de Oliveira.
 
-This repository and its Zenodo software archive contain code only.
-The article and supplemental manuscript are excluded from this software deposit.
-The associated preprint is [arXiv:2611.27507](https://arxiv.org/abs/2611.27507).
+Article: https://arxiv.org/abs/2611.27507
 
-## Contents
+## Reproduce the diagnostics
 
-- `scripts/`: instance construction, exact references, optimization controls,
-  hardware reanalysis and figure generators.
-- `analysis/revision_v7/`: counting uncertainty, structural references,
-  covariance decomposition, controls and scientific tests.
-- `analysis/revision_v8/`: historical calibration retrieval, physical-block
-  resource summaries and independent verification.
-- `analysis/ibm_variance_campaign/`: fixed-circuit campaign scripts.
-- `tests/`: historical scientific regression checks.
-- `requirements*.txt`: analysis and optional hardware dependencies.
+```sh
+python3 -m pip install -r requirements-reproduce-v7.txt
+python3 scripts/reproduce_diagnostics.py --output /tmp/qaoa-reproduced --full
+```
 
-## Inputs and execution
+See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the figure/input map, commands,
+numerical tolerances and the scope of reproduction. The completed release check
+is recorded in [VERIFICATION.json](VERIFICATION.json).
 
-Raw counts, frozen instances, QPY circuits, calibration responses, generated
-tables and figures are not bundled in this code-only release. They must be
-provided separately to run archived-input workflows. Those scripts use
-repository-relative `data/` and `results/` paths and sibling campaign archive
-paths under `analysis/`; historical regression/manifest checks also refer to
-the original manuscript snapshot. This release does not claim self-contained
-reproduction without those external inputs.
+- `data/`: frozen instances and attributed geographic inputs.
+- `results/`: raw counts, plans, physical layouts, native circuits and supporting calculations.
+- `analysis/ibm_variance_campaign/results/`: the three fixed-circuit jobs.
+- `analysis/revision_v7/`: exact references, conditional counting models and block diagnostics.
+- `analysis/revision_v8/`: physical provenance audit, complete job-associated calibration archives and independent readout control.
+- `DATA_MANIFEST.json`: SHA-256 checksums, sizes, roles and original paths.
+- `PATH_MAPPING.json`: mapping of historical analysis paths to this public layout.
 
-The code was adapted from the locally checked manuscript companion. Validation
-of this distribution includes Python syntax and input-independent mathematical
-tests; full archived-data reproduction is a separate workflow. IBM retrieval
-scripts use the configured account. Hardware submission scripts must be invoked
-explicitly; importing the code does not submit jobs.
+## Citation and archive
 
-## Publication and citation
-
-Software repository: https://github.com/fsluiz/qaoa-coverage-diagnostics
-Software DOI: https://doi.org/10.5281/zenodo.24539594
-Article: [https://arxiv.org/abs/2611.27507](https://arxiv.org/abs/2611.27507) (preprint).
-
-See `CITATION.cff` and `.zenodo.json` for the six-author metadata.
+Release: https://github.com/fsluiz/qaoa-coverage-diagnostics/releases/tag/v8.1.0
+Version 8.1.0 adds the reproducibility data. Its Zenodo archive is generated
+through the repository integration after release publication. The earlier
+code-only version 8.0.0 has DOI https://doi.org/10.5281/zenodo.24539594; that DOI
+identifies the earlier software snapshot, not the newly added data.
+See `CITATION.cff` and `.zenodo.json` for author and release metadata.
 
 ## License
 
-MIT; see LICENSE.
+MIT; see LICENSE. Third-party geographic inputs retain their source attribution
+and applicable terms, documented in `data/README.md` and source-provenance JSON.
+The manuscript and its supplemental text are distributed separately on arXiv.

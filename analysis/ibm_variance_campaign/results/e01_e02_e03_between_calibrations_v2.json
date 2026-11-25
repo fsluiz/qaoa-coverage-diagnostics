@@ -1,0 +1,79 @@
+{
+ "schema_version": 1,
+ "campaign": "ibm_three_level_variance_v6",
+ "levels": {
+  "shot": "conditional bootstrap within each pub; see epoch files",
+  "within_job": "four contiguous round estimates within each IBM job",
+  "between_calibration": "epoch estimates from distinct calibration timestamps"
+ },
+ "epochs": [
+  {
+   "epoch": "e01_20261008",
+   "job_id": "db3p76amb58s73885pa0",
+   "calibration_date": "2026-10-08 08:55:19-03:00"
+  },
+  {
+   "epoch": "e02_20261014",
+   "job_id": "db7sc2or1c5c738l75m0",
+   "calibration_date": "2026-10-14 14:27:28-03:00"
+  },
+  {
+   "epoch": "e03_20261014",
+   "job_id": "db7vad6r6oqs7388dh6g",
+   "calibration_date": "2026-10-14 18:25:47-03:00"
+  }
+ ],
+ "between_calibration_summary": {
+  "joint_over_slice_gated": {
+   "estimate": 0.868135772222355,
+   "ci95": [
+    0.7144690399281147,
+    1.0548528724042865
+   ],
+   "scale": "log",
+   "df": 2,
+   "epoch_values": [
+    0.7930921337826906,
+    0.9042733326284927,
+    0.9123040234796512
+   ],
+   "observed_between_epoch_variance": 0.006149846498945151,
+   "observed_between_epoch_sd": 0.07842095701370362,
+   "epoch_estimation_variances": [
+    0.00019907605829361182,
+    0.0002259347136077521,
+    0.0001956744629568614
+   ],
+   "mean_epoch_estimation_variance": 0.0002068950782860751,
+   "excess_between_calibration_variance_method_of_moments": 0.005942951420659076,
+   "excess_between_calibration_sd_method_of_moments": 0.07709054040969668,
+   "t_interval_note": "Interval from the dispersion of three epoch point estimates; it is descriptive and is not a total uncertainty interval."
+  },
+  "faithful51_correlation_energy_retained": {
+   "estimate": 0.5011454561681427,
+   "ci95": [
+    0.49601798720883084,
+    0.5062729251274545
+   ],
+   "scale": "identity",
+   "df": 2,
+   "epoch_values": [
+    0.5035069075894553,
+    0.49968526089111454,
+    0.500244200023858
+   ],
+   "observed_between_epoch_variance": 4.260442849942661e-06,
+   "observed_between_epoch_sd": 0.002064084022016221,
+   "epoch_estimation_variances": [
+    0.0001560818254611716,
+    0.00022026683824219288,
+    0.00015584552502021583
+   ],
+   "mean_epoch_estimation_variance": 0.0001773980629078601,
+   "excess_between_calibration_variance_method_of_moments": 0.0,
+   "excess_between_calibration_sd_method_of_moments": 0.0,
+   "t_interval_note": "Interval from the dispersion of three epoch point estimates; it is descriptive and is not a total uncertainty interval."
+  }
+ },
+ "interpretation": "The method-of-moments excess variance subtracts the mean estimated variance of an epoch mean from the observed variance among epoch estimates. With three epochs it is descriptive, has no stable variance interval, and does not establish long-term backend stationarity. The t intervals use only three epoch point estimates and are not total uncertainty intervals."
+}

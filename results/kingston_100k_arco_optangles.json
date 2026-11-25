@@ -1,0 +1,50 @@
+{
+ "job_id": "dakjbtfi3e6s738rm2h0",
+ "circuits": [
+  {
+   "shots": 100000,
+   "p_opt": 0.0,
+   "p_feas": 0.0,
+   "mean_energy": 193.423020000002,
+   "mean_k": 31.857320000004908,
+   "tag": "arco_qaoa_p1",
+   "logical_cx": 18,
+   "p_opt_nl": 0.0,
+   "E_rnd": 284.5,
+   "E_reduction_pct": 32.01299824253005,
+   "p_opt_rnd": 0.0,
+   "p_feas_rnd": 0.0,
+   "dim": "~C(79,31)"
+  },
+  {
+   "shots": 100000,
+   "p_opt": 0.0,
+   "p_feas": 0.0,
+   "mean_energy": 216.44305000001896,
+   "mean_k": 29.364050000002397,
+   "tag": "arco_qaoa_p2",
+   "logical_cx": 36,
+   "p_opt_nl": 0.0,
+   "E_rnd": 284.5,
+   "E_reduction_pct": 23.92159929700564,
+   "p_opt_rnd": 0.0,
+   "p_feas_rnd": 0.0,
+   "dim": "~C(79,31)"
+  },
+  {
+   "shots": 100000,
+   "p_opt": 0.0,
+   "p_feas": 0.0,
+   "mean_energy": 270.10559000001194,
+   "mean_k": 41.50608999999498,
+   "tag": "arco_qaoa_p3",
+   "logical_cx": 54,
+   "p_opt_nl": 0.0,
+   "E_rnd": 284.5,
+   "E_reduction_pct": 5.059546572930776,
+   "p_opt_rnd": 0.0,
+   "p_feas_rnd": 0.0,
+   "dim": "~C(79,31)"
+  }
+ ]
+}

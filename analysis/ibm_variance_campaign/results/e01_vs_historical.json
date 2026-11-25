@@ -1,0 +1,61 @@
+{
+ "schema_version": 1,
+ "comparison_type": "endpoint-specific descriptive between-calibration comparison",
+ "new_epoch": {
+  "job_id": "db3p76amb58s73885pa0",
+  "calibration_date": "2026-10-08 08:55:19-03:00"
+ },
+ "pef24_joint_over_slice_gated": {
+  "historical_job_id": "daul9oqhcrkc73dvsqj0",
+  "historical_calibration_date": "2026-09-30 14:30:49-03:00",
+  "historical_round_values": [
+   0.9054417766301233,
+   0.8970773193990029,
+   0.8202219048206467,
+   0.8884496185237474
+  ],
+  "new_round_values": [
+   0.7937973697443337,
+   0.7832938516285352,
+   0.799666429461712,
+   0.7957036165433513
+  ],
+  "qpy_sha256": {
+   "slice_00": "16d7eef5d498a08d8a2cc1992838d5c2804c5a9bf1c8ecd9341aa6c4c8a6c7e5",
+   "slice_06": "764da21922e18798c7a479c2cb946def3ce5f93b2f06e11101c2476e5f2b9c53",
+   "slice_05": "fc7c18e80ade1119f58014239eecb4e596b210f5f687c3505a4db229f4fff8af",
+   "slice_03": "039e2fbc2092f26c91e18fb02d9cf07e85c0982a4f62f79d597bff1a0ac86f61",
+   "slice_08": "05d1589a00acb336c2bcb3693ddea4accf74e0f51744e687e9d988fb33beaee8",
+   "joint": "0a5a486bd1e81be86a2fc7b74e020caad6806a78f40597541c6dce92b7156033",
+   "slice_04": "83c4c292ff3e822b80321bd1baa3abf90f7d79dabf94d4df4f48a9d3ee32690b",
+   "slice_10": "2e5c2572975c91bc8530a3653e504bca7862976bf352cb5bee80494457d969e5",
+   "slice_11": "9dc9ef8753b1cb23f22d844443afcd53e043a6ea0c0a9310fc944c598f59eac6",
+   "slice_12": "6c4691ff6bfb99c121db5014ceb5064f57990f8e4e27881a0f675caf2d135a9a",
+   "slice_09": "c608ba5f5f1d8ed32b4bb7ed603ddd0155aeac1290fbb1b7e77d716b260ac6ec",
+   "slice_07": "547009d47d963738e2eced17604b912216dc7fda49d249d2913c9332708f20d3",
+   "slice_02": "980bd61ba9c462461776178f65d5d80a4af1a35ab408f8b4d692d47044782366",
+   "slice_01": "3bc6adb851cd9f3bca25ed2e31e058234cf0c11c01d275312da330a29f039eb8"
+  },
+  "historical": 0.8771293502636498,
+  "new_epoch": 0.7930921337826906,
+  "absolute_difference_new_minus_historical": -0.08403721648095919,
+  "ratio_new_over_historical": 0.9041906231324958,
+  "relative_change": -0.09580937686750424
+ },
+ "faithful51_correlation_energy_retained": {
+  "historical_job_id": "dat665lvr3kc73el167g",
+  "historical_calibration_date": "2026-09-28 09:25:27-03:00",
+  "qpy_sha256": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+  "historical": 0.4951592775974341,
+  "new_epoch": 0.5035069075894553,
+  "absolute_difference_new_minus_historical": 0.008347629992021155,
+  "ratio_new_over_historical": 1.016858474373185,
+  "relative_change": 0.016858474373184995
+ },
+ "limitations": [
+  "The historical interleaved rounds were globally shuffled rather than contiguous temporal blocks.",
+  "The historical faithful circuit was one 100,000-shot pub, whereas the new epoch has four 10,000-shot pubs.",
+  "Two calibration observations permit a descriptive contrast but not a stable between-calibration variance estimate."
+ ],
+ "status": "All three levels are observable descriptively. Two additional standardized epochs remain planned for the confirmatory analysis."
+}

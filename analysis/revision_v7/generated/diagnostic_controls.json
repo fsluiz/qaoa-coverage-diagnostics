@@ -1,0 +1,287 @@
+{
+  "scope": "Exact synthetic output-distribution controls; not a fitted hardware noise model.",
+  "grids": {
+    "symmetric_flip": [
+      0.0,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12,
+      0.14,
+      0.16,
+      0.18,
+      0.2
+    ],
+    "fixed_transition_sum": 0.2,
+    "p01_at_fixed_total": [
+      0.0,
+      0.02,
+      0.04,
+      0.06,
+      0.08,
+      0.1,
+      0.12,
+      0.14,
+      0.16,
+      0.18,
+      0.2
+    ]
+  },
+  "reference": {
+    "n_qubits": 51,
+    "block_sizes": [
+      5,
+      6,
+      9,
+      1,
+      1,
+      1,
+      13,
+      7,
+      1,
+      1,
+      1,
+      4,
+      1
+    ],
+    "represented_dimension": 8958,
+    "energy_random": 407.0,
+    "energy_ideal": 209.18341225192984,
+    "energy_product": 238.9836159310314,
+    "ideal_correlation_energy": 29.80020367910157,
+    "ideal_reduction": 0.48603584213285056,
+    "product_reduction": 0.41281666847412435
+  },
+  "symmetric": [
+    {
+      "p01": 0.0,
+      "p10": 0.0,
+      "energy": 209.18341225192984,
+      "product_energy": 238.9836159310314,
+      "mean_effective_flip_probability": 0.0,
+      "uniform_reference_reduction": 0.48603584213285056,
+      "correlation_retention": 1.0
+    },
+    {
+      "p01": 0.02,
+      "p10": 0.02,
+      "energy": 215.4829231242046,
+      "product_energy": 242.9467908348646,
+      "mean_effective_flip_probability": 0.02,
+      "uniform_reference_reduction": 0.4705579284417577,
+      "correlation_retention": 0.9215999999999996
+    },
+    {
+      "p01": 0.04,
+      "p10": 0.04,
+      "energy": 221.91686338295005,
+      "product_energy": 247.13975577694157,
+      "mean_effective_flip_probability": 0.04,
+      "uniform_reference_reduction": 0.4547497214178131,
+      "correlation_retention": 0.8463999999999982
+    },
+    {
+      "p01": 0.06,
+      "p10": 0.06,
+      "energy": 228.4852330281662,
+      "product_energy": 251.56251075726243,
+      "mean_effective_flip_probability": 0.06,
+      "uniform_reference_reduction": 0.4386112210610167,
+      "correlation_retention": 0.7743999999999994
+    },
+    {
+      "p01": 0.08,
+      "p10": 0.08,
+      "energy": 235.1880320598529,
+      "product_energy": 256.21505577582695,
+      "mean_effective_flip_probability": 0.08,
+      "uniform_reference_reduction": 0.42214242737136876,
+      "correlation_retention": 0.7055999999999994
+    },
+    {
+      "p01": 0.1,
+      "p10": 0.1,
+      "energy": 242.02526047801047,
+      "product_energy": 261.09739083263537,
+      "mean_effective_flip_probability": 0.09999999999999998,
+      "uniform_reference_reduction": 0.40534334034886865,
+      "correlation_retention": 0.6399999999999966
+    },
+    {
+      "p01": 0.12,
+      "p10": 0.12,
+      "energy": 248.9969182826385,
+      "product_energy": 266.20951592768756,
+      "mean_effective_flip_probability": 0.12,
+      "uniform_reference_reduction": 0.38821395999351727,
+      "correlation_retention": 0.5776000000000001
+    },
+    {
+      "p01": 0.14,
+      "p10": 0.14,
+      "energy": 256.1030054737372,
+      "product_energy": 271.5514310609834,
+      "mean_effective_flip_probability": 0.13999999999999999,
+      "uniform_reference_reduction": 0.37075428630531404,
+      "correlation_retention": 0.5183999999999989
+    },
+    {
+      "p01": 0.16,
+      "p10": 0.16,
+      "energy": 263.3435220513067,
+      "product_energy": 277.1231362325233,
+      "mean_effective_flip_probability": 0.16,
+      "uniform_reference_reduction": 0.35296431928425875,
+      "correlation_retention": 0.4624000000000002
+    },
+    {
+      "p01": 0.18,
+      "p10": 0.18,
+      "energy": 270.71846801534673,
+      "product_energy": 282.92463144230675,
+      "mean_effective_flip_probability": 0.17999999999999997,
+      "uniform_reference_reduction": 0.33484405893035196,
+      "correlation_retention": 0.40960000000000046
+    },
+    {
+      "p01": 0.2,
+      "p10": 0.2,
+      "energy": 278.2278433658575,
+      "product_energy": 288.955916690334,
+      "mean_effective_flip_probability": 0.19999999999999996,
+      "uniform_reference_reduction": 0.31639350524359333,
+      "correlation_retention": 0.3599999999999977
+    }
+  ],
+  "biased": [
+    {
+      "p01": 0.0,
+      "p10": 0.2,
+      "energy": 263.89576174353004,
+      "product_energy": 282.96789209815506,
+      "mean_effective_flip_probability": 0.1405351593072555,
+      "uniform_reference_reduction": 0.35160746500361173,
+      "correlation_retention": 0.6400000000000003
+    },
+    {
+      "p01": 0.02,
+      "p10": 0.18000000000000002,
+      "energy": 261.02566149042616,
+      "product_energy": 280.097791845051,
+      "mean_effective_flip_probability": 0.1324281274458044,
+      "uniform_reference_reduction": 0.3586593083773313,
+      "correlation_retention": 0.6399999999999947
+    },
+    {
+      "p01": 0.04,
+      "p10": 0.16,
+      "energy": 257.4035612373222,
+      "product_energy": 276.4756915919471,
+      "mean_effective_flip_probability": 0.1243210955843533,
+      "uniform_reference_reduction": 0.3675588175987169,
+      "correlation_retention": 0.6399999999999966
+    },
+    {
+      "p01": 0.06,
+      "p10": 0.14,
+      "energy": 253.0294609842183,
+      "product_energy": 272.10159133884326,
+      "mean_effective_flip_probability": 0.1162140637229022,
+      "uniform_reference_reduction": 0.3783059926677683,
+      "correlation_retention": 0.6399999999999985
+    },
+    {
+      "p01": 0.08,
+      "p10": 0.12000000000000001,
+      "energy": 247.90336073111428,
+      "product_energy": 266.97549108573924,
+      "mean_effective_flip_probability": 0.10810703186145111,
+      "uniform_reference_reduction": 0.3909008335844858,
+      "correlation_retention": 0.6399999999999985
+    },
+    {
+      "p01": 0.1,
+      "p10": 0.1,
+      "energy": 242.02526047801047,
+      "product_energy": 261.09739083263537,
+      "mean_effective_flip_probability": 0.09999999999999998,
+      "uniform_reference_reduction": 0.40534334034886865,
+      "correlation_retention": 0.6399999999999966
+    },
+    {
+      "p01": 0.12,
+      "p10": 0.08000000000000002,
+      "energy": 235.39516022490653,
+      "product_energy": 254.46729057953144,
+      "mean_effective_flip_probability": 0.09189296813854891,
+      "uniform_reference_reduction": 0.42163351296091756,
+      "correlation_retention": 0.6399999999999966
+    },
+    {
+      "p01": 0.14,
+      "p10": 0.06,
+      "energy": 228.01305997180248,
+      "product_energy": 247.08519032642738,
+      "mean_effective_flip_probability": 0.08378593627709781,
+      "uniform_reference_reduction": 0.43977135142063273,
+      "correlation_retention": 0.6399999999999966
+    },
+    {
+      "p01": 0.16,
+      "p10": 0.04000000000000001,
+      "energy": 219.87895971869858,
+      "product_energy": 238.95109007332348,
+      "mean_effective_flip_probability": 0.07567890441564672,
+      "uniform_reference_reduction": 0.4597568557280133,
+      "correlation_retention": 0.6399999999999966
+    },
+    {
+      "p01": 0.18,
+      "p10": 0.020000000000000018,
+      "energy": 210.9928594655945,
+      "product_energy": 230.06498982021947,
+      "mean_effective_flip_probability": 0.06757187255419561,
+      "uniform_reference_reduction": 0.4815900258830602,
+      "correlation_retention": 0.6399999999999985
+    },
+    {
+      "p01": 0.2,
+      "p10": 0.0,
+      "energy": 201.35475921249065,
+      "product_energy": 220.42688956711555,
+      "mean_effective_flip_probability": 0.05946484069274452,
+      "uniform_reference_reduction": 0.5052708618857724,
+      "correlation_retention": 0.6399999999999966
+    }
+  ],
+  "dependence": [
+    {
+      "distribution": "independent",
+      "energy": -1.0,
+      "product_energy": -0.5,
+      "correlation_energy": 0.5,
+      "correlation_retention": 1.0,
+      "block_optimum_probabilities": [
+        0.5,
+        0.5
+      ],
+      "global_optimum_probability": 0.25,
+      "cross_block_factor": 1.0
+    },
+    {
+      "distribution": "coupled",
+      "energy": -1.0,
+      "product_energy": -0.5,
+      "correlation_energy": 0.5,
+      "correlation_retention": 1.0,
+      "block_optimum_probabilities": [
+        0.5,
+        0.5
+      ],
+      "global_optimum_probability": 0.5,
+      "cross_block_factor": 2.0
+    }
+  ]
+}

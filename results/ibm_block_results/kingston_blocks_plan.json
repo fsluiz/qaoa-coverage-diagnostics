@@ -1,0 +1,661 @@
+{
+  "analysis_path": "/home/fsluiz/Academico/04_Extensao_Divulgacao/Posters/INCT_CQA/ibm_block_results/kingston_blocks_analysis.json",
+  "analyzed_utc": "2026-09-19T10:22:18.520184+00:00",
+  "angles": {
+    "beta": 0.35,
+    "gamma": -0.04,
+    "p": 1
+  },
+  "backend": "ibm_kingston",
+  "backend_status_at_submission": {
+    "operational": true,
+    "pending_jobs": 1,
+    "status_msg": "active"
+  },
+  "blocks": [
+    {
+      "basis_decomposed_two_qubit_gates": 3,
+      "feasible_patterns_logical_order": [
+        "01",
+        "10",
+        "11"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.025397673285514104,
+        0.47926982730611617,
+        0.47926982730611634,
+        0.016062672102252783
+      ],
+      "logical_cx_equivalent": 2,
+      "logical_depth": 12,
+      "logical_rzz_gates": 1,
+      "measured_physical_qubits": [
+        88,
+        89
+      ],
+      "n_feasible_patterns": 3,
+      "n_optimal_patterns": 2,
+      "n_qubits": 2,
+      "optimal_patterns_logical_order": [
+        "01",
+        "10"
+      ],
+      "original_qubits": [
+        0,
+        1
+      ],
+      "p_feasible_ideal": 0.9746023267144852,
+      "p_opt_ideal": 0.9585396546122325,
+      "physical_depth": 16,
+      "physical_operations": {
+        "barrier": 1,
+        "cz": 2,
+        "measure": 2,
+        "rz": 12,
+        "sx": 9,
+        "x": 1
+      },
+      "physical_two_qubit_gates": 3,
+      "tag": "block_01",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 12,
+      "feasible_patterns_logical_order": [
+        "0001",
+        "0010",
+        "0011",
+        "0100",
+        "0101",
+        "0110",
+        "0111",
+        "1000",
+        "1001",
+        "1010",
+        "1011",
+        "1100",
+        "1101",
+        "1110",
+        "1111"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.08292521505902342,
+        0.15424653449362552,
+        0.15424653449362552,
+        0.04629883256868516,
+        0.15424653449362555,
+        0.046298832568685146,
+        0.046298832568685146,
+        0.0028587134030392757,
+        0.15424653449362546,
+        0.04629883256868518,
+        0.046298832568685146,
+        0.002858713403039281,
+        0.04629883256868516,
+        0.002858713403039276,
+        0.0028587134030392696,
+        0.010860797942205097
+      ],
+      "logical_cx_equivalent": 12,
+      "logical_depth": 24,
+      "logical_rzz_gates": 6,
+      "measured_physical_qubits": [
+        122,
+        123,
+        124,
+        136
+      ],
+      "n_feasible_patterns": 15,
+      "n_optimal_patterns": 4,
+      "n_qubits": 4,
+      "optimal_patterns_logical_order": [
+        "0001",
+        "0010",
+        "0100",
+        "1000"
+      ],
+      "original_qubits": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "p_feasible_ideal": 0.9170747849409752,
+      "p_opt_ideal": 0.6169861379745021,
+      "physical_depth": 63,
+      "physical_operations": {
+        "barrier": 1,
+        "cz": 18,
+        "measure": 4,
+        "rz": 37,
+        "sx": 42,
+        "x": 2
+      },
+      "physical_two_qubit_gates": 18,
+      "tag": "block_02",
+      "uniform_p_opt": 0.25
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 6,
+      "feasible_patterns_logical_order": [
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.03447093458877509,
+        0.25019972097441395,
+        0.25019972097441384,
+        0.005130520484447433,
+        0.25019972097441395,
+        0.005130520484447421,
+        0.005130520484447421,
+        0.19953834103464024
+      ],
+      "logical_cx_equivalent": 6,
+      "logical_depth": 18,
+      "logical_rzz_gates": 3,
+      "measured_physical_qubits": [
+        88,
+        89,
+        90
+      ],
+      "n_feasible_patterns": 7,
+      "n_optimal_patterns": 3,
+      "n_qubits": 3,
+      "optimal_patterns_logical_order": [
+        "001",
+        "010",
+        "100"
+      ],
+      "original_qubits": [
+        6,
+        7,
+        9
+      ],
+      "p_feasible_ideal": 0.9655290654112243,
+      "p_opt_ideal": 0.7505991629232418,
+      "physical_depth": 36,
+      "physical_operations": {
+        "barrier": 1,
+        "cz": 9,
+        "measure": 3,
+        "rz": 23,
+        "sx": 26,
+        "x": 3
+      },
+      "physical_two_qubit_gates": 9,
+      "tag": "block_03",
+      "uniform_p_opt": 0.375
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "0",
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.5128809181919441,
+        0.48711908180805563
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 2,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "0"
+      ],
+      "original_qubits": [
+        8
+      ],
+      "p_feasible_ideal": 0.9999999999999998,
+      "p_opt_ideal": 0.5128809181919441,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_04",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "0",
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.5128809181919441,
+        0.48711908180805563
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 2,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "0"
+      ],
+      "original_qubits": [
+        10
+      ],
+      "p_feasible_ideal": 0.9999999999999998,
+      "p_opt_ideal": 0.5128809181919441,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_05",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "0",
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.5128809181919441,
+        0.48711908180805563
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 2,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "0"
+      ],
+      "original_qubits": [
+        11
+      ],
+      "p_feasible_ideal": 0.9999999999999998,
+      "p_opt_ideal": 0.5128809181919441,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_06",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 6,
+      "feasible_patterns_logical_order": [
+        "001",
+        "010",
+        "011",
+        "100",
+        "101",
+        "110",
+        "111"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.029998382326399994,
+        0.2594360623148401,
+        0.25943606231484,
+        0.0008832589678287307,
+        0.25943606231484023,
+        0.0008832589678287225,
+        0.0008832589678287215,
+        0.18904365382559288
+      ],
+      "logical_cx_equivalent": 6,
+      "logical_depth": 18,
+      "logical_rzz_gates": 3,
+      "measured_physical_qubits": [
+        88,
+        89,
+        90
+      ],
+      "n_feasible_patterns": 7,
+      "n_optimal_patterns": 3,
+      "n_qubits": 3,
+      "optimal_patterns_logical_order": [
+        "001",
+        "010",
+        "100"
+      ],
+      "original_qubits": [
+        12,
+        13,
+        14
+      ],
+      "p_feasible_ideal": 0.9700016176735993,
+      "p_opt_ideal": 0.7783081869445203,
+      "physical_depth": 38,
+      "physical_operations": {
+        "barrier": 1,
+        "cz": 9,
+        "measure": 3,
+        "rz": 24,
+        "sx": 26,
+        "x": 2
+      },
+      "physical_two_qubit_gates": 9,
+      "tag": "block_07",
+      "uniform_p_opt": 0.375
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 6,
+      "feasible_patterns_logical_order": [
+        "101",
+        "110",
+        "111"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.002895594168367913,
+        0.2308906081062496,
+        0.23085564784980414,
+        0.12339994995537916,
+        0.1266745654490744,
+        0.20613559583744565,
+        0.06675901534680087,
+        0.01238902328687802
+      ],
+      "logical_cx_equivalent": 6,
+      "logical_depth": 18,
+      "logical_rzz_gates": 3,
+      "measured_physical_qubits": [
+        88,
+        89,
+        90
+      ],
+      "n_feasible_patterns": 3,
+      "n_optimal_patterns": 2,
+      "n_qubits": 3,
+      "optimal_patterns_logical_order": [
+        "101",
+        "110"
+      ],
+      "original_qubits": [
+        15,
+        16,
+        17
+      ],
+      "p_feasible_ideal": 0.3419245690797028,
+      "p_opt_ideal": 0.3295355457928248,
+      "physical_depth": 37,
+      "physical_operations": {
+        "barrier": 1,
+        "cz": 9,
+        "measure": 3,
+        "rz": 23,
+        "sx": 26,
+        "x": 3
+      },
+      "physical_two_qubit_gates": 9,
+      "tag": "block_08",
+      "uniform_p_opt": 0.25
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "0",
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.5128809181919441,
+        0.48711908180805563
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 2,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "0"
+      ],
+      "original_qubits": [
+        18
+      ],
+      "p_feasible_ideal": 0.9999999999999998,
+      "p_opt_ideal": 0.5128809181919441,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_09",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.27809230997121626,
+        0.7219076900287835
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 1,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "1"
+      ],
+      "original_qubits": [
+        19
+      ],
+      "p_feasible_ideal": 0.7219076900287835,
+      "p_opt_ideal": 0.7219076900287835,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_10",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.3865293540830454,
+        0.6134706459169547
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 1,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "1"
+      ],
+      "original_qubits": [
+        20
+      ],
+      "p_feasible_ideal": 0.6134706459169547,
+      "p_opt_ideal": 0.6134706459169547,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_11",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 3,
+      "feasible_patterns_logical_order": [
+        "01",
+        "10",
+        "11"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.0825519134827845,
+        0.4264223086440948,
+        0.4264223086440948,
+        0.0646034692290254
+      ],
+      "logical_cx_equivalent": 2,
+      "logical_depth": 12,
+      "logical_rzz_gates": 1,
+      "measured_physical_qubits": [
+        88,
+        89
+      ],
+      "n_feasible_patterns": 3,
+      "n_optimal_patterns": 2,
+      "n_qubits": 2,
+      "optimal_patterns_logical_order": [
+        "01",
+        "10"
+      ],
+      "original_qubits": [
+        21,
+        22
+      ],
+      "p_feasible_ideal": 0.917448086517215,
+      "p_opt_ideal": 0.8528446172881896,
+      "physical_depth": 15,
+      "physical_operations": {
+        "barrier": 1,
+        "cz": 2,
+        "measure": 2,
+        "rz": 11,
+        "sx": 9,
+        "x": 1
+      },
+      "physical_two_qubit_gates": 3,
+      "tag": "block_12",
+      "uniform_p_opt": 0.5
+    },
+    {
+      "basis_decomposed_two_qubit_gates": 0,
+      "feasible_patterns_logical_order": [
+        "1"
+      ],
+      "ideal_probabilities_qiskit_index": [
+        0.3865293540830454,
+        0.6134706459169547
+      ],
+      "logical_cx_equivalent": 0,
+      "logical_depth": 6,
+      "logical_rzz_gates": 0,
+      "measured_physical_qubits": [
+        88
+      ],
+      "n_feasible_patterns": 1,
+      "n_optimal_patterns": 1,
+      "n_qubits": 1,
+      "optimal_patterns_logical_order": [
+        "1"
+      ],
+      "original_qubits": [
+        23
+      ],
+      "p_feasible_ideal": 0.6134706459169547,
+      "p_opt_ideal": 0.6134706459169547,
+      "physical_depth": 6,
+      "physical_operations": {
+        "barrier": 1,
+        "measure": 1,
+        "rz": 3,
+        "sx": 2
+      },
+      "physical_two_qubit_gates": 0,
+      "tag": "block_13",
+      "uniform_p_opt": 0.5
+    }
+  ],
+  "created_utc": "2026-09-19T10:16:25.504997+00:00",
+  "experiment": "PEF-24 QAOA p=1 executado como 13 componentes ZZ independentes",
+  "factorisation_check": {
+    "ideal_product_p_feasible": 0.0713429488679465,
+    "ideal_product_p_opt": 0.0018253777517512454,
+    "n_optimal_global_solutions": 288,
+    "optima_factorise": true,
+    "product_of_local_optimum_counts": 288
+  },
+  "instance": {
+    "k_opt": 10,
+    "m": 1,
+    "n_ZZ": 17,
+    "n_b": 24,
+    "n_t": 23,
+    "path": "/home/fsluiz/Academico/04_Extensao_Divulgacao/Posters/INCT_CQA/data/frozen_rung1_minimal.json",
+    "sha256": "04bd3f78701c2ce02a710a3dc795d67ecdcc5124305ed1c9e32e60b114e17bec"
+  },
+  "interpretation": "controle por blocos; o produto reconstru\u00eddo n\u00e3o \u00e9 uma execu\u00e7\u00e3o simult\u00e2nea do circuito f\u00edsico de 24 qubits",
+  "job_id": "dan62g5r85ps73fdlp00",
+  "n_blocks": 13,
+  "reference": {
+    "full_job_id": "dakjch39k43c73aik9rg",
+    "full_optimal_hits": 79,
+    "full_p_opt": 0.00079,
+    "full_shots": 100000,
+    "ideal_expected_hits_at_100k": 182.5377751751246,
+    "ideal_p_opt": 0.001825377751751246
+  },
+  "report_path": "/home/fsluiz/Academico/04_Extensao_Divulgacao/Posters/INCT_CQA/ibm_block_results/kingston_blocks_report.md",
+  "runtime_options": {
+    "dynamical_decoupling": {
+      "enable": true,
+      "sequence_type": "XY4"
+    },
+    "seed_transpiler": 73421,
+    "transpile_optimization_level": 3,
+    "twirling": {
+      "enable_gates": true,
+      "enable_measure": true
+    }
+  },
+  "schema_version": 1,
+  "shots_per_block": 10000,
+  "status": "analyzed",
+  "submitted_utc": "2026-09-19T10:16:42.654947+00:00",
+  "total_circuit_shots": 130000
+}

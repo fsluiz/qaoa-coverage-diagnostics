@@ -1,0 +1,2911 @@
+{
+ "blocks": [
+  {
+   "index": 0,
+   "size": 13,
+   "qubits": [
+    12,
+    13,
+    14,
+    25,
+    26,
+    37,
+    38,
+    39,
+    40,
+    42,
+    43,
+    44,
+    45
+   ],
+   "posts": [
+    12,
+    13,
+    14
+   ]
+  },
+  {
+   "index": 1,
+   "size": 9,
+   "qubits": [
+    6,
+    7,
+    9,
+    27,
+    28,
+    29,
+    30,
+    47,
+    48
+   ],
+   "posts": [
+    6,
+    7,
+    9
+   ]
+  },
+  {
+   "index": 2,
+   "size": 7,
+   "qubits": [
+    15,
+    16,
+    17,
+    24,
+    41,
+    49,
+    50
+   ],
+   "posts": [
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "index": 3,
+   "size": 6,
+   "qubits": [
+    2,
+    3,
+    4,
+    5,
+    34,
+    35
+   ],
+   "posts": [
+    2,
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "index": 4,
+   "size": 5,
+   "qubits": [
+    0,
+    1,
+    31,
+    32,
+    33
+   ],
+   "posts": [
+    0,
+    1
+   ]
+  },
+  {
+   "index": 5,
+   "size": 4,
+   "qubits": [
+    21,
+    22,
+    36,
+    46
+   ],
+   "posts": [
+    21,
+    22
+   ]
+  },
+  {
+   "index": 6,
+   "size": 1,
+   "qubits": [
+    8
+   ],
+   "posts": [
+    8
+   ]
+  },
+  {
+   "index": 7,
+   "size": 1,
+   "qubits": [
+    10
+   ],
+   "posts": [
+    10
+   ]
+  },
+  {
+   "index": 8,
+   "size": 1,
+   "qubits": [
+    11
+   ],
+   "posts": [
+    11
+   ]
+  },
+  {
+   "index": 9,
+   "size": 1,
+   "qubits": [
+    18
+   ],
+   "posts": [
+    18
+   ]
+  },
+  {
+   "index": 10,
+   "size": 1,
+   "qubits": [
+    19
+   ],
+   "posts": [
+    19
+   ]
+  },
+  {
+   "index": 11,
+   "size": 1,
+   "qubits": [
+    20
+   ],
+   "posts": [
+    20
+   ]
+  },
+  {
+   "index": 12,
+   "size": 1,
+   "qubits": [
+    23
+   ],
+   "posts": [
+    23
+   ]
+  }
+ ],
+ "n_pairs": 78,
+ "z_bonferroni_5pct": 3.4136342659485024,
+ "permutations": 10000,
+ "runs": {
+  "defaults": {
+   "job_id": "dakjjpfi3e6s738rmbng",
+   "shots": 100000,
+   "cross_block_two_qubit_gates": 36,
+   "routed_pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "adjacent_only_pairs": [
+    [
+     9,
+     11
+    ]
+   ],
+   "routed_pairs_are_top_ranked": true,
+   "cone_pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "cone_blocks": [
+    0,
+    1,
+    4
+   ],
+   "cone_wires": 27,
+   "p_routed_top_ranked_if_exchangeable": 0.000333000333000333,
+   "top_two_in_cone_pairs": true,
+   "p_top_two_in_cone_pairs_if_exchangeable": 0.000999000999000999,
+   "summary": {
+    "cone": {
+     "n": 3,
+     "max_abs_z": 3.992858114614692,
+     "n_above_bonferroni": 2
+    },
+    "adjacent": {
+     "n": 1,
+     "max_abs_z": 0.045635521933041205,
+     "n_above_bonferroni": 0
+    },
+    "distant": {
+     "n": 74,
+     "max_abs_z": 2.368678342130874,
+     "n_above_bonferroni": 0
+    }
+   },
+   "sum_cross_block_energy_covariance": 47.22981254921069,
+   "total_energy_variance": 8830.222889183899,
+   "pairs": [
+    {
+     "blocks": [
+      0,
+      1
+     ],
+     "sizes": [
+      13,
+      9
+     ],
+     "r": 0.012626526016068073,
+     "z": 3.992858114614692,
+     "cls": "cone",
+     "routed_at_measurement": true,
+     "shared_instructions": 337,
+     "shared_two_qubit_gates": 72,
+     "permutation_p_two_sided": 0.00029997000299970003
+    },
+    {
+     "blocks": [
+      0,
+      2
+     ],
+     "sizes": [
+      13,
+      7
+     ],
+     "r": 0.00041343884865112867,
+     "z": 0.13074084349352,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      3
+     ],
+     "sizes": [
+      13,
+      6
+     ],
+     "r": 0.0007422238137695142,
+     "z": 0.23471177851283104,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      4
+     ],
+     "sizes": [
+      13,
+      5
+     ],
+     "r": 0.0016607304099627237,
+     "z": 0.5251690674987396,
+     "cls": "cone",
+     "routed_at_measurement": false,
+     "shared_instructions": 337,
+     "shared_two_qubit_gates": 72,
+     "permutation_p_two_sided": 0.6063393660633937
+    },
+    {
+     "blocks": [
+      0,
+      5
+     ],
+     "sizes": [
+      13,
+      4
+     ],
+     "r": 0.0006670961242658612,
+     "z": 0.21095431709508422,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      6
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.0027335568378461465,
+     "z": -0.8644265721121387,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      7
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.0009106113513489897,
+     "z": -0.28796059334666496,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      8
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.00155863507969928,
+     "z": -0.4928836892887795,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      9
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": 0.003952780149309563,
+     "z": 1.2499788361718664,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      10
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.004166046425405603,
+     "z": -1.317419554228447,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      11
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": 0.00040079935214661094,
+     "z": 0.12674388375031873,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      12
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.0037891315786385137,
+     "z": -1.1982286142567118,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      2
+     ],
+     "sizes": [
+      9,
+      7
+     ],
+     "r": -0.002635505246711243,
+     "z": -0.8334199364931517,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      3
+     ],
+     "sizes": [
+      9,
+      6
+     ],
+     "r": -0.00033738215213280955,
+     "z": -0.10668960426291133,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      4
+     ],
+     "sizes": [
+      9,
+      5
+     ],
+     "r": 0.01162502850186206,
+     "z": 3.676156793025908,
+     "cls": "cone",
+     "routed_at_measurement": true,
+     "shared_instructions": 637,
+     "shared_two_qubit_gates": 135,
+     "permutation_p_two_sided": 0.00029997000299970003
+    },
+    {
+     "blocks": [
+      1,
+      5
+     ],
+     "sizes": [
+      9,
+      4
+     ],
+     "r": -0.003148342939674376,
+     "z": -0.9955934544681123,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      6
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.0027318497344405094,
+     "z": -0.8638867386158143,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      7
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": 0.006307526617281578,
+     "z": 1.9946150512746963,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      8
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.000209923849688334,
+     "z": -0.06638375002059635,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      9
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -6.481171495417929e-05,
+     "z": -0.020495263831680207,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      10
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": 0.0032587129102837746,
+     "z": 1.0304955037092665,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      11
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": 6.753702537417325e-05,
+     "z": 0.021357082657497306,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      12
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": 0.001158593358458505,
+     "z": 0.36637938946727855,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      3
+     ],
+     "sizes": [
+      7,
+      6
+     ],
+     "r": 0.004056386345841171,
+     "z": 1.2827419922465582,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      4
+     ],
+     "sizes": [
+      7,
+      5
+     ],
+     "r": -0.004697000028473967,
+     "z": -1.485321825985347,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      5
+     ],
+     "sizes": [
+      7,
+      4
+     ],
+     "r": -0.003891238608097086,
+     "z": -1.2305176920770116,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      6
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.00016846126562909306,
+     "z": -0.05327212969025723,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      7
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.0028073327981611635,
+     "z": -0.8877565792283034,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      8
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": 0.0005211712152284284,
+     "z": 0.16480880910396653,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      9
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.0018242069428913953,
+     "z": -0.5768648863029514,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      10
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.0029234969986757014,
+     "z": -0.9244909248481478,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      11
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": 0.00018233136168752987,
+     "z": 0.05765823918125565,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      12
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": 0.0004552471507879519,
+     "z": 0.1439617894792046,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      4
+     ],
+     "sizes": [
+      6,
+      5
+     ],
+     "r": 0.006188401456159893,
+     "z": 1.9569443676967901,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      5
+     ],
+     "sizes": [
+      6,
+      4
+     ],
+     "r": 0.004200437501877499,
+     "z": 1.3282949675120692,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      6
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.007194872504354086,
+     "z": -2.2752184588278648,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      7
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.001479195640670367,
+     "z": -0.46776273295103554,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      8
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.004489765414774567,
+     "z": -1.419788487053823,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      9
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0074904186054451346,
+     "z": 2.368678342130874,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      10
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0006307891539923901,
+     "z": 0.1994730449946647,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      11
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.0006022212541920722,
+     "z": -0.19043908186101732,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      12
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0012873580244428613,
+     "z": 0.4070983521334159,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      5
+     ],
+     "sizes": [
+      5,
+      4
+     ],
+     "r": 0.004318446933058545,
+     "z": 1.3656128263033689,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      6
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 5.5220118957535435e-05,
+     "z": 0.017462134857125475,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      7
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 0.001280096454179107,
+     "z": 0.40480204199113456,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      8
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.00187039777983291,
+     "z": -0.5914717114794147,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      9
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.003264457600883472,
+     "z": -1.0323121343840669,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      10
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 0.0004963116949472996,
+     "z": 0.15694753854121493,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      11
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 0.0030194858849726665,
+     "z": 0.9548452759242813,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      12
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.0003816830343810537,
+     "z": -0.12069877328884857,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      6
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.004135819098871011,
+     "z": 1.3078608342857516,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      7
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.0025347142324705033,
+     "z": 0.8015470192252313,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      8
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": -0.002166762553994462,
+     "z": -0.6851904819386069,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      9
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.00022807241464386027,
+     "z": 0.07212283017289389,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      10
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.002029761170478167,
+     "z": 0.6418668404880329,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      11
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.005710088676684004,
+     "z": 1.8056885859858252,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      12
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.001991432026222857,
+     "z": 0.6297461008268391,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      7
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.002399646494905713,
+     "z": 0.7588348503141691,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      8
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.005366897712403992,
+     "z": 1.6971620740343927,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      9
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0019288337432497523,
+     "z": 0.6099507856457644,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0007643772055974892,
+     "z": -0.24171729612028728,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0032344507438410663,
+     "z": -1.0228231330163602,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0015599869888254705,
+     "z": 0.4933112004916125,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      8
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0005321809291219244,
+     "z": 0.16829038633299134,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      9
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0015696068072053408,
+     "z": 0.49635325416736664,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.003629919148932906,
+     "z": 1.1478812232887945,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0011256933556337328,
+     "z": 0.3559754950720532,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0009167197229737428,
+     "z": 0.2898922300595613,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      9
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0017581607481574899,
+     "z": 0.5559792456883355,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0011353740578021602,
+     "z": -0.35903680189224935,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0004657866489582721,
+     "z": 0.1472946714405435,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0018209165632586972,
+     "z": -0.575824376902356,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      9,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.00460460911942036,
+     "z": 1.4561052552150597,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      9,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0001443121915189803,
+     "z": 0.045635521933041205,
+     "cls": "adjacent",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      9,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0008776242718399184,
+     "z": 0.27752916288609153,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      10,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.002531965214623479,
+     "z": -0.8006777034527264,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      10,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.005686575352530571,
+     "z": -1.7982530200171551,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      11,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.004134920911245609,
+     "z": 1.3075768024195067,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    }
+   ]
+  },
+  "matched": {
+   "job_id": "dat665lvr3kc73el167g",
+   "shots": 100000,
+   "cross_block_two_qubit_gates": 36,
+   "routed_pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "adjacent_only_pairs": [
+    [
+     5,
+     12
+    ]
+   ],
+   "routed_pairs_are_top_ranked": true,
+   "cone_pairs": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ]
+   ],
+   "cone_blocks": [
+    0,
+    1,
+    4
+   ],
+   "cone_wires": 27,
+   "p_routed_top_ranked_if_exchangeable": 0.000333000333000333,
+   "top_two_in_cone_pairs": true,
+   "p_top_two_in_cone_pairs_if_exchangeable": 0.000999000999000999,
+   "summary": {
+    "cone": {
+     "n": 3,
+     "max_abs_z": 6.177024002563987,
+     "n_above_bonferroni": 1
+    },
+    "adjacent": {
+     "n": 1,
+     "max_abs_z": 0.25105183865546776,
+     "n_above_bonferroni": 0
+    },
+    "distant": {
+     "n": 74,
+     "max_abs_z": 2.5963243850838724,
+     "n_above_bonferroni": 0
+    }
+   },
+   "sum_cross_block_energy_covariance": 56.41775850924478,
+   "total_energy_variance": 10196.215778439902,
+   "pairs": [
+    {
+     "blocks": [
+      0,
+      1
+     ],
+     "sizes": [
+      13,
+      9
+     ],
+     "r": 0.010438705882246763,
+     "z": 3.3010086412497195,
+     "cls": "cone",
+     "routed_at_measurement": true,
+     "shared_instructions": 337,
+     "shared_two_qubit_gates": 72,
+     "permutation_p_two_sided": 0.0008999100089991
+    },
+    {
+     "blocks": [
+      0,
+      2
+     ],
+     "sizes": [
+      13,
+      7
+     ],
+     "r": 6.386597801321193e-05,
+     "z": 0.0201961955515985,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      3
+     ],
+     "sizes": [
+      13,
+      6
+     ],
+     "r": 0.0006649810599920592,
+     "z": 0.21028547504479778,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      4
+     ],
+     "sizes": [
+      13,
+      5
+     ],
+     "r": 0.0017766127353042868,
+     "z": 0.5618142763623385,
+     "cls": "cone",
+     "routed_at_measurement": false,
+     "shared_instructions": 337,
+     "shared_two_qubit_gates": 72,
+     "permutation_p_two_sided": 0.571042895710429
+    },
+    {
+     "blocks": [
+      0,
+      5
+     ],
+     "sizes": [
+      13,
+      4
+     ],
+     "r": -0.0007431713747294643,
+     "z": -0.23501142359836083,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      6
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": 0.0020304048664770567,
+     "z": 0.6420703950357558,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      7
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.007059445693120951,
+     "z": -2.2323927408528266,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      8
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.005716072134561256,
+     "z": -1.8075807215034045,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      9
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": 0.0005820828780229571,
+     "z": 0.18407076815385132,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      10
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": 0.0016441526284534924,
+     "z": 0.5199267126865601,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      11
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": 0.000849293459468661,
+     "z": 0.2685701733804866,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      0,
+      12
+     ],
+     "sizes": [
+      13,
+      1
+     ],
+     "r": -0.002280237493895587,
+     "z": -0.7210744086824346,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      2
+     ],
+     "sizes": [
+      9,
+      7
+     ],
+     "r": 0.0005700496866227213,
+     "z": 0.18026553891930172,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      3
+     ],
+     "sizes": [
+      9,
+      6
+     ],
+     "r": 0.0021273752847529546,
+     "z": 0.6727351337768613,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      4
+     ],
+     "sizes": [
+      9,
+      5
+     ],
+     "r": 0.01953346500963196,
+     "z": 6.177024002563987,
+     "cls": "cone",
+     "routed_at_measurement": true,
+     "shared_instructions": 637,
+     "shared_two_qubit_gates": 135,
+     "permutation_p_two_sided": 9.999000099990002e-05
+    },
+    {
+     "blocks": [
+      1,
+      5
+     ],
+     "sizes": [
+      9,
+      4
+     ],
+     "r": -0.0027077503733527503,
+     "z": -0.8562658514965992,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      6
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.005109010934910527,
+     "z": -1.6156111145023528,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      7
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": 0.004166501331272997,
+     "z": 1.3175634080946412,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      8
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.00010253449845150132,
+     "z": -0.0324242553849752,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      9
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.0013296806171927613,
+     "z": -0.4204819310907572,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      10
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": 0.005961892049185834,
+     "z": 1.8853158039475846,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      11
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.006636608701240128,
+     "z": -2.098679943521074,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      1,
+      12
+     ],
+     "sizes": [
+      9,
+      1
+     ],
+     "r": -0.003281896069793329,
+     "z": -1.0378266624501848,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      3
+     ],
+     "sizes": [
+      7,
+      6
+     ],
+     "r": -0.003479217020043187,
+     "z": -1.100225025736017,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      4
+     ],
+     "sizes": [
+      7,
+      5
+     ],
+     "r": 0.006219455641642284,
+     "z": 1.966764563397359,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      5
+     ],
+     "sizes": [
+      7,
+      4
+     ],
+     "r": -0.0002538606308263893,
+     "z": -0.08027778016585431,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      6
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.002736121160586387,
+     "z": -0.865237482163631,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      7
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.00404225858918667,
+     "z": -1.2782744033208757,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      8
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": 0.0010036059358679676,
+     "z": 0.31736806306076537,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      9
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.005123661504480193,
+     "z": -1.6202440313882422,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      10
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.00043924867038034487,
+     "z": -0.13890262576024287,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      11
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": -0.0024438682375820665,
+     "z": -0.7728189932100838,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      2,
+      12
+     ],
+     "sizes": [
+      7,
+      1
+     ],
+     "r": 0.00163975203552073,
+     "z": 0.5185351230142832,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      4
+     ],
+     "sizes": [
+      6,
+      5
+     ],
+     "r": -0.003381273379841621,
+     "z": -1.069252527199519,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      5
+     ],
+     "sizes": [
+      6,
+      4
+     ],
+     "r": 0.0017379289900958104,
+     "z": 0.5495814020338974,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      6
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0014876191202600798,
+     "z": 0.47042647108377883,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      7
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.001304568275464956,
+     "z": -0.41254071136672193,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      8
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0010352409511240692,
+     "z": 0.327371933263111,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      9
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.0027717741035519694,
+     "z": -0.876511932669563,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      10
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": -0.001429105191957704,
+     "z": -0.4519227422558491,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      11
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0014183122370173416,
+     "z": 0.44850971022633795,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      3,
+      12
+     ],
+     "sizes": [
+      6,
+      1
+     ],
+     "r": 0.0029584787944296705,
+     "z": 0.9355531399706827,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      5
+     ],
+     "sizes": [
+      5,
+      4
+     ],
+     "r": 0.0005388586798557103,
+     "z": 0.17040207652955375,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      6
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.0077402639624178345,
+     "z": -2.44768638121603,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      7
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.004843058663505221,
+     "z": -1.531509621848749,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      8
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 0.0004289994608652671,
+     "z": 0.13566154113185133,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      9
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.0012003162286604746,
+     "z": -0.3795733195030579,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      10
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": -0.0012581695993486863,
+     "z": -0.39786816167233513,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      11
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 0.0015530208379193715,
+     "z": 0.4911083101528406,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      4,
+      12
+     ],
+     "sizes": [
+      5,
+      1
+     ],
+     "r": 0.0036952133159238077,
+     "z": 1.1685290518502578,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      6
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.0030548685837806793,
+     "z": 0.9660342677239858,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      7
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": -0.0019835885590480805,
+     "z": -0.6272657787243332,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      8
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.004950005490311027,
+     "z": 1.5653291779721388,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      9
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.0023757812823139088,
+     "z": 0.751288007450746,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      10
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.000326385233211776,
+     "z": 0.1032120731594446,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      11
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": -0.005755202192404505,
+     "z": -1.8199547322792846,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      5,
+      12
+     ],
+     "sizes": [
+      4,
+      1
+     ],
+     "r": 0.000793895620924382,
+     "z": 0.25105183865546776,
+     "cls": "adjacent",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      7
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.002220823381645642,
+     "z": -0.7022860166957609,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      8
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.002026963928220205,
+     "z": -0.6409822748177897,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      9
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0031839110158333296,
+     "z": 1.006841067733375,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.000998343659726718,
+     "z": -0.31570398523245424,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.00017193244396599452,
+     "z": 0.05436981266118162,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      6,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0015231321565999589,
+     "z": 0.4816566792300136,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      8
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0031901959255751,
+     "z": 1.0088285307006326,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      9
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0020255255104025434,
+     "z": -0.6405274071647118,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.00114852219846558,
+     "z": 0.3631946090415178,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.003477859025948712,
+     "z": -1.0997955902972574,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      7,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0003143842516286933,
+     "z": -0.09941702956341714,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      9
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.002966405007777725,
+     "z": 0.9380596287107109,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.003276471321242775,
+     "z": -1.03611120633484,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.0048189315110576504,
+     "z": 1.523879946329906,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      8,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.008210298601501133,
+     "z": -2.5963243850838724,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      9,
+      10
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.004254911766245857,
+     "z": 1.3455212424386855,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      9,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0025373335764747,
+     "z": -0.8023753285281081,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      9,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": 0.000993520281310416,
+     "z": 0.31417869905121326,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      10,
+      11
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0022530204244991902,
+     "z": -0.7124676156296869,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      10,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0003494306500946499,
+     "z": -0.11049967385724252,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    },
+    {
+     "blocks": [
+      11,
+      12
+     ],
+     "sizes": [
+      1,
+      1
+     ],
+     "r": -0.0016307528169428533,
+     "z": -0.515689320227504,
+     "cls": "distant",
+     "routed_at_measurement": false,
+     "shared_instructions": 0,
+     "shared_two_qubit_gates": 0
+    }
+   ]
+  }
+ },
+ "rung1_reference": {
+  "job_id": "dakjch39k43c73aik9rg",
+  "shots": 100000,
+  "n_pairs": 78,
+  "z": [
+   -0.6743717778795142,
+   -0.1647006226332677,
+   -0.6220701089072042,
+   -1.0062778089795814,
+   3.006956565572486,
+   -0.9064496398755548,
+   -3.156175756671118,
+   -0.07877765083378481,
+   -1.2534211802923916,
+   0.15019353346688635,
+   1.2322744261172949,
+   -1.2731021647556093,
+   -1.4944710578157814,
+   1.0772977979794411,
+   0.4259920402137088,
+   0.8165027671839609,
+   -0.6538134775283426,
+   -0.6747966597943542,
+   -0.12976295365747012,
+   0.3340739331907341,
+   1.6528840555573632,
+   0.11126460212239692,
+   0.6844944333419137,
+   -0.7381341690375521,
+   0.32609216083764664,
+   1.8929491622197006,
+   -0.23083107261260982,
+   1.1008558896001617,
+   0.2668087220232595,
+   -2.16816004003611,
+   0.6040363302163055,
+   -0.8262753577142635,
+   -0.6712676166491972,
+   -0.5912794141547917,
+   -1.502908788729043,
+   -1.9701906721502662,
+   -1.3853335598458818,
+   0.028684642809144324,
+   -0.18009284460884598,
+   -0.3916317627328808,
+   -1.8918024804533182,
+   -1.109498749460492,
+   0.4001120453529425,
+   0.9894440072459051,
+   -2.005320425814661,
+   -1.473631409861844,
+   -2.217450569531448,
+   -0.21683371228076403,
+   1.3765182367708304,
+   -0.26562590221249377,
+   -1.0427442255303694,
+   0.18815834777078583,
+   -0.3320310746537122,
+   -0.01752118087162781,
+   -1.9170158797397037,
+   -1.4305949985984558,
+   -0.4594339971379385,
+   -0.19797652576554714,
+   -0.4570126142736669,
+   0.37802136496067185,
+   -0.04230256115610611,
+   -1.1077367294086262,
+   0.42885184479157556,
+   -1.16551039478102,
+   -0.22027936414069366,
+   0.5478116310796111,
+   1.8941975011393248,
+   -0.14912581878406603,
+   -0.8245465305827507,
+   1.6541574977746907,
+   -1.0130800272747755,
+   0.00856598856120062,
+   0.08885534546053428,
+   2.0590787300971343,
+   -0.14514634785327518,
+   1.0092006808554355,
+   0.9156452884000318,
+   0.9012203472050382
+  ],
+  "max_abs_z": 3.156175756671118,
+  "n_above_bonferroni": 0,
+  "cross_block_two_qubit_gates": 0,
+  "overlapping_cone_pairs": 0
+ }
+}

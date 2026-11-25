@@ -1,0 +1,16 @@
+{
+ "n_b": 24,
+ "k_opt": 10,
+ "n_blocks": 13,
+ "largest_block": 4,
+ "schmidt_rank_largest_block": 5,
+ "entropy_largest_block_bits": 1.9132,
+ "worst_block_cut_rank": 11,
+ "worst_block_cut_entropy_bits": 2.3292,
+ "worst_cut_after_block": 4,
+ "bond_dimension_bound": 11,
+ "bound_holds": true,
+ "product_state_rank": 1,
+ "mps_simulation_cost": 682,
+ "naive_cost": 16777216
+}

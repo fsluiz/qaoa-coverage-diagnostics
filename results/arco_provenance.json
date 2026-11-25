@@ -1,0 +1,31 @@
+{
+ "n_sites": 79,
+ "matched": 79,
+ "unmatched": [],
+ "states": {
+  "MT": 24,
+  "PA": 23,
+  "AM": 14,
+  "RO": 9,
+  "MA": 9
+ },
+ "centroid_deviation_m": {
+  "median": 98.36996707005957,
+  "max": 22730.476174817468,
+  "p95": 724.189233971169
+ },
+ "note": "selection rule not recorded; coordinates verified against IBGE centroids",
+ "instance_as_published": {
+  "n_t": 49,
+  "links": 59,
+  "n_ZZ": 9,
+  "k_opt": 31
+ },
+ "instance_from_exact_centroids": {
+  "n_t": 49,
+  "links": 59,
+  "n_ZZ": 9,
+  "k_opt": 31
+ },
+ "robust": true
+}

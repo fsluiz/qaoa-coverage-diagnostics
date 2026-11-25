@@ -1,0 +1,1038 @@
+{
+  "version": "8.1.0",
+  "algorithm": "sha256",
+  "files": {
+    "data/arco_fogo_problem.json": {
+      "sha256": "6936183567fa24c306f180ee58e3e44192910d0c71210fddaa803812b3cfa274",
+      "bytes": 45857,
+      "category": "frozen input / source geography",
+      "original_path": "data/arco_fogo_problem.json",
+      "original_bytes_preserved": true
+    },
+    "data/frozen_arco.json": {
+      "sha256": "ba2701cdeaca87b62a57737979d37f6a1908bf53b277e1ff7b818db710132666",
+      "bytes": 30670,
+      "category": "frozen input / source geography",
+      "original_path": "data/frozen_arco.json",
+      "original_bytes_preserved": true
+    },
+    "data/frozen_overshoot.json": {
+      "sha256": "dd334d4014d58c212b58cbeac452e2e15dee18e55210abf21077fb707e98d133",
+      "bytes": 5130,
+      "category": "frozen input / source geography",
+      "original_path": "data/frozen_overshoot.json",
+      "original_bytes_preserved": true
+    },
+    "data/frozen_rung1.json": {
+      "sha256": "1891988fc3b6d2450150aa6c1eb465c9d3303a20be29391614ff6bf90d6dcf7d",
+      "bytes": 6267,
+      "category": "frozen input / source geography",
+      "original_path": "data/frozen_rung1.json",
+      "original_bytes_preserved": true
+    },
+    "data/ibge_amazonia_legal_2024.csv": {
+      "sha256": "67dbf25cd5badd31d384958073fac2e546422ca1b004eb22796db3db52ae7a96",
+      "bytes": 100520,
+      "category": "frozen input / source geography",
+      "original_path": "data/ibge_amazonia_legal_2024.csv",
+      "original_bytes_preserved": true
+    },
+    "data/ibge_amazonia_legal_2024_provenance.json": {
+      "sha256": "038ee40c295d3e2d851062b2a85ea3dace0a97949785c394fdc6663f994266a5",
+      "bytes": 1198,
+      "category": "frozen input / source geography",
+      "original_path": "data/ibge_amazonia_legal_2024_provenance.json",
+      "original_bytes_preserved": true
+    },
+    "data/ilp_ratio_benchmark.json": {
+      "sha256": "019a6a886f744f8205d248384f3f15d31c5a004858c443419c7e41121db0d516",
+      "bytes": 4481,
+      "category": "frozen input / source geography",
+      "original_path": "data/ilp_ratio_benchmark.json",
+      "original_bytes_preserved": true
+    },
+    "data/legal_amazon_outline_2024.geojson": {
+      "sha256": "9303451e558de021d2998928ad067e3aea9c33ccaec80dfbc43105e52b621c7a",
+      "bytes": 209463,
+      "category": "frozen input / source geography",
+      "original_path": "data/legal_amazon_outline_2024.geojson",
+      "original_bytes_preserved": true
+    },
+    "data/overshoot_instance.json": {
+      "sha256": "00fbb84ec6e4b8c35d07da79007078cbaadb048d887af20df1c2c8eb3e18cc1c",
+      "bytes": 3821,
+      "category": "frozen input / source geography",
+      "original_path": "data/overshoot_instance.json",
+      "original_bytes_preserved": true
+    },
+    "data/pef_planilha.xlsx": {
+      "sha256": "30b3b185cdb08b84b833baa9ee246a24b60c23e546bde000d0d814e17e0fc413",
+      "bytes": 6226,
+      "category": "frozen input / source geography",
+      "original_path": "data/pef_planilha.xlsx",
+      "original_bytes_preserved": true
+    },
+    "results/arco_provenance.json": {
+      "sha256": "4a30b7b66f9b2ebc03503b479fd367a41abc143e7f0e93ce1a971d51360b6fe9",
+      "bytes": 527,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/arco_provenance.json",
+      "original_bytes_preserved": true
+    },
+    "results/block_decomposition.json": {
+      "sha256": "f34ca70f06ff2cd5d9c11d7630136f0191ca9867403e7ab73264034c85b9c4b0",
+      "bytes": 122149,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/block_decomposition.json",
+      "original_bytes_preserved": true
+    },
+    "results/block_factorisation.json": {
+      "sha256": "008858c94fa6dfa195cae613e29dd7ae24768f00de466185f9af475bc3771c54",
+      "bytes": 673,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/block_factorisation.json",
+      "original_bytes_preserved": true
+    },
+    "results/block_product_null.json": {
+      "sha256": "74e6c4736008d2c456b16697ec9e30905827731d74fdcd22f6a323c273e0fc93",
+      "bytes": 12460,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/block_product_null.json",
+      "original_bytes_preserved": true
+    },
+    "results/continental_blocks.json": {
+      "sha256": "85e4e0fb58778688ceca36fb6f216561291ef15fe8d33e181e3a87d765cabd8b",
+      "bytes": 356,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/continental_blocks.json",
+      "original_bytes_preserved": true
+    },
+    "results/coverage_preserving_2d.json": {
+      "sha256": "6654f0ab88af232ce2cb05ab23d9bf48665dc4544730c4c77349d230c0ea1c33",
+      "bytes": 6293,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/coverage_preserving_2d.json",
+      "original_bytes_preserved": true
+    },
+    "results/dial_sweep.json": {
+      "sha256": "8ded2867eee1aba86871a04f4d4b95250d10abcebfaecac96db2555780113f5f",
+      "bytes": 1918,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/dial_sweep.json",
+      "original_bytes_preserved": true
+    },
+    "results/dimension_sweep.json": {
+      "sha256": "5b6b7dc82ff8ae4da0eab95d36e40f55621c9de1047d1280973b6461f979b46b",
+      "bytes": 4837,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/dimension_sweep.json",
+      "original_bytes_preserved": true
+    },
+    "results/ensemble_squeeze.json": {
+      "sha256": "a650fcb6a7d86bc218e1a172a328c898ca3cf2333c152631590b5664a2c4fc34",
+      "bytes": 158110,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/ensemble_squeeze.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_counts.json": {
+      "sha256": "526c9a1a6eeda66399f79f3586260c033edc9b5aed90f6e57bb668288447a7d0",
+      "bytes": 5800210,
+      "category": "raw hardware counts",
+      "original_path": "results/exact51_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_cross_block.json": {
+      "sha256": "d4c7f0ba3ffa24ab8bb345f86220d2222bdd373f1cb702237d422f7cc71bec25",
+      "bytes": 50625,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact51_cross_block.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_matched_counts.json": {
+      "sha256": "5d5d6370b02f624b2b2a65f0946131599657ec3d55ce3ffbe61d7ab6f22d8cf7",
+      "bytes": 5800210,
+      "category": "raw hardware counts",
+      "original_path": "results/exact51_matched_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_matched_plan.json": {
+      "sha256": "beaf22f307b80c68020ca212c6411569679c2d5a582aa43eb5e427758ad883b4",
+      "bytes": 703,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact51_matched_plan.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_matched_results.json": {
+      "sha256": "73e663e2c4d9dd75a03914d6db3b09902946fe692c70e703c07e3b113a8d442e",
+      "bytes": 709,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact51_matched_results.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_physical_layout.json": {
+      "sha256": "8542dd6725a9bbf47add13608e3f681611a6a5037d9e5dca09a9f55aa65521f2",
+      "bytes": 6771,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact51_physical_layout.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_plan.json": {
+      "sha256": "88147bde394d011cc5f9c4efca6be161dd0b6063e72024d62edad375df5dc307",
+      "bytes": 640,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact51_plan.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact51_results.json": {
+      "sha256": "e7774e0a716c58d3df9306443c97e40b8ac0e5c668179f5bfe85ff4fc9e661eb",
+      "bytes": 695,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact51_results.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact_circuit_51q.json": {
+      "sha256": "ad72a38a6defe0bb32e23bd271d401e941964865842229af805275232bd076c8",
+      "bytes": 601,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact_circuit_51q.json",
+      "original_bytes_preserved": true
+    },
+    "results/exact_encoding.json": {
+      "sha256": "b91437351d34882c41eaca9daa481e14ecb5d2303360fa4cdf35a73aefc3afb0",
+      "bytes": 14651,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/exact_encoding.json",
+      "original_bytes_preserved": true
+    },
+    "results/factorisation_scope.json": {
+      "sha256": "221d9f7b4fa39b5040d49742f5d2a03e6bf215321812124b114945b36e05f60e",
+      "bytes": 552062,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/factorisation_scope.json",
+      "original_bytes_preserved": true
+    },
+    "results/frozen_target_sweep.json": {
+      "sha256": "8b71901b932a57989835fdab96b2707923c35d519455f597f294df1ffeb42a70",
+      "bytes": 61156,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/frozen_target_sweep.json",
+      "original_bytes_preserved": true
+    },
+    "results/graceful_degradation.json": {
+      "sha256": "6e0a979889159857f725dda79b598b1cebfef22b2bb7f2b2e5e36fb67215009c",
+      "bytes": 10187,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/graceful_degradation.json",
+      "original_bytes_preserved": true
+    },
+    "results/hardware_decomposition.json": {
+      "sha256": "14bddf1c8f3f1cd18d4171cf44bbdeff47859a10e2a76410fef36299a770cf5b",
+      "bytes": 3836,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/hardware_decomposition.json",
+      "original_bytes_preserved": true
+    },
+    "results/ilp_geographic_ibge_2024_centroids.json": {
+      "sha256": "04e56e9a1cede52be5b87b74882a576fd80975650064bba38cff349959f89ceb",
+      "bytes": 25227,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/ilp_geographic_ibge_2024_centroids.json",
+      "original_bytes_preserved": true
+    },
+    "results/ilp_symmetry_corrected.json": {
+      "sha256": "c8abe5ddfdef2e03cec3e8a19e02eab63599711caebd7a8d8ffdfcefa6b10756",
+      "bytes": 5171,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/ilp_symmetry_corrected.json",
+      "original_bytes_preserved": true
+    },
+    "results/interleaved_batch.json": {
+      "sha256": "31b7e0b215d78aa7f093f10cb415df70330584acf578c90441349372c93ae107",
+      "bytes": 12471,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/interleaved_batch.json",
+      "original_bytes_preserved": true
+    },
+    "results/interleaved_batch_counts.json": {
+      "sha256": "89c11a253df4d5b8af7b81a9725426517f79509af0e044705710bcd65f82886d",
+      "bytes": 2491046,
+      "category": "raw hardware counts",
+      "original_path": "results/interleaved_batch_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/interleaved_batch_plan.json": {
+      "sha256": "78f9c98fb953c357720b318eadd1007a4eeeba8f3a34bafc921991cbc2966a5e",
+      "bytes": 45552,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/interleaved_batch_plan.json",
+      "original_bytes_preserved": true
+    },
+    "results/interleaved_batch_v5.json": {
+      "sha256": "9ad38288d574e8334855566ed800f3934990ec855441c6ff214bb64e8a9691ea",
+      "bytes": 13313,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/interleaved_batch_v5.json",
+      "original_bytes_preserved": true
+    },
+    "results/joint_separate_batch.json": {
+      "sha256": "87b66cb49d08270e64cbf2749798c70a423c168d584f19b7f434fb003c8bcdb1",
+      "bytes": 7365,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/joint_separate_batch.json",
+      "original_bytes_preserved": true
+    },
+    "results/joint_separate_batch_counts.json": {
+      "sha256": "eeee62f925c0aaf48372a2d51ee5852cce80bc961f417680e4dfb6386a2a0771",
+      "bytes": 2959026,
+      "category": "raw hardware counts",
+      "original_path": "results/joint_separate_batch_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/joint_separate_batch_plan.json": {
+      "sha256": "a744e27a2a6392c7ba14c79c696d8b2f92bbe9304c08fe4558c6f66ad67abe33",
+      "bytes": 6048,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/joint_separate_batch_plan.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_100k_arco_optangles.json": {
+      "sha256": "a4cd679d46f03fa3e43d09aa5031ac922b62f7e2ca46e4f85bda7fbfa4d932dd",
+      "bytes": 1033,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/kingston_100k_arco_optangles.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_100k_arco_optangles_counts.json": {
+      "sha256": "fd77b043faa8c04a5c2787238a36b4bdcc96a3d0acd0c750802fa6816a30643f",
+      "bytes": 25800345,
+      "category": "raw hardware counts",
+      "original_path": "results/kingston_100k_arco_optangles_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_100k_rung1.json": {
+      "sha256": "ea710bd72a996f70a75675b1ac36c6ef2528a345eef07384e6d3fbaf98d46d14",
+      "bytes": 1300,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/kingston_100k_rung1.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_100k_rung1_counts.json": {
+      "sha256": "22a1f07bd472293a69a44cb181c6901d80de87761de1d96a6a555a950e35e88a",
+      "bytes": 8808344,
+      "category": "raw hardware counts",
+      "original_path": "results/kingston_100k_rung1_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_rerun_plan_arco.json": {
+      "sha256": "6f8acae1e931476e8aac3d7e7cd5c0a6671811f55344998fd1e0ae45d7833a91",
+      "bytes": 1057,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/kingston_rerun_plan_arco.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_rerun_plan_rung1.json": {
+      "sha256": "8dddb7d2b4d3034b919c878355e9b12dcf88281fa5b9b7b342b882e916cfee4a",
+      "bytes": 959,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/kingston_rerun_plan_rung1.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_transferred_arco.json": {
+      "sha256": "edf80b75f96a2dc6da111073cc785708df52c249e4419c1dfb4a44bcf0d613da",
+      "bytes": 391,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/kingston_transferred_arco.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_transferred_arco_counts.json": {
+      "sha256": "fdad0c5fa41006ad6b8e00bb1cee1f267ed02291d595954d02c6829fb4b36613",
+      "bytes": 704723,
+      "category": "raw hardware counts",
+      "original_path": "results/kingston_transferred_arco_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/kingston_transferred_arco_plan.json": {
+      "sha256": "10011386454ba00994c8632499ddd97cad3069d770cc0263f3d27bb2b9bbfb8c",
+      "bytes": 338,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/kingston_transferred_arco_plan.json",
+      "original_bytes_preserved": true
+    },
+    "results/ladder_rungs.json": {
+      "sha256": "c349d7ddee03d31e8c98e3a15d369edcd1afb2347036615c94a1ec6e2b62039b",
+      "bytes": 1444,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/ladder_rungs.json",
+      "original_bytes_preserved": true
+    },
+    "results/ladder_rungs_v5.json": {
+      "sha256": "f8b60762a821cb3cdadfd180e459aef9281bcc28bc62e5907a54fdf362759f7e",
+      "bytes": 1896,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/ladder_rungs_v5.json",
+      "original_bytes_preserved": true
+    },
+    "results/m_ladder_results.json": {
+      "sha256": "ac2398676fb70a274b57b8e9d43e401896fea86709f6e1580e643ed39700c301",
+      "bytes": 11819,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/m_ladder_results.json",
+      "original_bytes_preserved": true
+    },
+    "results/mixer_scale_sensitivity.json": {
+      "sha256": "781ecd05fe842840ef001c63c120a900dbc965a0b03e05a8670f8a076543b65c",
+      "bytes": 106239,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/mixer_scale_sensitivity.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_20seeds.json": {
+      "sha256": "09a63fb3dda8b6ecdd95b8b05a37fc5a761be34b8f8fa672192ae3b07806bccf",
+      "bytes": 493059,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_20seeds.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_convergence_audit.json": {
+      "sha256": "21cfc66021672cc8a3f4c9ddaba78311e1801ccb60309f12fb25cc1b7e330ce3",
+      "bytes": 6370,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_convergence_audit.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_gradient_check.json": {
+      "sha256": "30b499ed188a678fdd4cd208a718f35edd22bac5e03c96e89fd0a8aedea5f771",
+      "bytes": 1584,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_gradient_check.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_optimizer_stability.json": {
+      "sha256": "0c08c7c67c440f3c48ba9b4457ce4e4629d2003af12c2b02b8acdd4abc675ecf",
+      "bytes": 2192,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_optimizer_stability.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_p1_high_resolution.json": {
+      "sha256": "e866b7f461a9f55e8946af0e9ddc2f087da8a2abc28017f14871e073c1e5f0d7",
+      "bytes": 1370,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_p1_high_resolution.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_simulability.json": {
+      "sha256": "f7aa4130e133326afa7136ee82858cb3ce6f5ebfb507d6b2fe814f363d506d0d",
+      "bytes": 369,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_simulability.json",
+      "original_bytes_preserved": true
+    },
+    "results/qwoa_simulability_v5.json": {
+      "sha256": "8c0fd3b9fe9706781b1ad0f9e18fcadf2c0c9735596e4e29c708499c57d14603",
+      "bytes": 2218,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/qwoa_simulability_v5.json",
+      "original_bytes_preserved": true
+    },
+    "results/resource_model_exact.json": {
+      "sha256": "46b5b613e4a69a4bec08c3c1a0db9293084a46ba998eb83271c20ac60eb3a287",
+      "bytes": 37567,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/resource_model_exact.json",
+      "original_bytes_preserved": true
+    },
+    "results/rung1_physical_layout.json": {
+      "sha256": "d221c62cb52a1fbf3f24ef2722927a4a6c2962d8e82b7a4215c06d1386c1b2b7",
+      "bytes": 7686,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/rung1_physical_layout.json",
+      "original_bytes_preserved": true
+    },
+    "results/rydberg_encoding_audit.json": {
+      "sha256": "920608d0003d0e215baf395eba2166c6cb5f7c709ccdce2c100404985ab31f33",
+      "bytes": 5685,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/rydberg_encoding_audit.json",
+      "original_bytes_preserved": true
+    },
+    "results/same_sector_mixer_audit.json": {
+      "sha256": "7f9d05f79b3f6caad2bd8296526b90f0c213e87cfb4b1091e02b0d97e7322a16",
+      "bytes": 16735,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/same_sector_mixer_audit.json",
+      "original_bytes_preserved": true
+    },
+    "results/same_sector_mixer_control.json": {
+      "sha256": "0b8888bcb02bb2dbf818e9535c353f2224d6936a258a5307cbc0b5a55d1dfa02",
+      "bytes": 245244,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/same_sector_mixer_control.json",
+      "original_bytes_preserved": true
+    },
+    "results/same_sector_mixer_gradient_check.json": {
+      "sha256": "32c3e8d72b1ef0cfd8b6a8e542dcd3325a6e4a0212b613b73764cee0d9d60b49",
+      "bytes": 1291,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/same_sector_mixer_gradient_check.json",
+      "original_bytes_preserved": true
+    },
+    "results/statistical_audit.json": {
+      "sha256": "16348676347d10eece65f8ca5a63b24a62f215720da6a4384b800125f707f7ae",
+      "bytes": 18242,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/statistical_audit.json",
+      "original_bytes_preserved": true
+    },
+    "results/triviality.json": {
+      "sha256": "66c620ef2ddd70f6fb5cba473551925c1735cdd2210a57cce739a069c32971cc",
+      "bytes": 3883,
+      "category": "plan / reference / supporting calculation",
+      "original_path": "results/triviality.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_00.ops.json": {
+      "sha256": "ec951b0bd87cff82f2a93a230d3ab3e5b86f0cc8e72e5030e12a67b01eee61c9",
+      "bytes": 487,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_00.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_00.qpy": {
+      "sha256": "16d7eef5d498a08d8a2cc1992838d5c2804c5a9bf1c8ecd9341aa6c4c8a6c7e5",
+      "bytes": 2773,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_00.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_01.ops.json": {
+      "sha256": "5fee8eed2e6d30477dd7166dd7e53dff08f7551bf9592432bce02df7b94a38ae",
+      "bytes": 1848,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_01.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_01.qpy": {
+      "sha256": "3bc6adb851cd9f3bca25ed2e31e058234cf0c11c01d275312da330a29f039eb8",
+      "bytes": 6693,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_01.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_02.ops.json": {
+      "sha256": "e7687c774df4bf0395e7c2753459c9d59a7900fb5eeac6899138affd4ae98166",
+      "bytes": 1171,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_02.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_02.qpy": {
+      "sha256": "980bd61ba9c462461776178f65d5d80a4af1a35ab408f8b4d692d47044782366",
+      "bytes": 4449,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_02.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_03.ops.json": {
+      "sha256": "779fa1d032e89cdbec3c905eaebbaa5118bc010a35a6f320726ec20f51010f41",
+      "bytes": 114,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_03.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_03.qpy": {
+      "sha256": "039e2fbc2092f26c91e18fb02d9cf07e85c0982a4f62f79d597bff1a0ac86f61",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_03.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_04.ops.json": {
+      "sha256": "b75e15423f73aa7dcaf6e95edef962963af9bb714660bf8d890ae3fe110d251e",
+      "bytes": 114,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_04.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_04.qpy": {
+      "sha256": "83c4c292ff3e822b80321bd1baa3abf90f7d79dabf94d4df4f48a9d3ee32690b",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_04.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_05.ops.json": {
+      "sha256": "ec194bee28b7da76744eb455488d34fd481085dcc38f98768e4188507cdc4a50",
+      "bytes": 120,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_05.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_05.qpy": {
+      "sha256": "fc7c18e80ade1119f58014239eecb4e596b210f5f687c3505a4db229f4fff8af",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_05.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_06.ops.json": {
+      "sha256": "4d3eeeaeaa2b7751b19baa4641dfcf0f11a2ae427219ca81b983195334c7518b",
+      "bytes": 1257,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_06.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_06.qpy": {
+      "sha256": "764da21922e18798c7a479c2cb946def3ce5f93b2f06e11101c2476e5f2b9c53",
+      "bytes": 4635,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_06.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_07.ops.json": {
+      "sha256": "7a3ddd22ca69ec3c2fb836565f83d53c37be26531ae4eb75cfa16190533f581c",
+      "bytes": 1221,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_07.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_07.qpy": {
+      "sha256": "547009d47d963738e2eced17604b912216dc7fda49d249d2913c9332708f20d3",
+      "bytes": 4740,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_07.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_08.ops.json": {
+      "sha256": "7a825a906d696ebe70f414f140ab4390f68b7c7f78fe83c64dfdf0091c1bf7d5",
+      "bytes": 114,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_08.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_08.qpy": {
+      "sha256": "05d1589a00acb336c2bcb3693ddea4accf74e0f51744e687e9d988fb33beaee8",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_08.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_09.ops.json": {
+      "sha256": "e262ff6d0060a5acb76e62ecc3a73ed9ff3b1e2efb70a43bc82f061e02947d8a",
+      "bytes": 114,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_09.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_09.qpy": {
+      "sha256": "c608ba5f5f1d8ed32b4bb7ed603ddd0155aeac1290fbb1b7e77d716b260ac6ec",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_09.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_10.ops.json": {
+      "sha256": "60e736154c51620afed9dde6b45030eb0199aa38eb8f970cec32f4e850b58047",
+      "bytes": 120,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_10.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_10.qpy": {
+      "sha256": "2e5c2572975c91bc8530a3653e504bca7862976bf352cb5bee80494457d969e5",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_10.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_11.ops.json": {
+      "sha256": "44e6ed1343bceb41f5b173613d3328314a5d8a567f46c22b8bf9a1307e53b3b1",
+      "bytes": 515,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_11.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_11.qpy": {
+      "sha256": "9dc9ef8753b1cb23f22d844443afcd53e043a6ea0c0a9310fc944c598f59eac6",
+      "bytes": 2773,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_11.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_12.ops.json": {
+      "sha256": "d9df3210de378f28e4fd27100c25158e9a823f3de807353a8a6773987955dab0",
+      "bytes": 114,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_12.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_block_12.qpy": {
+      "sha256": "6c4691ff6bfb99c121db5014ceb5064f57990f8e4e27881a0f675caf2d135a9a",
+      "bytes": 1717,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_block_12.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_joint.ops.json": {
+      "sha256": "2b080aa825321aa54d503e41985fdc23832e108fe80b0b7387ed2e50ea40a9d9",
+      "bytes": 7323,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_joint.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/batch_joint.qpy": {
+      "sha256": "0a5a486bd1e81be86a2fc7b74e020caad6806a78f40597541c6dce92b7156033",
+      "bytes": 26307,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/batch_joint.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/exact51_defaults.ops.json": {
+      "sha256": "b3f725c19b153500e9a17035214e3d6191995389db4cd76dde8434316d6e0bf8",
+      "bytes": 38250,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/exact51_defaults.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/exact51_defaults.qpy": {
+      "sha256": "b14c003bf9b4f9e947e66ea5d06cee38344cba58346784bc0bdc77d6cec9565e",
+      "bytes": 107926,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/exact51_defaults.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/exact51_matched.ops.json": {
+      "sha256": "8d47e1f9d0cd6ef0c830002c60e5bbe52db330ef37f950cfa9df84451bbf06a7",
+      "bytes": 38406,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/exact51_matched.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/exact51_matched.qpy": {
+      "sha256": "fd18859b6523d8a7cc612386f33c97e7592082bb2980bc2675fd916b7ca1987b",
+      "bytes": 108104,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/exact51_matched.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/index.json": {
+      "sha256": "93d96d096d3a4f7f833f9747936852ce027e877104ed7089e05fdcc4867e1c6b",
+      "bytes": 5703,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/index.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/rung1_original.ops.json": {
+      "sha256": "9bb186607b3ffd9f57e43ccf78ce605aa03c3a4b2c0833d8f00af2ef90866b33",
+      "bytes": 7397,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/rung1_original.ops.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_circuits/rung1_original.qpy": {
+      "sha256": "75995600d42edd6dece640034d890f4c75d7a525873a5d0014a589603577579e",
+      "bytes": 26605,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_circuits/rung1_original.qpy",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_block_results/ideal_simulation_counts.json": {
+      "sha256": "1e407b7cfbe4538dcba1a3972f06f7cf79f35a484f3dadbbea9ede4db237a875",
+      "bytes": 2121,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_block_results/ideal_simulation_counts.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_block_results/ideal_validation_analysis.json": {
+      "sha256": "1079bc226f5b7abfb209da1a22e092bbe02c546b6ce5d96c0590ab9c09b6e762",
+      "bytes": 9220,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_block_results/ideal_validation_analysis.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_block_results/ideal_validation_plan.json": {
+      "sha256": "7671ad282dff9f154400d377f566d51f172f0c11e32c865d61fcfeddfe33a623",
+      "bytes": 12179,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_block_results/ideal_validation_plan.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_block_results/kingston_blocks_analysis.json": {
+      "sha256": "a68127748845c579f4b977c3d7200f890483f4e4b8b675cc8668cb7bf56cda39",
+      "bytes": 16902,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_block_results/kingston_blocks_analysis.json",
+      "original_bytes_preserved": true
+    },
+    "results/ibm_block_results/kingston_blocks_plan.json": {
+      "sha256": "de64c5122a7795206c7572229443a5ac864d9c61833fb1a5e95a0da4d662ef00",
+      "bytes": 15950,
+      "category": "submitted circuit / block counts",
+      "original_path": "results/ibm_block_results/kingston_blocks_plan.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e01_20261008_analysis_v2.json": {
+      "sha256": "b2eb06e63f1d5449146a8bd5d57c2d381211036eb7becc02ffe3828cf8f37cfa",
+      "bytes": 11154,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e01_20261008_analysis_v2.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e01_20261008_counts.json": {
+      "sha256": "a032e6b075c2a63414ade62df572aadbabcb692919e9beee733e54c8ae203038",
+      "bytes": 3561317,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e01_20261008_counts.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e01_20261008_plan.json": {
+      "sha256": "113094f42d0efb1f420f22ec1c68a661d56147e0cb1f1f72684c03b8d25d9c84",
+      "bytes": 21993,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e01_20261008_plan.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations.json": {
+      "sha256": "2bef8eac64e2ef41215daf1443fb231bd37fd32804524fe1b1ae743388fd6744",
+      "bytes": 1427,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e01_e02_e03_between_calibrations.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e01_e02_e03_between_calibrations_v2.json": {
+      "sha256": "9e327b2d3d68bb93563794f2a6d16bf4d2e7f84daf48089b6300202d308c0930",
+      "bytes": 2830,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e01_e02_e03_between_calibrations_v2.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e01_vs_historical.json": {
+      "sha256": "f41f5ac7d238ca5467d9a7c6dc899752c5aaeba4c8593b3cbfd1d646630e818c",
+      "bytes": 2992,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e01_vs_historical.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e02_20261014_analysis_v2.json": {
+      "sha256": "f46e842a22abd340f13ed2d9457ad4b8f6decb748473ec4f44143046bc74da16",
+      "bytes": 11193,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e02_20261014_analysis_v2.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e02_20261014_counts.json": {
+      "sha256": "6a0f2c289753be44cfd778a256efe311a554bb3f743d39fbc798c6ae7ce89c74",
+      "bytes": 3560388,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e02_20261014_counts.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e02_20261014_metrics.json": {
+      "sha256": "3a4bb6da61d6eaae8a4508aa5d835633ce44a47d38af015dfca7b4b80cb2f600",
+      "bytes": 525,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e02_20261014_metrics.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e02_20261014_plan.json": {
+      "sha256": "a2c05d90d2b000ea0fbc0c4b4e157f284e1adc741699ef6d174dfcb16274300f",
+      "bytes": 21994,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e02_20261014_plan.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e02_20261014_sha256.txt": {
+      "sha256": "1314158aac3086fa2f2d25aa1e371ae9773c0e863bdc57dc2ff1a66e4da30326",
+      "bytes": 368,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e02_20261014_sha256.txt",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e03_20261014_analysis_v2.json": {
+      "sha256": "fb66fe63c080ad8179692f92e1de5fcb547277dabd57ff1fb493b9a7e3b7531f",
+      "bytes": 11302,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e03_20261014_analysis_v2.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e03_20261014_counts.json": {
+      "sha256": "6587e60dd3bcc4c03a61d82c400847cc6ed04ba0ad7b3665ea15c5325613067b",
+      "bytes": 3560790,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e03_20261014_counts.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e03_20261014_plan.json": {
+      "sha256": "b0c1535147e50e7b92baecd5c602767930e1e37962f29c130709ce0229cedd21",
+      "bytes": 21993,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e03_20261014_plan.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/ibm_variance_campaign/results/e03_and_combined_sha256.txt": {
+      "sha256": "86f59cfbd9824ba94610ea0155702244bff9bce42a816378a970b7976475ad89",
+      "bytes": 383,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/ibm_variance_campaign/results/e03_and_combined_sha256.txt",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/results/between_jobs.json": {
+      "sha256": "06b9ed6d0bf641e26cc500098c3322ab6b022ad40a9c0026b7c20fb609b96450",
+      "bytes": 2260,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/revision_v7/results/between_jobs.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/results/e01_analysis.json": {
+      "sha256": "bbc3366ae49053d2fe6fc699d3ba08e4abc5c140c7f5467f850e149334cf7055",
+      "bytes": 11390,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/revision_v7/results/e01_analysis.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/results/e02_analysis.json": {
+      "sha256": "3245f5ec5f7ac9365cf82cd5bab5711537f4ecc9d7e283057acedc05c5ea9797",
+      "bytes": 11414,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/revision_v7/results/e02_analysis.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/results/e03_analysis.json": {
+      "sha256": "f8d8d2cf110845e644cc6f1efe5f7697e0dffe80e726d7eb35874b15fb8b12fa",
+      "bytes": 11449,
+      "category": "campaign plan / counts / reference summary",
+      "original_path": "paper/revision_v7/results/e03_analysis.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/generated/block_covariance.json": {
+      "sha256": "391ede8e9e80319af0047d8a6501e18a824ed832a6b105a33e228e7d1043582d",
+      "bytes": 101281,
+      "category": "derived reference for comparison",
+      "original_path": "paper/revision_v7/generated/block_covariance.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/generated/campaign_sensitivity.json": {
+      "sha256": "9b4b63fd7f1e8c5a5f20ff1795a7f2118324d6028da46e715e940bda048e6a6d",
+      "bytes": 5958,
+      "category": "derived reference for comparison",
+      "original_path": "paper/revision_v7/generated/campaign_sensitivity.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/generated/diagnostic_controls.json": {
+      "sha256": "28e25226f7bdd9f86c3065bc7147ca5caf6786e0a42c55aa0f18192704aaa9b3",
+      "bytes": 8166,
+      "category": "derived reference for comparison",
+      "original_path": "paper/revision_v7/generated/diagnostic_controls.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/generated/ensemble_analysis.json": {
+      "sha256": "18d2367f23b085ce14caab765128864a2d2f8cffe6e4d2b8209a1a2ef36397f5",
+      "bytes": 8318,
+      "category": "derived reference for comparison",
+      "original_path": "paper/revision_v7/generated/ensemble_analysis.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v7/generated/mixer_summary.json": {
+      "sha256": "95dbb943b420859049491147ce52383676da98678472ec8184012991e6fdd92f",
+      "bytes": 11980,
+      "category": "derived reference for comparison",
+      "original_path": "paper/revision_v7/generated/mixer_summary.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/e01_20261008_properties.json": {
+      "sha256": "5f2094153cfea397c325f0f1b361cf77063d468603d59dda4087a7939906a263",
+      "bytes": 1555506,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/e01_20261008_properties.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/e01_20261008_properties.sha256": {
+      "sha256": "cae6bd6e81f5efbdcc211b9147dc761ac963f853316cd16b3706a0fea226e60d",
+      "bytes": 95,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/e01_20261008_properties.sha256",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/e02_20261014_properties.json": {
+      "sha256": "fa95382dfa858457b03e7f6baee87d0ede1f97bd2afb1c1b41ff274b17914ebd",
+      "bytes": 1555496,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/e02_20261014_properties.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/e02_20261014_properties.sha256": {
+      "sha256": "e04d91cb5f558456f2f06dd352e0be8d55f2b9b972c80ae7ff25d3d055846526",
+      "bytes": 95,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/e02_20261014_properties.sha256",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/e03_20261014_properties.json": {
+      "sha256": "731de51ce0d686412c9e8fdb8cd530874e4f5add50a0c994bdf3495580138c6b",
+      "bytes": 1555410,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/e03_20261014_properties.json",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/e03_20261014_properties.sha256": {
+      "sha256": "0fff5c3a8e048bc1223b35adf05c3b7bf97815940805e23c8902355a1474d7c8",
+      "bytes": 95,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/e03_20261014_properties.sha256",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/calibration_archives/requirements-retrieval.txt": {
+      "sha256": "2d26095a75d4f9ab6fba3a99186dedf1fa4fccb725a247d735e16d18067774c2",
+      "bytes": 712,
+      "category": "job-associated calibration",
+      "original_path": "paper/revision_v8/calibration_archives/requirements-retrieval.txt",
+      "original_bytes_preserved": true
+    },
+    "analysis/revision_v8/generated/campaign_block_errors.csv": {
+      "sha256": "4b58e8e3772ba90ad12aab8579a35d1e9d022e773b74f0d0a3b8e0f7e3ca1177",
+      "bytes": 2006,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    },
+    "analysis/revision_v8/generated/campaign_qubit_errors.csv": {
+      "sha256": "341a89db5888503da3cbc5d80e392793b68a17d56e30866b1d16e41b718c2804",
+      "bytes": 11771,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    },
+    "analysis/revision_v8/generated/cross_block_points.json": {
+      "sha256": "30ef151c6b9b986b2c1aa77dc3309017d8326553a7a9ce26d341a7d445e5b268",
+      "bytes": 1475,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    },
+    "analysis/revision_v8/generated/directional_readout_rates.csv": {
+      "sha256": "57bdabcbf7b77f96b96589e8cf040e0fe6044f5ce0dc8c9b098db5e4dfcec79a",
+      "bytes": 14023,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    },
+    "analysis/revision_v8/generated/physical_data_audit.json": {
+      "sha256": "ffb9b4fd9d5fa3562808f875204f09fb483e9f00899e083d9c5f3c764beefa07",
+      "bytes": 131454,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    },
+    "analysis/revision_v8/generated/readout_audit.json": {
+      "sha256": "67e605e8cba3db4642f0e973344a30b4e9ba57dd8594b781a133bbc0acffccc1",
+      "bytes": 60281,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    },
+    "analysis/revision_v8/generated/readout_five_block.csv": {
+      "sha256": "3dd88446c2b4eacc8f96246184063a297971a6173967e451b358ec0a81fd37f1",
+      "bytes": 385,
+      "category": "derived physical/readout audit in released path layout",
+      "original_bytes_preserved": false
+    }
+  },
+  "path_mapping": "PATH_MAPPING.json",
+  "manuscript_included": false,
+  "note": "Original inputs retain their original bytes; derived audits identify their own source hashes."
+}

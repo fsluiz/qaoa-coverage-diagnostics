@@ -1,0 +1,62 @@
+{
+  "schema_version": 2,
+  "analysis_version": "working_v7",
+  "epochs": [
+    {
+      "epoch": "e01_20261008",
+      "job_id": "db3p76amb58s73885pa0",
+      "calibration_date": "2026-10-08 08:55:19-03:00"
+    },
+    {
+      "epoch": "e02_20261014",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "calibration_date": "2026-10-14 14:27:28-03:00"
+    },
+    {
+      "epoch": "e03_20261014",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "calibration_date": "2026-10-14 18:25:47-03:00"
+    }
+  ],
+  "between_job_summary": {
+    "joint_over_slice_gated": {
+      "estimate": 0.868135772222355,
+      "scale": "log",
+      "epoch_values": [
+        0.7930921337826906,
+        0.9042733326284927,
+        0.9123040234796512
+      ],
+      "observed_between_job_variance": 0.006149846498945151,
+      "epoch_estimation_variances": [
+        0.00019907605829361182,
+        0.0002259347136077521,
+        0.00019586490073359776
+      ],
+      "mean_epoch_estimation_variance": 0.00020695855754498724,
+      "excess_between_job_variance_method_of_moments": 0.005942887941400164,
+      "excess_between_job_sd_method_of_moments": 0.07709012868973669,
+      "observed_to_estimation_variance_ratio": 29.71535254157509
+    },
+    "faithful51_correlation_energy_retained": {
+      "estimate": 0.5011454561681427,
+      "scale": "identity",
+      "epoch_values": [
+        0.5035069075894553,
+        0.49968526089111454,
+        0.500244200023858
+      ],
+      "observed_between_job_variance": 4.260442849942661e-06,
+      "epoch_estimation_variances": [
+        0.0001560818254611716,
+        0.00022026683824219288,
+        0.0001565952608775252
+      ],
+      "mean_epoch_estimation_variance": 0.00017764797486029653,
+      "excess_between_job_variance_method_of_moments": 0.0,
+      "excess_between_job_sd_method_of_moments": 0.0,
+      "observed_to_estimation_variance_ratio": 0.023982501648516397
+    }
+  },
+  "interpretation": "Three snapshots, two on one day, do not identify population variance, stationarity or a calibration cause. The subtraction uses a working independent-round variance approximation and is descriptive. No between-job confidence interval is reported. Distinct backend-properties timestamps do not establish independent physical replicates."
+}

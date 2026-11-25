@@ -1,0 +1,1941 @@
+{
+  "scope": "Independent readout-only point model at archived rates; no mechanism attribution.",
+  "formula": "Cov(Y_i,Y_j)=(1-p01_i-p10_i)(1-p01_j-p10_j)Cov(X_i,X_j), i!=j",
+  "fraction_definition": "(1-C_readout)/(1-C_observed); reference C=1",
+  "limitations": [
+    "No calibration-rate uncertainty or drift modeled.",
+    "No correlated readout, gate errors or idling modeled.",
+    "Fractions are conditional point comparisons, not causal fractions or upper bounds.",
+    "Independent measurement twirling symmetrizes p01,p10 but preserves their sum and these covariance predictions."
+  ],
+  "sources_sha256": {
+    "data/frozen_rung1.json": "1891988fc3b6d2450150aa6c1eb465c9d3303a20be29391614ff6bf90d6dcf7d",
+    "results/exact51_plan.json": "88147bde394d011cc5f9c4efca6be161dd0b6063e72024d62edad375df5dc307",
+    "analysis/revision_v7/generated/block_covariance.json": "391ede8e9e80319af0047d8a6501e18a824ed832a6b105a33e228e7d1043582d",
+    "results/exact51_physical_layout.json": "8542dd6725a9bbf47add13608e3f681611a6a5037d9e5dca09a9f55aa65521f2",
+    "analysis/revision_v8/calibration_archives/e01_20261008_properties.json": "5f2094153cfea397c325f0f1b361cf77063d468603d59dda4087a7939906a263",
+    "analysis/ibm_variance_campaign/results/e01_20261008_plan.json": "113094f42d0efb1f420f22ec1c68a661d56147e0cb1f1f72684c03b8d25d9c84",
+    "analysis/revision_v8/calibration_archives/e02_20261014_properties.json": "fa95382dfa858457b03e7f6baee87d0ede1f97bd2afb1c1b41ff274b17914ebd",
+    "analysis/ibm_variance_campaign/results/e02_20261014_plan.json": "a2c05d90d2b000ea0fbc0c4b4e157f284e1adc741699ef6d174dfcb16274300f",
+    "analysis/revision_v8/calibration_archives/e03_20261014_properties.json": "731de51ce0d686412c9e8fdb8cd530874e4f5add50a0c994bdf3495580138c6b",
+    "analysis/ibm_variance_campaign/results/e03_20261014_plan.json": "b0c1535147e50e7b92baecd5c602767930e1e37962f29c130709ce0229cedd21"
+  },
+  "blocks": [
+    {
+      "epoch": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "block_size": 4,
+      "logical_qubits": [
+        21,
+        22,
+        36,
+        46
+      ],
+      "physical_qubits": [
+        129,
+        109,
+        110,
+        118
+      ],
+      "C_observed": 0.3069480621780499,
+      "C_readout": 0.982831465360063,
+      "modeled_deficit_fraction": 0.024772363661361936,
+      "ideal_denominator": 0.6276954434338156,
+      "ideal_positive_terms": 0.6276954434338156,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "block_size": 5,
+      "logical_qubits": [
+        0,
+        1,
+        31,
+        32,
+        33
+      ],
+      "physical_qubits": [
+        48,
+        38,
+        30,
+        49,
+        29
+      ],
+      "C_observed": 0.11631731623516861,
+      "C_readout": 0.9548551838885938,
+      "modeled_deficit_fraction": 0.051087134489352835,
+      "ideal_denominator": 1.10416233934022,
+      "ideal_positive_terms": 1.10416233934022,
+      "ideal_negative_terms": 0.0,
+      "full_32_state_channel_verified": true
+    },
+    {
+      "epoch": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "block_size": 6,
+      "logical_qubits": [
+        2,
+        3,
+        4,
+        5,
+        34,
+        35
+      ],
+      "physical_qubits": [
+        97,
+        107,
+        104,
+        117,
+        106,
+        105
+      ],
+      "C_observed": 0.5029200496979593,
+      "C_readout": 0.9565641880148511,
+      "modeled_deficit_fraction": 0.08738194320401778,
+      "ideal_denominator": 2.805376124589478,
+      "ideal_positive_terms": 2.805376124589478,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "block_size": 7,
+      "logical_qubits": [
+        15,
+        16,
+        17,
+        24,
+        41,
+        49,
+        50
+      ],
+      "physical_qubits": [
+        148,
+        147,
+        151,
+        138,
+        152,
+        149,
+        150
+      ],
+      "C_observed": 0.5024214635571348,
+      "C_readout": 0.9787785178291144,
+      "modeled_deficit_fraction": 0.04264951282383614,
+      "ideal_denominator": 3.100844137847699,
+      "ideal_positive_terms": 3.1008441378476994,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "block_size": 9,
+      "logical_qubits": [
+        6,
+        7,
+        9,
+        27,
+        28,
+        29,
+        30,
+        47,
+        48
+      ],
+      "physical_qubits": [
+        53,
+        58,
+        50,
+        66,
+        67,
+        57,
+        47,
+        52,
+        51
+      ],
+      "C_observed": 0.5386054175243549,
+      "C_readout": 0.9567797244949683,
+      "modeled_deficit_fraction": 0.0936731317327791,
+      "ideal_denominator": 7.790541857686133,
+      "ideal_positive_terms": 7.790541857686133,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E01",
+      "job_id": "db3p76amb58s73885pa0",
+      "block_size": 13,
+      "logical_qubits": [
+        12,
+        13,
+        14,
+        25,
+        26,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45
+      ],
+      "physical_qubits": [
+        41,
+        36,
+        23,
+        68,
+        46,
+        44,
+        45,
+        26,
+        25,
+        24,
+        37,
+        21,
+        22
+      ],
+      "C_observed": 0.5231620131143154,
+      "C_readout": 0.9669512687520554,
+      "modeled_deficit_fraction": 0.0693080923854072,
+      "ideal_denominator": 14.371583776204137,
+      "ideal_positive_terms": 14.371583776204135,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "block_size": 4,
+      "logical_qubits": [
+        21,
+        22,
+        36,
+        46
+      ],
+      "physical_qubits": [
+        129,
+        109,
+        110,
+        118
+      ],
+      "C_observed": 0.4389716428283332,
+      "C_readout": 0.9575783408769373,
+      "modeled_deficit_fraction": 0.07561410859323515,
+      "ideal_denominator": 0.6276954434338156,
+      "ideal_positive_terms": 0.6276954434338156,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "block_size": 5,
+      "logical_qubits": [
+        0,
+        1,
+        31,
+        32,
+        33
+      ],
+      "physical_qubits": [
+        48,
+        38,
+        30,
+        49,
+        29
+      ],
+      "C_observed": 0.2845046319798543,
+      "C_readout": 0.9616124440007213,
+      "modeled_deficit_fraction": 0.05365171839686574,
+      "ideal_denominator": 1.10416233934022,
+      "ideal_positive_terms": 1.10416233934022,
+      "ideal_negative_terms": 0.0,
+      "full_32_state_channel_verified": true
+    },
+    {
+      "epoch": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "block_size": 6,
+      "logical_qubits": [
+        2,
+        3,
+        4,
+        5,
+        34,
+        35
+      ],
+      "physical_qubits": [
+        97,
+        107,
+        104,
+        117,
+        106,
+        105
+      ],
+      "C_observed": 0.5198710387589891,
+      "C_readout": 0.9683166557729262,
+      "modeled_deficit_fraction": 0.06598923786055394,
+      "ideal_denominator": 2.805376124589478,
+      "ideal_positive_terms": 2.805376124589478,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "block_size": 7,
+      "logical_qubits": [
+        15,
+        16,
+        17,
+        24,
+        41,
+        49,
+        50
+      ],
+      "physical_qubits": [
+        148,
+        147,
+        151,
+        138,
+        152,
+        149,
+        150
+      ],
+      "C_observed": 0.49475369667075847,
+      "C_readout": 0.9707826558411066,
+      "modeled_deficit_fraction": 0.057827922671319525,
+      "ideal_denominator": 3.100844137847699,
+      "ideal_positive_terms": 3.1008441378476994,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "block_size": 9,
+      "logical_qubits": [
+        6,
+        7,
+        9,
+        27,
+        28,
+        29,
+        30,
+        47,
+        48
+      ],
+      "physical_qubits": [
+        53,
+        58,
+        50,
+        66,
+        67,
+        57,
+        47,
+        52,
+        51
+      ],
+      "C_observed": 0.5114584611427071,
+      "C_readout": 0.9454553326789873,
+      "modeled_deficit_fraction": 0.111647962317787,
+      "ideal_denominator": 7.790541857686133,
+      "ideal_positive_terms": 7.790541857686133,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E02",
+      "job_id": "db7sc2or1c5c738l75m0",
+      "block_size": 13,
+      "logical_qubits": [
+        12,
+        13,
+        14,
+        25,
+        26,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45
+      ],
+      "physical_qubits": [
+        41,
+        36,
+        23,
+        68,
+        46,
+        44,
+        45,
+        26,
+        25,
+        24,
+        37,
+        21,
+        22
+      ],
+      "C_observed": 0.5096109387837003,
+      "C_readout": 0.9657569296074701,
+      "modeled_deficit_fraction": 0.06982837322593966,
+      "ideal_denominator": 14.371583776204137,
+      "ideal_positive_terms": 14.371583776204135,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "block_size": 4,
+      "logical_qubits": [
+        21,
+        22,
+        36,
+        46
+      ],
+      "physical_qubits": [
+        129,
+        109,
+        110,
+        118
+      ],
+      "C_observed": 0.3625826862068003,
+      "C_readout": 0.9715077847719263,
+      "modeled_deficit_fraction": 0.044699468639343425,
+      "ideal_denominator": 0.6276954434338156,
+      "ideal_positive_terms": 0.6276954434338156,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "block_size": 5,
+      "logical_qubits": [
+        0,
+        1,
+        31,
+        32,
+        33
+      ],
+      "physical_qubits": [
+        48,
+        38,
+        30,
+        49,
+        29
+      ],
+      "C_observed": 0.23041005016709712,
+      "C_readout": 0.9715421679710377,
+      "modeled_deficit_fraction": 0.036977915362773714,
+      "ideal_denominator": 1.10416233934022,
+      "ideal_positive_terms": 1.10416233934022,
+      "ideal_negative_terms": 0.0,
+      "full_32_state_channel_verified": true
+    },
+    {
+      "epoch": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "block_size": 6,
+      "logical_qubits": [
+        2,
+        3,
+        4,
+        5,
+        34,
+        35
+      ],
+      "physical_qubits": [
+        97,
+        107,
+        104,
+        117,
+        106,
+        105
+      ],
+      "C_observed": 0.4885426014668728,
+      "C_readout": 0.9607969704529392,
+      "modeled_deficit_fraction": 0.07664964796578574,
+      "ideal_denominator": 2.805376124589478,
+      "ideal_positive_terms": 2.805376124589478,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "block_size": 7,
+      "logical_qubits": [
+        15,
+        16,
+        17,
+        24,
+        41,
+        49,
+        50
+      ],
+      "physical_qubits": [
+        148,
+        147,
+        151,
+        138,
+        152,
+        149,
+        150
+      ],
+      "C_observed": 0.5049228791895202,
+      "C_readout": 0.9749096558192238,
+      "modeled_deficit_fraction": 0.050679668128677226,
+      "ideal_denominator": 3.100844137847699,
+      "ideal_positive_terms": 3.1008441378476994,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "block_size": 9,
+      "logical_qubits": [
+        6,
+        7,
+        9,
+        27,
+        28,
+        29,
+        30,
+        47,
+        48
+      ],
+      "physical_qubits": [
+        53,
+        58,
+        50,
+        66,
+        67,
+        57,
+        47,
+        52,
+        51
+      ],
+      "C_observed": 0.5437137335730944,
+      "C_readout": 0.9517336796603475,
+      "modeled_deficit_fraction": 0.10578078695556024,
+      "ideal_denominator": 7.790541857686133,
+      "ideal_positive_terms": 7.790541857686133,
+      "ideal_negative_terms": 0.0
+    },
+    {
+      "epoch": "E03",
+      "job_id": "db7vad6r6oqs7388dh6g",
+      "block_size": 13,
+      "logical_qubits": [
+        12,
+        13,
+        14,
+        25,
+        26,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45
+      ],
+      "physical_qubits": [
+        41,
+        36,
+        23,
+        68,
+        46,
+        44,
+        45,
+        26,
+        25,
+        24,
+        37,
+        21,
+        22
+      ],
+      "C_observed": 0.5046987209586291,
+      "C_readout": 0.9558591907341125,
+      "modeled_deficit_fraction": 0.08911911019353645,
+      "ideal_denominator": 14.371583776204137,
+      "ideal_positive_terms": 14.371583776204135,
+      "ideal_negative_terms": 0.0
+    }
+  ],
+  "qubit_rates": [
+    {
+      "epoch": "E01",
+      "logical_qubit": 0,
+      "physical_qubit": 48,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.012451171875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 1,
+      "physical_qubit": 38,
+      "p_report1_prepared0": 0.002197265625,
+      "p_report0_prepared1": 0.0146484375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 2,
+      "physical_qubit": 97,
+      "p_report1_prepared0": 0.009521484375,
+      "p_report0_prepared1": 0.01220703125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 3,
+      "physical_qubit": 107,
+      "p_report1_prepared0": 0.03857421875,
+      "p_report0_prepared1": 0.0263671875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 4,
+      "physical_qubit": 104,
+      "p_report1_prepared0": 0.01416015625,
+      "p_report0_prepared1": 0.016845703125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 5,
+      "physical_qubit": 117,
+      "p_report1_prepared0": 0.00048828125,
+      "p_report0_prepared1": 0.003173828125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 6,
+      "physical_qubit": 53,
+      "p_report1_prepared0": 0.00341796875,
+      "p_report0_prepared1": 0.01025390625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 7,
+      "physical_qubit": 58,
+      "p_report1_prepared0": 0.02490234375,
+      "p_report0_prepared1": 0.00439453125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 8,
+      "physical_qubit": 86,
+      "p_report1_prepared0": 0.001708984375,
+      "p_report0_prepared1": 0.008544921875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 9,
+      "physical_qubit": 50,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-07 17:41:37-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 10,
+      "physical_qubit": 64,
+      "p_report1_prepared0": 0.0,
+      "p_report0_prepared1": 0.00732421875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 11,
+      "physical_qubit": 95,
+      "p_report1_prepared0": 0.002197265625,
+      "p_report0_prepared1": 0.0068359375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 12,
+      "physical_qubit": 41,
+      "p_report1_prepared0": 0.0078125,
+      "p_report0_prepared1": 0.01025390625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 13,
+      "physical_qubit": 36,
+      "p_report1_prepared0": 0.005126953125,
+      "p_report0_prepared1": 0.012939453125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 14,
+      "physical_qubit": 23,
+      "p_report1_prepared0": 0.003173828125,
+      "p_report0_prepared1": 0.004150390625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 15,
+      "physical_qubit": 148,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.006591796875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 16,
+      "physical_qubit": 147,
+      "p_report1_prepared0": 0.0,
+      "p_report0_prepared1": 0.009765625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 17,
+      "physical_qubit": 151,
+      "p_report1_prepared0": 0.000732421875,
+      "p_report0_prepared1": 0.006591796875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 18,
+      "physical_qubit": 91,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.005615234375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 19,
+      "physical_qubit": 17,
+      "p_report1_prepared0": 0.00439453125,
+      "p_report0_prepared1": 0.00927734375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 20,
+      "physical_qubit": 59,
+      "p_report1_prepared0": 0.000732421875,
+      "p_report0_prepared1": 0.008056640625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 21,
+      "physical_qubit": 129,
+      "p_report1_prepared0": 0.000732421875,
+      "p_report0_prepared1": 0.00927734375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 22,
+      "physical_qubit": 109,
+      "p_report1_prepared0": 0.000244140625,
+      "p_report0_prepared1": 0.007568359375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 23,
+      "physical_qubit": 128,
+      "p_report1_prepared0": 0.000732421875,
+      "p_report0_prepared1": 0.00390625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 24,
+      "physical_qubit": 138,
+      "p_report1_prepared0": 0.00537109375,
+      "p_report0_prepared1": 0.010986328125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 25,
+      "physical_qubit": 68,
+      "p_report1_prepared0": 0.01025390625,
+      "p_report0_prepared1": 0.0126953125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 26,
+      "physical_qubit": 46,
+      "p_report1_prepared0": 0.00537109375,
+      "p_report0_prepared1": 0.024658203125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 27,
+      "physical_qubit": 66,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.0126953125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 28,
+      "physical_qubit": 67,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-07 17:41:48-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 29,
+      "physical_qubit": 57,
+      "p_report1_prepared0": 0.00048828125,
+      "p_report0_prepared1": 0.015380859375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 30,
+      "physical_qubit": 47,
+      "p_report1_prepared0": 0.001708984375,
+      "p_report0_prepared1": 0.026123046875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 31,
+      "physical_qubit": 30,
+      "p_report1_prepared0": 0.00537109375,
+      "p_report0_prepared1": 0.087890625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 32,
+      "physical_qubit": 49,
+      "p_report1_prepared0": 0.004638671875,
+      "p_report0_prepared1": 0.012939453125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 33,
+      "physical_qubit": 29,
+      "p_report1_prepared0": 0.001220703125,
+      "p_report0_prepared1": 0.010986328125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 34,
+      "physical_qubit": 106,
+      "p_report1_prepared0": 0.0078125,
+      "p_report0_prepared1": 0.0126953125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 35,
+      "physical_qubit": 105,
+      "p_report1_prepared0": 0.003173828125,
+      "p_report0_prepared1": 0.009521484375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 36,
+      "physical_qubit": 110,
+      "p_report1_prepared0": 0.002197265625,
+      "p_report0_prepared1": 0.005126953125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 37,
+      "physical_qubit": 44,
+      "p_report1_prepared0": 0.001220703125,
+      "p_report0_prepared1": 0.0068359375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 38,
+      "physical_qubit": 45,
+      "p_report1_prepared0": 0.001220703125,
+      "p_report0_prepared1": 0.005615234375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 39,
+      "physical_qubit": 26,
+      "p_report1_prepared0": 0.006103515625,
+      "p_report0_prepared1": 0.01171875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 40,
+      "physical_qubit": 25,
+      "p_report1_prepared0": 0.005126953125,
+      "p_report0_prepared1": 0.00927734375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 41,
+      "physical_qubit": 152,
+      "p_report1_prepared0": 0.004638671875,
+      "p_report0_prepared1": 0.00927734375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-07 17:42:53-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 42,
+      "physical_qubit": 24,
+      "p_report1_prepared0": 0.01708984375,
+      "p_report0_prepared1": 0.02294921875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 43,
+      "physical_qubit": 37,
+      "p_report1_prepared0": 0.005126953125,
+      "p_report0_prepared1": 0.00732421875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 44,
+      "physical_qubit": 21,
+      "p_report1_prepared0": 0.005126953125,
+      "p_report0_prepared1": 0.007568359375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 45,
+      "physical_qubit": 22,
+      "p_report1_prepared0": 0.013671875,
+      "p_report0_prepared1": 0.017822265625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 46,
+      "physical_qubit": 118,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.00732421875,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-07 17:42:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 47,
+      "physical_qubit": 52,
+      "p_report1_prepared0": 0.01806640625,
+      "p_report0_prepared1": 0.0244140625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 48,
+      "physical_qubit": 51,
+      "p_report1_prepared0": 0.018310546875,
+      "p_report0_prepared1": 0.02001953125,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 49,
+      "physical_qubit": 149,
+      "p_report1_prepared0": 0.0009765625,
+      "p_report0_prepared1": 0.00390625,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E01",
+      "logical_qubit": 50,
+      "physical_qubit": 150,
+      "p_report1_prepared0": 0.008056640625,
+      "p_report0_prepared1": 0.007568359375,
+      "timestamp_report1_prepared0": "2026-10-08 05:46:30-03:00",
+      "timestamp_report0_prepared1": "2026-10-08 05:46:30-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 0,
+      "physical_qubit": 48,
+      "p_report1_prepared0": 0.001708984375,
+      "p_report0_prepared1": 0.012451171875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 1,
+      "physical_qubit": 38,
+      "p_report1_prepared0": 0.011962890625,
+      "p_report0_prepared1": 0.013427734375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 2,
+      "physical_qubit": 97,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.0126953125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 3,
+      "physical_qubit": 107,
+      "p_report1_prepared0": 0.013427734375,
+      "p_report0_prepared1": 0.016845703125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 4,
+      "physical_qubit": 104,
+      "p_report1_prepared0": 0.006591796875,
+      "p_report0_prepared1": 0.01953125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 5,
+      "physical_qubit": 117,
+      "p_report1_prepared0": 0.0029296875,
+      "p_report0_prepared1": 0.00439453125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 6,
+      "physical_qubit": 53,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.00830078125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 7,
+      "physical_qubit": 58,
+      "p_report1_prepared0": 0.02099609375,
+      "p_report0_prepared1": 0.013427734375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 8,
+      "physical_qubit": 86,
+      "p_report1_prepared0": 0.001708984375,
+      "p_report0_prepared1": 0.007080078125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 9,
+      "physical_qubit": 50,
+      "p_report1_prepared0": 0.0009765625,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:45-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 10,
+      "physical_qubit": 64,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.00732421875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 11,
+      "physical_qubit": 95,
+      "p_report1_prepared0": 0.00634765625,
+      "p_report0_prepared1": 0.01220703125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 12,
+      "physical_qubit": 41,
+      "p_report1_prepared0": 0.003662109375,
+      "p_report0_prepared1": 0.013427734375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 13,
+      "physical_qubit": 36,
+      "p_report1_prepared0": 0.002197265625,
+      "p_report0_prepared1": 0.009765625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 14,
+      "physical_qubit": 23,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.006103515625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 15,
+      "physical_qubit": 148,
+      "p_report1_prepared0": 0.003173828125,
+      "p_report0_prepared1": 0.00634765625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 16,
+      "physical_qubit": 147,
+      "p_report1_prepared0": 0.00244140625,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 17,
+      "physical_qubit": 151,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.008544921875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 18,
+      "physical_qubit": 91,
+      "p_report1_prepared0": 0.001708984375,
+      "p_report0_prepared1": 0.004638671875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 19,
+      "physical_qubit": 17,
+      "p_report1_prepared0": 0.000244140625,
+      "p_report0_prepared1": 0.009521484375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 20,
+      "physical_qubit": 59,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.010498046875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 21,
+      "physical_qubit": 129,
+      "p_report1_prepared0": 0.022216796875,
+      "p_report0_prepared1": 0.014892578125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 22,
+      "physical_qubit": 109,
+      "p_report1_prepared0": 0.00732421875,
+      "p_report0_prepared1": 0.0068359375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 23,
+      "physical_qubit": 128,
+      "p_report1_prepared0": 0.007080078125,
+      "p_report0_prepared1": 0.00732421875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 24,
+      "physical_qubit": 138,
+      "p_report1_prepared0": 0.025146484375,
+      "p_report0_prepared1": 0.02587890625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 25,
+      "physical_qubit": 68,
+      "p_report1_prepared0": 0.005615234375,
+      "p_report0_prepared1": 0.01806640625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 26,
+      "physical_qubit": 46,
+      "p_report1_prepared0": 0.00244140625,
+      "p_report0_prepared1": 0.017333984375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 27,
+      "physical_qubit": 66,
+      "p_report1_prepared0": 0.009765625,
+      "p_report0_prepared1": 0.0166015625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 28,
+      "physical_qubit": 67,
+      "p_report1_prepared0": 0.01708984375,
+      "p_report0_prepared1": 0.02587890625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:46-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 29,
+      "physical_qubit": 57,
+      "p_report1_prepared0": 0.00439453125,
+      "p_report0_prepared1": 0.006591796875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 30,
+      "physical_qubit": 47,
+      "p_report1_prepared0": 0.01416015625,
+      "p_report0_prepared1": 0.0166015625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 31,
+      "physical_qubit": 30,
+      "p_report1_prepared0": 0.006103515625,
+      "p_report0_prepared1": 0.010986328125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 32,
+      "physical_qubit": 49,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.009765625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 33,
+      "physical_qubit": 29,
+      "p_report1_prepared0": 0.008544921875,
+      "p_report0_prepared1": 0.015625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 34,
+      "physical_qubit": 106,
+      "p_report1_prepared0": 0.0078125,
+      "p_report0_prepared1": 0.010009765625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 35,
+      "physical_qubit": 105,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 36,
+      "physical_qubit": 110,
+      "p_report1_prepared0": 0.00244140625,
+      "p_report0_prepared1": 0.009521484375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 37,
+      "physical_qubit": 44,
+      "p_report1_prepared0": 0.005859375,
+      "p_report0_prepared1": 0.009033203125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 38,
+      "physical_qubit": 45,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.041748046875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 39,
+      "physical_qubit": 26,
+      "p_report1_prepared0": 0.005615234375,
+      "p_report0_prepared1": 0.009765625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 40,
+      "physical_qubit": 25,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.007568359375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 41,
+      "physical_qubit": 152,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.0078125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:48-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 42,
+      "physical_qubit": 24,
+      "p_report1_prepared0": 0.015869140625,
+      "p_report0_prepared1": 0.017822265625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 43,
+      "physical_qubit": 37,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.0146484375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 44,
+      "physical_qubit": 21,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.005859375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 45,
+      "physical_qubit": 22,
+      "p_report1_prepared0": 0.010498046875,
+      "p_report0_prepared1": 0.0283203125,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 46,
+      "physical_qubit": 118,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.01025390625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:47-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 47,
+      "physical_qubit": 52,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.02490234375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 48,
+      "physical_qubit": 51,
+      "p_report1_prepared0": 0.0224609375,
+      "p_report0_prepared1": 0.033935546875,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 49,
+      "physical_qubit": 149,
+      "p_report1_prepared0": 0.0048828125,
+      "p_report0_prepared1": 0.006103515625,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E02",
+      "logical_qubit": 50,
+      "physical_qubit": 150,
+      "p_report1_prepared0": 0.005859375,
+      "p_report0_prepared1": 0.01318359375,
+      "timestamp_report1_prepared0": "2026-10-14 12:05:20-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 12:05:20-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 0,
+      "physical_qubit": 48,
+      "p_report1_prepared0": 0.00537109375,
+      "p_report0_prepared1": 0.0068359375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 1,
+      "physical_qubit": 38,
+      "p_report1_prepared0": 0.00244140625,
+      "p_report0_prepared1": 0.011962890625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 2,
+      "physical_qubit": 97,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.009521484375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 3,
+      "physical_qubit": 107,
+      "p_report1_prepared0": 0.027099609375,
+      "p_report0_prepared1": 0.01953125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 4,
+      "physical_qubit": 104,
+      "p_report1_prepared0": 0.01611328125,
+      "p_report0_prepared1": 0.015625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 5,
+      "physical_qubit": 117,
+      "p_report1_prepared0": 0.003173828125,
+      "p_report0_prepared1": 0.0068359375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 6,
+      "physical_qubit": 53,
+      "p_report1_prepared0": 0.003173828125,
+      "p_report0_prepared1": 0.006591796875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 7,
+      "physical_qubit": 58,
+      "p_report1_prepared0": 0.03125,
+      "p_report0_prepared1": 0.00390625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 8,
+      "physical_qubit": 86,
+      "p_report1_prepared0": 0.0087890625,
+      "p_report0_prepared1": 0.011474609375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 9,
+      "physical_qubit": 50,
+      "p_report1_prepared0": 0.0029296875,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:45-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 10,
+      "physical_qubit": 64,
+      "p_report1_prepared0": 0.0029296875,
+      "p_report0_prepared1": 0.0107421875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 11,
+      "physical_qubit": 95,
+      "p_report1_prepared0": 0.000732421875,
+      "p_report0_prepared1": 0.007080078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 12,
+      "physical_qubit": 41,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.00830078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 13,
+      "physical_qubit": 36,
+      "p_report1_prepared0": 0.0068359375,
+      "p_report0_prepared1": 0.007568359375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 14,
+      "physical_qubit": 23,
+      "p_report1_prepared0": 0.002197265625,
+      "p_report0_prepared1": 0.007080078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 15,
+      "physical_qubit": 148,
+      "p_report1_prepared0": 0.0009765625,
+      "p_report0_prepared1": 0.0048828125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 16,
+      "physical_qubit": 147,
+      "p_report1_prepared0": 0.000244140625,
+      "p_report0_prepared1": 0.009765625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 17,
+      "physical_qubit": 151,
+      "p_report1_prepared0": 0.00732421875,
+      "p_report0_prepared1": 0.0068359375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 18,
+      "physical_qubit": 91,
+      "p_report1_prepared0": 0.001220703125,
+      "p_report0_prepared1": 0.00390625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 19,
+      "physical_qubit": 17,
+      "p_report1_prepared0": 0.002197265625,
+      "p_report0_prepared1": 0.007080078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 20,
+      "physical_qubit": 59,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.00634765625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 21,
+      "physical_qubit": 129,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.007080078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 22,
+      "physical_qubit": 109,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.01708984375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 23,
+      "physical_qubit": 128,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.00830078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 24,
+      "physical_qubit": 138,
+      "p_report1_prepared0": 0.005859375,
+      "p_report0_prepared1": 0.011474609375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 25,
+      "physical_qubit": 68,
+      "p_report1_prepared0": 0.013427734375,
+      "p_report0_prepared1": 0.021240234375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 26,
+      "physical_qubit": 46,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.138671875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 27,
+      "physical_qubit": 66,
+      "p_report1_prepared0": 0.000732421875,
+      "p_report0_prepared1": 0.014404296875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 28,
+      "physical_qubit": 67,
+      "p_report1_prepared0": 0.00439453125,
+      "p_report0_prepared1": 0.02587890625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:46-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 29,
+      "physical_qubit": 57,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.00732421875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 30,
+      "physical_qubit": 47,
+      "p_report1_prepared0": 0.00048828125,
+      "p_report0_prepared1": 0.0087890625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 31,
+      "physical_qubit": 30,
+      "p_report1_prepared0": 0.004150390625,
+      "p_report0_prepared1": 0.010498046875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 32,
+      "physical_qubit": 49,
+      "p_report1_prepared0": 0.00634765625,
+      "p_report0_prepared1": 0.009521484375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 33,
+      "physical_qubit": 29,
+      "p_report1_prepared0": 0.002685546875,
+      "p_report0_prepared1": 0.017333984375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 34,
+      "physical_qubit": 106,
+      "p_report1_prepared0": 0.00341796875,
+      "p_report0_prepared1": 0.011474609375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 35,
+      "physical_qubit": 105,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.013671875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 36,
+      "physical_qubit": 110,
+      "p_report1_prepared0": 0.0029296875,
+      "p_report0_prepared1": 0.008544921875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 37,
+      "physical_qubit": 44,
+      "p_report1_prepared0": 0.00146484375,
+      "p_report0_prepared1": 0.005859375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 38,
+      "physical_qubit": 45,
+      "p_report1_prepared0": 0.001953125,
+      "p_report0_prepared1": 0.00634765625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 39,
+      "physical_qubit": 26,
+      "p_report1_prepared0": 0.009765625,
+      "p_report0_prepared1": 0.01123046875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 40,
+      "physical_qubit": 25,
+      "p_report1_prepared0": 0.00390625,
+      "p_report0_prepared1": 0.007080078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 41,
+      "physical_qubit": 152,
+      "p_report1_prepared0": 0.00732421875,
+      "p_report0_prepared1": 0.0078125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:48-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 42,
+      "physical_qubit": 24,
+      "p_report1_prepared0": 0.0166015625,
+      "p_report0_prepared1": 0.02197265625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 43,
+      "physical_qubit": 37,
+      "p_report1_prepared0": 0.005126953125,
+      "p_report0_prepared1": 0.0107421875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 44,
+      "physical_qubit": 21,
+      "p_report1_prepared0": 0.005859375,
+      "p_report0_prepared1": 0.01171875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 45,
+      "physical_qubit": 22,
+      "p_report1_prepared0": 0.01123046875,
+      "p_report0_prepared1": 0.017333984375,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 46,
+      "physical_qubit": 118,
+      "p_report1_prepared0": 0.0029296875,
+      "p_report0_prepared1": 0.01025390625,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-13 22:53:47-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 47,
+      "physical_qubit": 52,
+      "p_report1_prepared0": 0.00927734375,
+      "p_report0_prepared1": 0.028076171875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 48,
+      "physical_qubit": 51,
+      "p_report1_prepared0": 0.028076171875,
+      "p_report0_prepared1": 0.033935546875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 49,
+      "physical_qubit": 149,
+      "p_report1_prepared0": 0.0009765625,
+      "p_report0_prepared1": 0.006591796875,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    },
+    {
+      "epoch": "E03",
+      "logical_qubit": 50,
+      "physical_qubit": 150,
+      "p_report1_prepared0": 0.007568359375,
+      "p_report0_prepared1": 0.010986328125,
+      "timestamp_report1_prepared0": "2026-10-14 15:44:05-03:00",
+      "timestamp_report0_prepared1": "2026-10-14 15:44:05-03:00"
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "bootstrap_replicates": 4000,
+  "bootstrap_seed": 20261016,
+  "bootstrap_unit": "paired instances within each fixed (n_B, R/delta) cell",
+  "estimand": "equal-weight mean of six cell Spearman coefficients at each n_B",
+  "intervals": "pointwise percentile intervals; not simultaneous inference",
+  "pooled_spearman": 0.9672942306364675,
+  "cells": [
+    {
+      "n_b": 20,
+      "R_over_delta": 0.9,
+      "n": 25,
+      "mean_nzz": 8.48,
+      "mean_largest_block": 4.04,
+      "dimension_spearman": 0.8762752559053147,
+      "phi_spearman": -0.7298762156462552,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 20,
+      "R_over_delta": 1.35,
+      "n": 25,
+      "mean_nzz": 19.44,
+      "mean_largest_block": 6.32,
+      "dimension_spearman": 0.7680576805635517,
+      "phi_spearman": 0.08090852602178036,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 20,
+      "R_over_delta": 1.8,
+      "n": 25,
+      "mean_nzz": 31.16,
+      "mean_largest_block": 8.88,
+      "dimension_spearman": 0.5504746145591412,
+      "phi_spearman": 0.1606970261388386,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 20,
+      "R_over_delta": 2.4,
+      "n": 25,
+      "mean_nzz": 52.24,
+      "mean_largest_block": 12.36,
+      "dimension_spearman": 0.7741333513840015,
+      "phi_spearman": 0.1396802374800681,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 20,
+      "R_over_delta": 3.0,
+      "n": 25,
+      "mean_nzz": 73.12,
+      "mean_largest_block": 14.84,
+      "dimension_spearman": 0.07686379726068107,
+      "phi_spearman": -0.0628774449592979,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 20,
+      "R_over_delta": 3.9,
+      "n": 25,
+      "mean_nzz": 95.36,
+      "mean_largest_block": 17.12,
+      "dimension_spearman": 0.5840026978168966,
+      "phi_spearman": -0.11875565643988571,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 40,
+      "R_over_delta": 0.9,
+      "n": 25,
+      "mean_nzz": 22.96,
+      "mean_largest_block": 6.12,
+      "dimension_spearman": 0.7991527203822816,
+      "phi_spearman": -0.49710986349990405,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 40,
+      "R_over_delta": 1.35,
+      "n": 25,
+      "mean_nzz": 50.8,
+      "mean_largest_block": 11.4,
+      "dimension_spearman": 0.6085120105707122,
+      "phi_spearman": 0.021010024691493854,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 40,
+      "R_over_delta": 1.8,
+      "n": 25,
+      "mean_nzz": 81.92,
+      "mean_largest_block": 16.56,
+      "dimension_spearman": 0.8058496628386608,
+      "phi_spearman": 0.10428786751622562,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 40,
+      "R_over_delta": 2.4,
+      "n": 25,
+      "mean_nzz": 123.88,
+      "mean_largest_block": 21.96,
+      "dimension_spearman": 0.3966910350134667,
+      "phi_spearman": -0.20112055768029258,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 40,
+      "R_over_delta": 3.0,
+      "n": 25,
+      "mean_nzz": 179.56,
+      "mean_largest_block": 27.72,
+      "dimension_spearman": 0.15633427816560394,
+      "phi_spearman": -0.09306878618865849,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 40,
+      "R_over_delta": 3.9,
+      "n": 25,
+      "mean_nzz": 282.6,
+      "mean_largest_block": 32.04,
+      "dimension_spearman": -0.31104328898528383,
+      "phi_spearman": 0.31936929860109464,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 80,
+      "R_over_delta": 0.9,
+      "n": 25,
+      "mean_nzz": 39.12,
+      "mean_largest_block": 7.28,
+      "dimension_spearman": 0.7600700691255461,
+      "phi_spearman": -0.37750774414417926,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 80,
+      "R_over_delta": 1.35,
+      "n": 25,
+      "mean_nzz": 95.04,
+      "mean_largest_block": 13.8,
+      "dimension_spearman": 0.779126454040855,
+      "phi_spearman": -0.00751734828411248,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 80,
+      "R_over_delta": 1.8,
+      "n": 25,
+      "mean_nzz": 158.88,
+      "mean_largest_block": 23.0,
+      "dimension_spearman": 0.2333013592609191,
+      "phi_spearman": 0.24913368958902893,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 80,
+      "R_over_delta": 2.4,
+      "n": 25,
+      "mean_nzz": 275.12,
+      "mean_largest_block": 38.52,
+      "dimension_spearman": 0.556923076923077,
+      "phi_spearman": -0.09774871745989486,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 80,
+      "R_over_delta": 3.0,
+      "n": 25,
+      "mean_nzz": 397.48,
+      "mean_largest_block": 48.88,
+      "dimension_spearman": 0.4046932177188487,
+      "phi_spearman": 0.4068586350027338,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 80,
+      "R_over_delta": 3.9,
+      "n": 25,
+      "mean_nzz": 667.16,
+      "mean_largest_block": 57.0,
+      "dimension_spearman": 0.3387221190103991,
+      "phi_spearman": 0.2094401012144371,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 160,
+      "R_over_delta": 0.9,
+      "n": 25,
+      "mean_nzz": 74.8,
+      "mean_largest_block": 11.24,
+      "dimension_spearman": 0.8114777254889182,
+      "phi_spearman": -0.6365566654201247,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 160,
+      "R_over_delta": 1.35,
+      "n": 25,
+      "mean_nzz": 204.6,
+      "mean_largest_block": 25.0,
+      "dimension_spearman": 0.4191687154294615,
+      "phi_spearman": -0.18475756051987283,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 160,
+      "R_over_delta": 1.8,
+      "n": 25,
+      "mean_nzz": 375.4,
+      "mean_largest_block": 42.28,
+      "dimension_spearman": 0.23273706912538353,
+      "phi_spearman": 0.1474211040692987,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 160,
+      "R_over_delta": 2.4,
+      "n": 25,
+      "mean_nzz": 634.12,
+      "mean_largest_block": 72.68,
+      "dimension_spearman": 0.08426318438272182,
+      "phi_spearman": 0.03001732268453464,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 160,
+      "R_over_delta": 3.0,
+      "n": 25,
+      "mean_nzz": 965.72,
+      "mean_largest_block": 91.48,
+      "dimension_spearman": 0.5371737537534736,
+      "phi_spearman": 0.19718870215962322,
+      "degenerate_replicates_redrawn": 0
+    },
+    {
+      "n_b": 160,
+      "R_over_delta": 3.9,
+      "n": 25,
+      "mean_nzz": 1534.32,
+      "mean_largest_block": 116.2,
+      "dimension_spearman": -0.06662821381565394,
+      "phi_spearman": 0.031189855234816776,
+      "degenerate_replicates_redrawn": 0
+    }
+  ],
+  "by_register_size": [
+    {
+      "n_b": 20,
+      "n_cells": 6,
+      "n_instances": 150,
+      "dimension": {
+        "estimate": 0.6049678995815978,
+        "ci95": [
+          0.4705872626469928,
+          0.699394429616343
+        ]
+      },
+      "phi": {
+        "estimate": -0.08837058790079196,
+        "ci95": [
+          -0.22986616447429875,
+          0.06295852156452393
+        ]
+      }
+    },
+    {
+      "n_b": 40,
+      "n_cells": 6,
+      "n_instances": 150,
+      "dimension": {
+        "estimate": 0.4092494029975735,
+        "ci95": [
+          0.2640991823587211,
+          0.5292545458283159
+        ]
+      },
+      "phi": {
+        "estimate": -0.057772002760006845,
+        "ci95": [
+          -0.21168626789278386,
+          0.11227292021385178
+        ]
+      }
+    },
+    {
+      "n_b": 80,
+      "n_cells": 6,
+      "n_instances": 150,
+      "dimension": {
+        "estimate": 0.5121393826799409,
+        "ci95": [
+          0.3558301635773274,
+          0.6249259521330026
+        ]
+      },
+      "phi": {
+        "estimate": 0.06377643598633553,
+        "ci95": [
+          -0.10509122516049195,
+          0.22811076078099551
+        ]
+      }
+    },
+    {
+      "n_b": 160,
+      "n_cells": 6,
+      "n_instances": 150,
+      "dimension": {
+        "estimate": 0.3363653723940508,
+        "ci95": [
+          0.18404362204626723,
+          0.46565794315274994
+        ]
+      },
+      "phi": {
+        "estimate": -0.06924954029862068,
+        "ci95": [
+          -0.22285866270537763,
+          0.09274448137219461
+        ]
+      }
+    }
+  ]
+}

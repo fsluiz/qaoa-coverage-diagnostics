@@ -1,0 +1,20 @@
+{
+ "schema_version": 1,
+ "epoch": "e02_20261014",
+ "job_id": "db7sc2or1c5c738l75m0",
+ "backend": "ibm_kingston",
+ "calibration_date": "2026-10-14 14:27:28-03:00",
+ "timestamps": {
+  "created": "2026-10-14T18:12:27.194507Z",
+  "running": "2026-10-14T18:16:38.480877Z",
+  "finished": "2026-10-14T18:20:02.135967Z"
+ },
+ "usage": {
+  "qpu_charge_time_seconds": 162,
+  "value": 2.6951,
+  "unit": "resource_units",
+  "status": "complete"
+ },
+ "circuits_execution_time_ns": 157605325824,
+ "source": "QiskitRuntimeJobV2.metrics()"
+}

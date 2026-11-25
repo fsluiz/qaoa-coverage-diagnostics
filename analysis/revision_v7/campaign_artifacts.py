@@ -33,7 +33,8 @@ def main():
     figure,axes=plt.subplots(1,2,figsize=(7.2,3.05))
     for axis,key,title,ylabel in zip(axes,KEYS,
         ['(a) PEF-24 gated blocks','(b) Faithful 51-qubit circuit'],
-        [r'$R_e$: joint / isolated probability product',r'$C_e$: ideal covariance contribution retained']):
+        ['$R_e$: joint / isolated\nprobability product',
+         '$C_e$: ideal covariance\ncontribution retained']):
         for index,(epoch,color) in enumerate(zip(epochs,['#4477AA','#EE6677','#228833'])):
             summary=epoch['epoch_summary']; estimate=summary[key]['estimate']
             ci=np.array(summary['conditional_shot_epoch_ci95'][key])

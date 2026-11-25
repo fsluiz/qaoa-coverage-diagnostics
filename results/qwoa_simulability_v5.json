@@ -1,0 +1,112 @@
+{
+ "schema_version": 2,
+ "method": "analytical_hypergeometric_schmidt_spectrum",
+ "mixer_definition": "H_XY=0.5*sum_ij w_ij*(X_i X_j + Y_i Y_j)",
+ "mixer_evolution": "global_continuous_time_exact_sector_spectral",
+ "hamiltonian_prefactor": 0.5,
+ "n_b": 24,
+ "k_opt": 10,
+ "n_blocks": 13,
+ "block_sizes": [
+  2,
+  4,
+  3,
+  1,
+  1,
+  1,
+  3,
+  3,
+  1,
+  1,
+  1,
+  2,
+  1
+ ],
+ "largest_block": 4,
+ "schmidt_rank_largest_block": 5,
+ "entropy_largest_block_bits": 1.9132494738253447,
+ "maximum_block_cut_rank": 11,
+ "first_maximum_rank_cut_after_block": 4,
+ "maximum_block_cut_entropy_bits": 2.3496865381073353,
+ "maximum_entropy_cut_after_block": 6,
+ "maximum_entropy_cut_prefix_qubits": 12,
+ "bond_dimension_bound": 11,
+ "bound_holds": true,
+ "product_state_rank": 1,
+ "mps_simulation_cost": 682,
+ "naive_cost": 16777216,
+ "block_prefix_cuts": [
+  {
+   "after_block": 1,
+   "prefix_qubits": 2,
+   "schmidt_rank": 3,
+   "entropy_bits": 1.4511247322665313
+  },
+  {
+   "after_block": 2,
+   "prefix_qubits": 6,
+   "schmidt_rank": 7,
+   "entropy_bits": 2.138820273244759
+  },
+  {
+   "after_block": 3,
+   "prefix_qubits": 9,
+   "schmidt_rank": 10,
+   "entropy_bits": 2.302707760783324
+  },
+  {
+   "after_block": 4,
+   "prefix_qubits": 10,
+   "schmidt_rank": 11,
+   "entropy_bits": 2.3291971421155435
+  },
+  {
+   "after_block": 5,
+   "prefix_qubits": 11,
+   "schmidt_rank": 11,
+   "entropy_bits": 2.3446202354038777
+  },
+  {
+   "after_block": 6,
+   "prefix_qubits": 12,
+   "schmidt_rank": 11,
+   "entropy_bits": 2.3496865381073353
+  },
+  {
+   "after_block": 7,
+   "prefix_qubits": 15,
+   "schmidt_rank": 10,
+   "entropy_bits": 2.3027077607833246
+  },
+  {
+   "after_block": 8,
+   "prefix_qubits": 18,
+   "schmidt_rank": 7,
+   "entropy_bits": 2.1388202732447597
+  },
+  {
+   "after_block": 9,
+   "prefix_qubits": 19,
+   "schmidt_rank": 6,
+   "entropy_bits": 2.0432200275921253
+  },
+  {
+   "after_block": 10,
+   "prefix_qubits": 20,
+   "schmidt_rank": 5,
+   "entropy_bits": 1.9132494738253447
+  },
+  {
+   "after_block": 11,
+   "prefix_qubits": 21,
+   "schmidt_rank": 4,
+   "entropy_bits": 1.729429908183615
+  },
+  {
+   "after_block": 12,
+   "prefix_qubits": 23,
+   "schmidt_rank": 2,
+   "entropy_bits": 0.9798687566511528
+  }
+ ]
+}

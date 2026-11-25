@@ -1,0 +1,8 @@
+{
+  "explanation": "Historical input bytes are unchanged. Original paper analysis directories are published under analysis; original manuscript sources are excluded.",
+  "prefixes": {
+    "paper/revision_v7/": "analysis/revision_v7/",
+    "paper/revision_v8/": "analysis/revision_v8/",
+    "paper/ibm_variance_campaign/": "analysis/ibm_variance_campaign/"
+  }
+}

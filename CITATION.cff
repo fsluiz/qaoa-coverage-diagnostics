@@ -1,50 +1,46 @@
 cff-version: 1.2.0
-message: Please cite this software release and the associated preprint arXiv:2611.27507.
-title: QAOA coverage diagnostics
+message: "Please cite this software release and the associated arXiv article when available."
+title: "QAOA coverage diagnostics"
 type: software
-version: 8.0.0
-repository-code: https://github.com/fsluiz/qaoa-coverage-diagnostics
+version: "8.1.0"
+repository-code: "https://github.com/fsluiz/qaoa-coverage-diagnostics"
 authors:
-- family-names: Luiz
-  given-names: F. S.
-  affiliation: Instituto de Física Gleb Wataghin, UNICAMP, Campinas, SP, Brazil
-  orcid: https://orcid.org/0000-0002-6375-0939
-- family-names: Abreu
-  given-names: D.
-  affiliation: Universidade Federal do Pará (UFPA), Belém, PA, Brazil
-- family-names: Abelém
-  given-names: A. J. G.
-  affiliation: Universidade Federal do Pará (UFPA), Belém, PA, Brazil
-- family-names: da Fonseca
-  given-names: J. E.
-  affiliation: Venturus Centro de Inovação Tecnológica, Campinas, SP, Brazil
-- family-names: Santos
-  given-names: A. F. P.
-  affiliation: Instituto Militar de Engenharia, Rio de Janeiro, RJ, Brazil
-- family-names: de Oliveira
-  given-names: M. C.
-  affiliation: Instituto de Física Gleb Wataghin, UNICAMP, Campinas, SP, Brazil
-  orcid: https://orcid.org/0000-0003-2251-2632
+  - family-names: "Luiz"
+    given-names: "F. S."
+    affiliation: "Instituto de Física Gleb Wataghin, UNICAMP, Campinas, SP, Brazil"
+    orcid: "https://orcid.org/0000-0002-6375-0939"
+  - family-names: "Abreu"
+    given-names: "D."
+    affiliation: "Universidade Federal do Pará (UFPA), Belém, PA, Brazil"
+  - family-names: "Abelém"
+    given-names: "A. J. G."
+    affiliation: "Universidade Federal do Pará (UFPA), Belém, PA, Brazil"
+  - family-names: "da Fonseca"
+    given-names: "J. E."
+    affiliation: "Venturus Centro de Inovação Tecnológica, Campinas, SP, Brazil"
+  - family-names: "Santos"
+    given-names: "A. F. P."
+    affiliation: "Instituto Militar de Engenharia, Rio de Janeiro, RJ, Brazil"
+  - family-names: "de Oliveira"
+    given-names: "M. C."
+    affiliation: "Instituto de Física Gleb Wataghin, UNICAMP, Campinas, SP, Brazil"
+    orcid: "https://orcid.org/0000-0003-2251-2632"
 license: MIT
-doi: 10.5281/zenodo.24539594
 references:
-- type: article
-  title: Classical simulability and hardware diagnostics for QAOA on geographic coverage
-    benchmarks
-  authors:
-  - family-names: Luiz
-    given-names: F. S.
-    orcid: https://orcid.org/0000-0002-6375-0939
-  - family-names: Abreu
-    given-names: D.
-  - family-names: Abelém
-    given-names: A. J. G.
-  - family-names: da Fonseca
-    given-names: J. E.
-  - family-names: Santos
-    given-names: A. F. P.
-  - family-names: de Oliveira
-    given-names: M. C.
-    orcid: https://orcid.org/0000-0003-2251-2632
-  year: 2026
-  url: https://arxiv.org/abs/2611.27507
+  - type: article
+    title: "Classical simulability and hardware diagnostics for QAOA on geographic coverage benchmarks"
+    year: 2026
+    url: "https://arxiv.org/abs/2611.27507"
+    authors:
+      - family-names: "Luiz"
+        given-names: "F. S."
+      - family-names: "Abreu"
+        given-names: "D."
+      - family-names: "Abelém"
+        given-names: "A. J. G."
+      - family-names: "da Fonseca"
+        given-names: "J. E."
+      - family-names: "Santos"
+        given-names: "A. F. P."
+      - family-names: "de Oliveira"
+        given-names: "M. C."

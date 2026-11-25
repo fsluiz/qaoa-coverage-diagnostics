@@ -1,0 +1,272 @@
+[
+  {
+    "ratio": 0.8,
+    "R_km": 8.0,
+    "n_B": 625,
+    "avg_deg": 1.0,
+    "n_ZZ": 0,
+    "t_ilp_s": 0.004,
+    "k_opt": 625,
+    "status": "optimal"
+  },
+  {
+    "ratio": 1.0,
+    "R_km": 10.0,
+    "n_B": 625,
+    "avg_deg": 4.84,
+    "n_ZZ": 3502,
+    "t_ilp_s": 60.0045,
+    "k_opt": null,
+    "status": "TIMEOUT"
+  },
+  {
+    "ratio": 1.2,
+    "R_km": 12.0,
+    "n_B": 625,
+    "avg_deg": 4.84,
+    "n_ZZ": 3502,
+    "t_ilp_s": 60.0059,
+    "k_opt": null,
+    "status": "TIMEOUT"
+  },
+  {
+    "ratio": 1.4,
+    "R_km": 14.0,
+    "n_B": 625,
+    "avg_deg": 4.84,
+    "n_ZZ": 3502,
+    "t_ilp_s": 60.0042,
+    "k_opt": null,
+    "status": "TIMEOUT"
+  },
+  {
+    "ratio": 1.6,
+    "R_km": 16.0,
+    "n_B": 625,
+    "avg_deg": 8.53,
+    "n_ZZ": 6768,
+    "t_ilp_s": 0.1052,
+    "k_opt": 81,
+    "status": "optimal"
+  },
+  {
+    "ratio": 1.8,
+    "R_km": 18.0,
+    "n_B": 625,
+    "avg_deg": 8.53,
+    "n_ZZ": 6768,
+    "t_ilp_s": 0.1052,
+    "k_opt": 81,
+    "status": "optimal"
+  },
+  {
+    "ratio": 2.0,
+    "R_km": 20.0,
+    "n_B": 625,
+    "avg_deg": 12.21,
+    "n_ZZ": 11030,
+    "t_ilp_s": 60.0051,
+    "k_opt": null,
+    "status": "TIMEOUT"
+  },
+  {
+    "ratio": 2.2,
+    "R_km": 22.0,
+    "n_B": 625,
+    "avg_deg": 12.21,
+    "n_ZZ": 11030,
+    "t_ilp_s": 60.0039,
+    "k_opt": null,
+    "status": "TIMEOUT"
+  },
+  {
+    "ratio": 2.4,
+    "R_km": 24.0,
+    "n_B": 625,
+    "avg_deg": 19.27,
+    "n_ZZ": 17970,
+    "t_ilp_s": 41.0564,
+    "k_opt": 37,
+    "status": "optimal"
+  },
+  {
+    "ratio": 2.6,
+    "R_km": 26.0,
+    "n_B": 625,
+    "avg_deg": 19.27,
+    "n_ZZ": 17970,
+    "t_ilp_s": 41.3818,
+    "k_opt": 37,
+    "status": "optimal"
+  },
+  {
+    "ratio": 2.8,
+    "R_km": 28.0,
+    "n_B": 625,
+    "avg_deg": 19.27,
+    "n_ZZ": 17970,
+    "t_ilp_s": 41.7653,
+    "k_opt": 37,
+    "status": "optimal"
+  },
+  {
+    "ratio": 3.0,
+    "R_km": 30.0,
+    "n_B": 625,
+    "avg_deg": 26.18,
+    "n_ZZ": 26410,
+    "t_ilp_s": 0.0884,
+    "k_opt": 25,
+    "status": "optimal"
+  },
+  {
+    "ratio": 3.2,
+    "R_km": 32.0,
+    "n_B": 625,
+    "avg_deg": 32.94,
+    "n_ZZ": 31742,
+    "t_ilp_s": 12.7489,
+    "k_opt": 22,
+    "status": "optimal"
+  },
+  {
+    "ratio": 3.4,
+    "R_km": 34.0,
+    "n_B": 625,
+    "avg_deg": 32.94,
+    "n_ZZ": 31742,
+    "t_ilp_s": 12.6998,
+    "k_opt": 22,
+    "status": "optimal"
+  },
+  {
+    "ratio": 3.6,
+    "R_km": 36.0,
+    "n_B": 625,
+    "avg_deg": 32.94,
+    "n_ZZ": 31742,
+    "t_ilp_s": 12.6589,
+    "k_opt": 22,
+    "status": "optimal"
+  },
+  {
+    "ratio": 3.8,
+    "R_km": 38.0,
+    "n_B": 625,
+    "avg_deg": 39.41,
+    "n_ZZ": 37490,
+    "t_ilp_s": 4.6234,
+    "k_opt": 18,
+    "status": "optimal"
+  },
+  {
+    "ratio": 4.0,
+    "R_km": 40.0,
+    "n_B": 625,
+    "avg_deg": 42.77,
+    "n_ZZ": 42624,
+    "t_ilp_s": 37.9703,
+    "k_opt": 18,
+    "status": "optimal"
+  },
+  {
+    "ratio": 4.2,
+    "R_km": 42.0,
+    "n_B": 625,
+    "avg_deg": 49.22,
+    "n_ZZ": 47404,
+    "t_ilp_s": 5.8251,
+    "k_opt": 16,
+    "status": "optimal"
+  },
+  {
+    "ratio": 4.4,
+    "R_km": 44.0,
+    "n_B": 625,
+    "avg_deg": 52.32,
+    "n_ZZ": 51158,
+    "t_ilp_s": 3.3982,
+    "k_opt": 14,
+    "status": "optimal"
+  },
+  {
+    "ratio": 4.6,
+    "R_km": 46.0,
+    "n_B": 625,
+    "avg_deg": 58.5,
+    "n_ZZ": 55522,
+    "t_ilp_s": 1.3461,
+    "k_opt": 13,
+    "status": "optimal"
+  },
+  {
+    "ratio": 4.8,
+    "R_km": 48.0,
+    "n_B": 625,
+    "avg_deg": 58.5,
+    "n_ZZ": 55522,
+    "t_ilp_s": 1.337,
+    "k_opt": 13,
+    "status": "optimal"
+  },
+  {
+    "ratio": 5.0,
+    "R_km": 50.0,
+    "n_B": 625,
+    "avg_deg": 67.62,
+    "n_ZZ": 66156,
+    "t_ilp_s": 0.95,
+    "k_opt": 10,
+    "status": "optimal"
+  },
+  {
+    "ratio": 5.2,
+    "R_km": 52.0,
+    "n_B": 625,
+    "avg_deg": 73.76,
+    "n_ZZ": 70320,
+    "t_ilp_s": 1.6168,
+    "k_opt": 10,
+    "status": "optimal"
+  },
+  {
+    "ratio": 5.4,
+    "R_km": 54.0,
+    "n_B": 625,
+    "avg_deg": 79.65,
+    "n_ZZ": 74180,
+    "t_ilp_s": 0.4493,
+    "k_opt": 10,
+    "status": "optimal"
+  },
+  {
+    "ratio": 5.6,
+    "R_km": 56.0,
+    "n_B": 625,
+    "avg_deg": 79.65,
+    "n_ZZ": 74180,
+    "t_ilp_s": 0.453,
+    "k_opt": 10,
+    "status": "optimal"
+  },
+  {
+    "ratio": 5.8,
+    "R_km": 58.0,
+    "n_B": 625,
+    "avg_deg": 82.47,
+    "n_ZZ": 77198,
+    "t_ilp_s": 0.8016,
+    "k_opt": 9,
+    "status": "optimal"
+  },
+  {
+    "ratio": 6.0,
+    "R_km": 60.0,
+    "n_B": 625,
+    "avg_deg": 91.14,
+    "n_ZZ": 85904,
+    "t_ilp_s": 0.7004,
+    "k_opt": 9,
+    "status": "optimal"
+  }
+]

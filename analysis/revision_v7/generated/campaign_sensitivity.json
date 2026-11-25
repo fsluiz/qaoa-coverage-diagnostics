@@ -1,0 +1,187 @@
+{
+  "scope": "Exploratory model sensitivity, not estimation of shot dependence or population variance.",
+  "inflation_grid": [
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0,
+    50.0
+  ],
+  "endpoints": {
+    "joint_over_slice_gated": {
+      "scale": "log",
+      "baseline": {
+        "estimate": 0.868135772222355,
+        "observed_variance": 0.006149846498945151,
+        "mean_working_variance": 0.00020695855754498724,
+        "excess": 0.005942887941400164,
+        "ratio": 29.71535254157509
+      },
+      "leave_one_out": [
+        {
+          "omitted": "E01",
+          "estimate": 0.9082798025291143,
+          "observed_variance": 3.90871204138499e-05,
+          "mean_working_variance": 0.00021089980717067493,
+          "excess": 0.0,
+          "ratio": 0.18533502205726465
+        },
+        {
+          "omitted": "E02",
+          "estimate": 0.850612217546874,
+          "observed_variance": 0.009804745857370836,
+          "mean_working_variance": 0.00019747047951360479,
+          "excess": 0.009607275377857232,
+          "ratio": 49.6517043029479
+        },
+        {
+          "omitted": "E03",
+          "estimate": 0.8468601223916001,
+          "observed_variance": 0.008605706519050765,
+          "mean_working_variance": 0.00021250538595068196,
+          "excess": 0.008393201133100084,
+          "ratio": 40.49641603459391
+        }
+      ],
+      "inflation": [
+        {
+          "factor": 1.0,
+          "estimate": 0.868135772222355,
+          "observed_variance": 0.006149846498945151,
+          "mean_working_variance": 0.00020695855754498724,
+          "excess": 0.005942887941400164,
+          "ratio": 29.71535254157509
+        },
+        {
+          "factor": 2.0,
+          "estimate": 0.868135772222355,
+          "observed_variance": 0.006149846498945151,
+          "mean_working_variance": 0.0003905706228472142,
+          "excess": 0.005759275876097937,
+          "ratio": 15.745798939289108
+        },
+        {
+          "factor": 5.0,
+          "estimate": 0.868135772222355,
+          "observed_variance": 0.006149846498945151,
+          "mean_working_variance": 0.0009764265571180356,
+          "excess": 0.005173419941827116,
+          "ratio": 6.2983195757156425
+        },
+        {
+          "factor": 10.0,
+          "estimate": 0.868135772222355,
+          "observed_variance": 0.006149846498945151,
+          "mean_working_variance": 0.0019528531142360712,
+          "excess": 0.00419699338470908,
+          "ratio": 3.1491597878578212
+        },
+        {
+          "factor": 20.0,
+          "estimate": 0.868135772222355,
+          "observed_variance": 0.006149846498945151,
+          "mean_working_variance": 0.0039057062284721424,
+          "excess": 0.002244140270473009,
+          "ratio": 1.5745798939289106
+        },
+        {
+          "factor": 50.0,
+          "estimate": 0.868135772222355,
+          "observed_variance": 0.006149846498945151,
+          "mean_working_variance": 0.009764265571180356,
+          "excess": 0.0,
+          "ratio": 0.6298319575715642
+        }
+      ],
+      "zero_excess_threshold_within_grid": 31.491597878578208
+    },
+    "faithful51_correlation_energy_retained": {
+      "scale": "identity",
+      "baseline": {
+        "estimate": 0.5011454561681427,
+        "observed_variance": 4.260442849942661e-06,
+        "mean_working_variance": 0.00017764797486029653,
+        "excess": 0.0,
+        "ratio": 0.023982501648516397
+      },
+      "leave_one_out": [
+        {
+          "omitted": "E01",
+          "estimate": 0.4999647304574863,
+          "observed_variance": 1.5620647705603853e-07,
+          "mean_working_variance": 0.00018843104955985904,
+          "excess": 0.0,
+          "ratio": 0.0008289848059590428
+        },
+        {
+          "omitted": "E02",
+          "estimate": 0.5018755538066566,
+          "observed_variance": 5.322630329302641e-06,
+          "mean_working_variance": 0.0001563385431693484,
+          "excess": 0.0,
+          "ratio": 0.03404554130670825
+        },
+        {
+          "omitted": "E03",
+          "estimate": 0.5015960842402849,
+          "observed_variance": 7.302491743469303e-06,
+          "mean_working_variance": 0.00018817433185168225,
+          "excess": 0.0,
+          "ratio": 0.03880705551926752
+        }
+      ],
+      "inflation": [
+        {
+          "factor": 1.0,
+          "estimate": 0.5011454561681427,
+          "observed_variance": 4.260442849942661e-06,
+          "mean_working_variance": 0.00017764797486029653,
+          "excess": 0.0,
+          "ratio": 0.023982501648516397
+        },
+        {
+          "factor": 2.0,
+          "estimate": 0.5011454561681427,
+          "observed_variance": 4.260442849942661e-06,
+          "mean_working_variance": 0.0003132700783243548,
+          "excess": 0.0,
+          "ratio": 0.013599903548820475
+        },
+        {
+          "factor": 5.0,
+          "estimate": 0.5011454561681427,
+          "observed_variance": 4.260442849942661e-06,
+          "mean_working_variance": 0.0007831751958108871,
+          "excess": 0.0,
+          "ratio": 0.005439961419528189
+        },
+        {
+          "factor": 10.0,
+          "estimate": 0.5011454561681427,
+          "observed_variance": 4.260442849942661e-06,
+          "mean_working_variance": 0.0015663503916217743,
+          "excess": 0.0,
+          "ratio": 0.0027199807097640946
+        },
+        {
+          "factor": 20.0,
+          "estimate": 0.5011454561681427,
+          "observed_variance": 4.260442849942661e-06,
+          "mean_working_variance": 0.0031327007832435486,
+          "excess": 0.0,
+          "ratio": 0.0013599903548820473
+        },
+        {
+          "factor": 50.0,
+          "estimate": 0.5011454561681427,
+          "observed_variance": 4.260442849942661e-06,
+          "mean_working_variance": 0.00783175195810887,
+          "excess": 0.0,
+          "ratio": 0.000543996141952819
+        }
+      ],
+      "zero_excess_threshold_within_grid": null
+    }
+  }
+}

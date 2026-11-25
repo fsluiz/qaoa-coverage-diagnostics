@@ -1,0 +1,27 @@
+{
+  "product": "Amazônia Legal 2024",
+  "publisher": "Instituto Brasileiro de Geografia e Estatística (IBGE)",
+  "product_year": 2024,
+  "n_municipalities": 773,
+  "state_counts": {
+    "AC": 22,
+    "AM": 62,
+    "AP": 16,
+    "MA": 181,
+    "MT": 142,
+    "PA": 144,
+    "RO": 52,
+    "RR": 15,
+    "TO": 139
+  },
+  "official_area_product_page_km2": 5014107.875,
+  "sum_of_rounded_municipality_AREA_INT_km2": 5014108.324,
+  "municipality_polygon_source": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/amazonia_legal/2024/Mun_Amazonia_Legal_2024_shp.zip",
+  "municipality_polygon_sha256": "1af12c71fd1eb33f3eaa3265a26f767ef189efe40272104fd0968cd54385dea4",
+  "municipal_seat_source": "https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/amazonia_legal/2024/Sedes_Mun_Amazonia_Legal_2024_shp.zip",
+  "municipal_seat_sha256": "3374631a6f8967c3f09d6b93c460254411e363af95b196d7bfb64ce6ce8e2927",
+  "source_crs_municipalities": "EPSG:4674",
+  "source_crs_seats": "EPSG:4326",
+  "centroid_method": "Geometric centroid of each official municipality geometry after projection to EPSG:5880, transformed to EPSG:4326",
+  "raw_files_versioned": false
+}

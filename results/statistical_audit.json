@@ -1,0 +1,681 @@
+{
+ "description": "Offline statistical audit; no IBM access",
+ "confidence_level": 0.95,
+ "rung1": {
+  "definition": {
+   "eta_all_register": "P(opt)/(N_opt/2^n)",
+   "eta_conditional_k_opt": "P(opt|k=k_opt)/(N_opt/C(n,k_opt))",
+   "legacy_hybrid_eta": "P(opt)/(N_opt/C(n,k_opt)); mixes sample spaces and is deprecated"
+  },
+  "n_qubits": 24,
+  "k_opt": 10,
+  "n_optimal_strings": 288,
+  "circuits": [
+   {
+    "tag": "rung1_qaoa_p1",
+    "shots": 100000,
+    "n_opt": 79,
+    "n_feasible": 6601,
+    "n_in_optimal_sector": 15351,
+    "mean_cardinality": 11.5632,
+    "mean_energy": 127.3964,
+    "mean_energy_se": 0.291450367821983,
+    "mean_energy_ci95_normal": [
+     126.82516777578796,
+     127.96763222421204
+    ],
+    "p_opt_unconditional": 0.00079,
+    "p_opt_unconditional_wilson95": [
+     0.0006339902734410431,
+     0.0009843621464241156
+    ],
+    "p_opt_given_k_opt": 0.00514624454432936,
+    "p_opt_given_k_opt_wilson95": [
+     0.00413154599620348,
+     0.006408547123919437
+    ],
+    "p_k_opt": 0.15351,
+    "uniform_all_register_baseline": 1.71661376953125e-05,
+    "uniform_k_opt_sector_baseline": 0.00014684467504497118,
+    "eta_all_register": 46.02083555555556,
+    "eta_all_register_wilson95": [
+     36.93261027576196,
+     57.34325122493408
+    ],
+    "eta_conditional_k_opt": 35.045496493170916,
+    "eta_conditional_k_opt_wilson95": [
+     28.13548393864602,
+     43.641671868297706
+    ],
+    "legacy_hybrid_eta_deprecated": 5.379834166666667,
+    "ideal_p_opt": 0.001825377751751246,
+    "ideal_p_k_opt": 0.17465861573271935,
+    "ideal_p_opt_given_k_opt": 0.010451117708070168,
+    "ideal_eta_all_register": 106.33596119001749,
+    "ideal_eta_conditional_k_opt": 71.17124066548217,
+    "ideal_null_test": {
+     "null_probability": 0.001825377751751246,
+     "expected_count": 182.5377751751246,
+     "null_binomial_sd_count": 13.49831747965152,
+     "direction": "deficit",
+     "one_sided_exact_binomial_p": 4.362838747653151e-18,
+     "one_sided_normal_equivalent_z": 8.589620862643672,
+     "legacy_difference_over_sqrt_observed": 11.648909813833153
+    },
+    "hardware_to_ideal_absolute_probability_ratio": 0.43278713090596355,
+    "hardware_to_ideal_conditional_probability_ratio": 0.4924109256137763,
+    "resource_proxy": {
+     "F_est": 0.8166713214196704,
+     "qualification": "resource proxy, not a calibrated output-noise probability",
+     "legacy_erasure_like_reference_F_times_pideal": 0.0014907336606127572,
+     "illustrative_global_depolarizing_mixture": 0.0014938807059527667
+    }
+   },
+   {
+    "tag": "rung1_qaoa_p2",
+    "shots": 100000,
+    "n_opt": 48,
+    "n_feasible": 7879,
+    "n_in_optimal_sector": 12564,
+    "mean_cardinality": 11.88499,
+    "mean_energy": 172.06529,
+    "mean_energy_se": 0.3044024922383713,
+    "mean_energy_ci95_normal": [
+     171.46867207840856,
+     172.66190792159145
+    ],
+    "p_opt_unconditional": 0.00048,
+    "p_opt_unconditional_wilson95": [
+     0.0003620836777666651,
+     0.0006362925582282949
+    ],
+    "p_opt_given_k_opt": 0.0038204393505253103,
+    "p_opt_given_k_opt_wilson95": [
+     0.0028829325197675306,
+     0.0050612684910290185
+    ],
+    "p_k_opt": 0.12564,
+    "uniform_all_register_baseline": 1.71661376953125e-05,
+    "uniform_k_opt_sector_baseline": 0.00014684467504497118,
+    "eta_all_register": 27.962026666666667,
+    "eta_all_register_wilson95": [
+     21.09290302765881,
+     37.06672808537736
+    ],
+    "eta_conditional_k_opt": 26.016873607131487,
+    "eta_conditional_k_opt_wilson95": [
+     19.632530215240237,
+     34.466816651533364
+    ],
+    "legacy_hybrid_eta_deprecated": 3.2687600000000003,
+    "ideal_p_opt": 0.0004683293462262668,
+    "ideal_p_k_opt": 0.13987160892790682,
+    "ideal_p_opt_given_k_opt": 0.0033482802536979107,
+    "ideal_eta_all_register": 27.282161808252997,
+    "ideal_eta_conditional_k_opt": 22.801509504328298,
+    "ideal_null_test": {
+     "null_probability": 0.0004683293462262668,
+     "expected_count": 46.83293462262668,
+     "null_binomial_sd_count": 6.841856574422837,
+     "direction": "excess",
+     "one_sided_exact_binomial_p": 0.45160488233434354,
+     "one_sided_normal_equivalent_z": 0.12160763733332483,
+     "legacy_difference_over_sqrt_observed": 0.1684513774470945
+    },
+    "hardware_to_ideal_absolute_probability_ratio": 1.0249197575761027,
+    "hardware_to_ideal_conditional_probability_ratio": 1.1410154052385362,
+    "resource_proxy": {
+     "F_est": 0.7623638658014248,
+     "qualification": "resource proxy, not a calibrated output-noise probability",
+     "legacy_erasure_like_reference_F_times_pideal": 0.00035703737085731067,
+     "illustrative_global_depolarizing_mixture": 0.0003611166654583452
+    }
+   },
+   {
+    "tag": "rung1_qaoa_p3",
+    "shots": 100000,
+    "n_opt": 26,
+    "n_feasible": 7107,
+    "n_in_optimal_sector": 10197,
+    "mean_cardinality": 12.41699,
+    "mean_energy": 179.61779,
+    "mean_energy_se": 0.2987454949348468,
+    "mean_energy_ci95_normal": [
+     179.03225958938413,
+     180.2033204106159
+    ],
+    "p_opt_unconditional": 0.00026,
+    "p_opt_unconditional_wilson95": [
+     0.00017744529959271753,
+     0.0003809478381717789
+    ],
+    "p_opt_given_k_opt": 0.0025497695400608024,
+    "p_opt_given_k_opt_wilson95": [
+     0.0017406853663500448,
+     0.0037335158597074265
+    ],
+    "p_k_opt": 0.10197,
+    "uniform_all_register_baseline": 1.71661376953125e-05,
+    "uniform_k_opt_sector_baseline": 0.00014684467504497118,
+    "eta_all_register": 15.146097777777776,
+    "eta_all_register_wilson95": [
+     10.336937914762965,
+     22.191820019933957
+    ],
+    "eta_conditional_k_opt": 17.36371808701906,
+    "eta_conditional_k_opt_wilson95": [
+     11.853922287729942,
+     25.424931878285932
+    ],
+    "legacy_hybrid_eta_deprecated": 1.7705783333333331,
+    "ideal_p_opt": 0.00017023693864614886,
+    "ideal_p_k_opt": 0.11167400993192766,
+    "ideal_p_opt_given_k_opt": 0.001524409652254083,
+    "ideal_eta_all_register": 9.917020454323566,
+    "ideal_eta_conditional_k_opt": 10.381102697712617,
+    "ideal_null_test": {
+     "null_probability": 0.00017023693864614886,
+     "expected_count": 17.023693864614884,
+     "null_binomial_sd_count": 4.125626716401634,
+     "direction": "excess",
+     "one_sided_exact_binomial_p": 0.025600929427910653,
+     "one_sided_normal_equivalent_z": 1.9497840882501813,
+     "legacy_difference_over_sqrt_observed": 1.760398467088898
+    },
+    "hardware_to_ideal_absolute_probability_ratio": 1.5272831035832408,
+    "hardware_to_ideal_conditional_probability_ratio": 1.6726275225891944,
+    "resource_proxy": {
+     "F_est": 0.6814279348014398,
+     "qualification": "resource proxy, not a calibrated output-noise probability",
+     "legacy_erasure_like_reference_F_times_pideal": 0.00011600420552856464,
+     "illustrative_global_depolarizing_mixture": 0.00012147285746564319
+    }
+   }
+  ]
+ },
+ "faithful_51q": {
+  "job_id": "dakjjpfi3e6s738rmbng",
+  "shots": 100000,
+  "n_qubits": 51,
+  "n_post_qubits": 24,
+  "mean_post_cardinality": 20.07241,
+  "mean_energy": 245.55631,
+  "mean_energy_se": 0.2971583953432212,
+  "mean_energy_ci95_normal": [
+   244.97389024742355,
+   246.13872975257644
+  ],
+  "post_bits_form_cover": {
+   "count": 53569,
+   "probability": 0.53569,
+   "wilson95": [
+    0.5325976178227408,
+    0.5387796402492829
+   ],
+   "uniform_24_bit_baseline": 0.01892566680908203,
+   "legacy_enhancement": 28.304947212899975,
+   "cardinality_matched_uniform_within_sector_baseline": 0.4470232167026823,
+   "cardinality_matched_enhancement": 1.19834939212182
+  },
+  "all_measured_slack_equalities_satisfied": {
+   "count": 0,
+   "probability": 0.0,
+   "wilson95": [
+    0.0,
+    3.841311258303963e-05
+   ],
+   "uniform_51_bit_baseline": 1.4100720591159188e-10,
+   "qualification": "this, not post coverage alone, is measured feasibility of the encoded equality constraints"
+  },
+  "exact_cover_counts_by_post_weight": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   288,
+   2592,
+   10848,
+   28032,
+   50042,
+   65366,
+   64487,
+   48844,
+   28553,
+   12822,
+   4354,
+   1084,
+   187,
+   20,
+   1
+  ],
+  "cardinality_matched_null_terms": [
+   {
+    "k": 0,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 1,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 1,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 24,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 2,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 276,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 3,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 2024,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 4,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 10626,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 5,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 42504,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 6,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 134596,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 7,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 346104,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 8,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 735471,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 9,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 1307504,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 10,
+    "observed_probability": 0.0,
+    "n_covers": 288,
+    "sector_size": 1961256,
+    "uniform_within_sector_cover_probability": 0.00014684467504497118
+   },
+   {
+    "k": 11,
+    "observed_probability": 1e-05,
+    "n_covers": 2592,
+    "sector_size": 2496144,
+    "uniform_within_sector_cover_probability": 0.0010384016306751534
+   },
+   {
+    "k": 12,
+    "observed_probability": 0.00012,
+    "n_covers": 10848,
+    "sector_size": 2704156,
+    "uniform_within_sector_cover_probability": 0.004011602880898883
+   },
+   {
+    "k": 13,
+    "observed_probability": 0.00065,
+    "n_covers": 28032,
+    "sector_size": 2496144,
+    "uniform_within_sector_cover_probability": 0.01123012133915351
+   },
+   {
+    "k": 14,
+    "observed_probability": 0.00222,
+    "n_covers": 50042,
+    "sector_size": 1961256,
+    "uniform_within_sector_cover_probability": 0.025515282043751555
+   },
+   {
+    "k": 15,
+    "observed_probability": 0.0081,
+    "n_covers": 65366,
+    "sector_size": 1307504,
+    "uniform_within_sector_cover_probability": 0.049992963692654095
+   },
+   {
+    "k": 16,
+    "observed_probability": 0.0222,
+    "n_covers": 64487,
+    "sector_size": 735471,
+    "uniform_within_sector_cover_probability": 0.0876812274039357
+   },
+   {
+    "k": 17,
+    "observed_probability": 0.05296,
+    "n_covers": 48844,
+    "sector_size": 346104,
+    "uniform_within_sector_cover_probability": 0.14112521091926125
+   },
+   {
+    "k": 18,
+    "observed_probability": 0.10179,
+    "n_covers": 28553,
+    "sector_size": 134596,
+    "uniform_within_sector_cover_probability": 0.21213854795090492
+   },
+   {
+    "k": 19,
+    "observed_probability": 0.16657,
+    "n_covers": 12822,
+    "sector_size": 42504,
+    "uniform_within_sector_cover_probability": 0.3016657255787691
+   },
+   {
+    "k": 20,
+    "observed_probability": 0.21203,
+    "n_covers": 4354,
+    "sector_size": 10626,
+    "uniform_within_sector_cover_probability": 0.40974967061923584
+   },
+   {
+    "k": 21,
+    "observed_probability": 0.20923,
+    "n_covers": 1084,
+    "sector_size": 2024,
+    "uniform_within_sector_cover_probability": 0.5355731225296443
+   },
+   {
+    "k": 22,
+    "observed_probability": 0.14497,
+    "n_covers": 187,
+    "sector_size": 276,
+    "uniform_within_sector_cover_probability": 0.677536231884058
+   },
+   {
+    "k": 23,
+    "observed_probability": 0.06611,
+    "n_covers": 20,
+    "sector_size": 24,
+    "uniform_within_sector_cover_probability": 0.8333333333333334
+   },
+   {
+    "k": 24,
+    "observed_probability": 0.01304,
+    "n_covers": 1,
+    "sector_size": 1,
+    "uniform_within_sector_cover_probability": 1.0
+   }
+  ]
+ },
+ "faithful_51q_matched_mitigation": {
+  "job_id": "dat665lvr3kc73el167g",
+  "shots": 100000,
+  "n_qubits": 51,
+  "n_post_qubits": 24,
+  "mean_post_cardinality": 19.38261,
+  "mean_energy": 258.06551,
+  "mean_energy_se": 0.3193167352585411,
+  "mean_energy_ci95_normal": [
+   257.4396606992324,
+   258.69135930076766
+  ],
+  "post_bits_form_cover": {
+   "count": 43260,
+   "probability": 0.4326,
+   "wilson95": [
+    0.42953195665003113,
+    0.4356732214375451
+   ],
+   "uniform_24_bit_baseline": 0.01892566680908203,
+   "legacy_enhancement": 22.857847195767196,
+   "cardinality_matched_uniform_within_sector_baseline": 0.37446780734300616,
+   "cardinality_matched_enhancement": 1.1552394932676968
+  },
+  "all_measured_slack_equalities_satisfied": {
+   "count": 0,
+   "probability": 0.0,
+   "wilson95": [
+    0.0,
+    3.841311258303963e-05
+   ],
+   "uniform_51_bit_baseline": 1.4100720591159188e-10,
+   "qualification": "this, not post coverage alone, is measured feasibility of the encoded equality constraints"
+  },
+  "exact_cover_counts_by_post_weight": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   288,
+   2592,
+   10848,
+   28032,
+   50042,
+   65366,
+   64487,
+   48844,
+   28553,
+   12822,
+   4354,
+   1084,
+   187,
+   20,
+   1
+  ],
+  "cardinality_matched_null_terms": [
+   {
+    "k": 0,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 1,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 1,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 24,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 2,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 276,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 3,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 2024,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 4,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 10626,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 5,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 42504,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 6,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 134596,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 7,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 346104,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 8,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 735471,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 9,
+    "observed_probability": 0.0,
+    "n_covers": 0,
+    "sector_size": 1307504,
+    "uniform_within_sector_cover_probability": 0.0
+   },
+   {
+    "k": 10,
+    "observed_probability": 3e-05,
+    "n_covers": 288,
+    "sector_size": 1961256,
+    "uniform_within_sector_cover_probability": 0.00014684467504497118
+   },
+   {
+    "k": 11,
+    "observed_probability": 0.00017,
+    "n_covers": 2592,
+    "sector_size": 2496144,
+    "uniform_within_sector_cover_probability": 0.0010384016306751534
+   },
+   {
+    "k": 12,
+    "observed_probability": 0.00061,
+    "n_covers": 10848,
+    "sector_size": 2704156,
+    "uniform_within_sector_cover_probability": 0.004011602880898883
+   },
+   {
+    "k": 13,
+    "observed_probability": 0.00273,
+    "n_covers": 28032,
+    "sector_size": 2496144,
+    "uniform_within_sector_cover_probability": 0.01123012133915351
+   },
+   {
+    "k": 14,
+    "observed_probability": 0.00697,
+    "n_covers": 50042,
+    "sector_size": 1961256,
+    "uniform_within_sector_cover_probability": 0.025515282043751555
+   },
+   {
+    "k": 15,
+    "observed_probability": 0.02002,
+    "n_covers": 65366,
+    "sector_size": 1307504,
+    "uniform_within_sector_cover_probability": 0.049992963692654095
+   },
+   {
+    "k": 16,
+    "observed_probability": 0.0456,
+    "n_covers": 64487,
+    "sector_size": 735471,
+    "uniform_within_sector_cover_probability": 0.0876812274039357
+   },
+   {
+    "k": 17,
+    "observed_probability": 0.08812,
+    "n_covers": 48844,
+    "sector_size": 346104,
+    "uniform_within_sector_cover_probability": 0.14112521091926125
+   },
+   {
+    "k": 18,
+    "observed_probability": 0.14406,
+    "n_covers": 28553,
+    "sector_size": 134596,
+    "uniform_within_sector_cover_probability": 0.21213854795090492
+   },
+   {
+    "k": 19,
+    "observed_probability": 0.1903,
+    "n_covers": 12822,
+    "sector_size": 42504,
+    "uniform_within_sector_cover_probability": 0.3016657255787691
+   },
+   {
+    "k": 20,
+    "observed_probability": 0.20443,
+    "n_covers": 4354,
+    "sector_size": 10626,
+    "uniform_within_sector_cover_probability": 0.40974967061923584
+   },
+   {
+    "k": 21,
+    "observed_probability": 0.164,
+    "n_covers": 1084,
+    "sector_size": 2024,
+    "uniform_within_sector_cover_probability": 0.5355731225296443
+   },
+   {
+    "k": 22,
+    "observed_probability": 0.09321,
+    "n_covers": 187,
+    "sector_size": 276,
+    "uniform_within_sector_cover_probability": 0.677536231884058
+   },
+   {
+    "k": 23,
+    "observed_probability": 0.03389,
+    "n_covers": 20,
+    "sector_size": 24,
+    "uniform_within_sector_cover_probability": 0.8333333333333334
+   },
+   {
+    "k": 24,
+    "observed_probability": 0.00586,
+    "n_covers": 1,
+    "sector_size": 1,
+    "uniform_within_sector_cover_probability": 1.0
+   }
+  ]
+ },
+ "interpretive_decisions": [
+  "Use all-register or conditional concentration, never the legacy hybrid ratio as a concentration claim.",
+  "Use the binomial variance under the tested ideal null.",
+  "Wilson/binomial calculations assume exchangeable independent shots; aggregated counts cannot diagnose drift or overdispersion.",
+  "Do not attach statistical significance to F_est without a calibrated stochastic output model.",
+  "Call 51q post-bit coverage a marginal cover rate, not encoded-feasibility probability."
+ ]
+}

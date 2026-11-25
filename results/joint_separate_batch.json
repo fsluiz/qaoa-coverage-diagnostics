@@ -1,0 +1,353 @@
+{
+ "job_id": "dau04mahcrkc73dur170",
+ "calibration_date": "2026-09-29 14:56:37-03:00",
+ "joint_shots": 100000,
+ "joint_opt_hits": 100,
+ "joint_p_opt": 0.001,
+ "ideal_p_opt": 0.0018253777517512485,
+ "joint_over_ideal": 0.5478318112733709,
+ "within_block_retention_joint": 0.5424235546475206,
+ "within_block_retention_separate": 0.5989411161751944,
+ "joint_over_separate": 0.9056375326366105,
+ "joint_over_separate_ci95": [
+  0.8483729573493372,
+  0.9654811553635058
+ ],
+ "cross_block_factor": 1.0099705416173608,
+ "cross_block_factor_ci95": [
+  0.8208052809972844,
+  1.203968511025613
+ ],
+ "block_product_null_hits": 99.01278886794124,
+ "F_proxy_product": 0.8192073325382657,
+ "joint_eta_all": 58.254222222222225,
+ "joint_over_separate_two_qubit_blocks": 0.8858403018330303,
+ "joint_over_separate_two_qubit_blocks_ci95": [
+  0.8490245957615258,
+  0.9246158647595669
+ ],
+ "joint_over_separate_single_qubit_blocks": 1.022348532531896,
+ "blocks": [
+  {
+   "qubits": [
+    0,
+    1
+   ],
+   "size": 2,
+   "physical": [
+    90,
+    91
+   ],
+   "n_2q": 2,
+   "p_ideal": 0.958539654612233,
+   "p_joint": 0.91238,
+   "p_separate": 0.937,
+   "shots_separate": 10000,
+   "hits_separate": 9370,
+   "retention_joint": 0.9518437715225183,
+   "retention_separate": 0.9775286765564785,
+   "F_proxy": 0.9880954686496488,
+   "joint_over_separate": 0.9737246531483457,
+   "joint_over_separate_ci95": [
+    0.9685314456978209,
+    0.9791385850242703
+   ]
+  },
+  {
+   "qubits": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "size": 4,
+   "physical": [
+    2,
+    3,
+    4,
+    16
+   ],
+   "n_2q": 18,
+   "p_ideal": 0.6169861379745027,
+   "p_joint": 0.43136,
+   "p_separate": 0.4376,
+   "shots_separate": 10000,
+   "hits_separate": 4376,
+   "retention_joint": 0.6991405048679168,
+   "retention_separate": 0.709254184278098,
+   "F_proxy": 0.9464452830101688,
+   "joint_over_separate": 0.9857404021937843,
+   "joint_over_separate_ci95": [
+    0.9628346551776819,
+    1.0085514416240304
+   ]
+  },
+  {
+   "qubits": [
+    6,
+    7,
+    9
+   ],
+   "size": 3,
+   "physical": [
+    140,
+    141,
+    142
+   ],
+   "n_2q": 7,
+   "p_ideal": 0.7505991629232418,
+   "p_joint": 0.7013,
+   "p_separate": 0.722,
+   "shots_separate": 10000,
+   "hits_separate": 7220,
+   "retention_joint": 0.9343202532610828,
+   "retention_separate": 0.9618982216661939,
+   "F_proxy": 0.970996268286066,
+   "joint_over_separate": 0.9713296398891967,
+   "joint_over_separate_ci95": [
+    0.9589590822227706,
+    0.9841581763716281
+   ]
+  },
+  {
+   "qubits": [
+    8
+   ],
+   "size": 1,
+   "physical": [
+    42
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.5128809181919441,
+   "p_joint": 0.50999,
+   "p_separate": 0.5067,
+   "shots_separate": 10000,
+   "hits_separate": 5067,
+   "retention_joint": 0.9943633734666217,
+   "retention_separate": 0.9879486290624075,
+   "F_proxy": 0.996826171875,
+   "joint_over_separate": 1.0064929938819815,
+   "joint_over_separate_ci95": [
+    0.9862148495798545,
+    1.0266307103452663
+   ]
+  },
+  {
+   "qubits": [
+    10
+   ],
+   "size": 1,
+   "physical": [
+    53
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.5128809181919441,
+   "p_joint": 0.52169,
+   "p_separate": 0.5176,
+   "shots_separate": 10000,
+   "hits_separate": 5176,
+   "retention_joint": 1.0171756863934622,
+   "retention_separate": 1.009201125720746,
+   "F_proxy": 0.995849609375,
+   "joint_over_separate": 1.007901854714065,
+   "joint_over_separate_ci95": [
+    0.9875939046225939,
+    1.0279624741764772
+   ]
+  },
+  {
+   "qubits": [
+    11
+   ],
+   "size": 1,
+   "physical": [
+    128
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.5128809181919441,
+   "p_joint": 0.51457,
+   "p_separate": 0.5111,
+   "shots_separate": 10000,
+   "hits_separate": 5111,
+   "retention_joint": 1.0032933216037951,
+   "retention_separate": 0.9965276185391682,
+   "F_proxy": 0.9954833984375,
+   "joint_over_separate": 1.0067892780277832,
+   "joint_over_separate_ci95": [
+    0.9868621537976409,
+    1.0269917872884649
+   ]
+  },
+  {
+   "qubits": [
+    12,
+    13,
+    14
+   ],
+   "size": 3,
+   "physical": [
+    109,
+    110,
+    118
+   ],
+   "n_2q": 9,
+   "p_ideal": 0.7783081869445203,
+   "p_joint": 0.72634,
+   "p_separate": 0.7412,
+   "shots_separate": 10000,
+   "hits_separate": 7412,
+   "retention_joint": 0.933229294235569,
+   "retention_separate": 0.9523219881700081,
+   "F_proxy": 0.9675654036916225,
+   "joint_over_separate": 0.9799514301133297,
+   "joint_over_separate_ci95": [
+    0.9689178515722053,
+    0.9923359852147101
+   ]
+  },
+  {
+   "qubits": [
+    15,
+    16,
+    17
+   ],
+   "size": 3,
+   "physical": [
+    20,
+    21,
+    36
+   ],
+   "n_2q": 9,
+   "p_ideal": 0.3295355457928248,
+   "p_joint": 0.32242,
+   "p_separate": 0.3272,
+   "shots_separate": 10000,
+   "hits_separate": 3272,
+   "retention_joint": 0.9784073497270056,
+   "retention_separate": 0.9929126134565976,
+   "F_proxy": 0.9719544862033072,
+   "joint_over_separate": 0.9853911980440098,
+   "joint_over_separate_ci95": [
+    0.9576623503037233,
+    1.0144019814061864
+   ]
+  },
+  {
+   "qubits": [
+    18
+   ],
+   "size": 1,
+   "physical": [
+    59
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.5128809181919441,
+   "p_joint": 0.5202,
+   "p_separate": 0.5143,
+   "shots_separate": 10000,
+   "hits_separate": 5143,
+   "retention_joint": 1.0142705285933775,
+   "retention_separate": 1.0027668836131758,
+   "F_proxy": 0.9949951171875,
+   "joint_over_separate": 1.0114719035582345,
+   "joint_over_separate_ci95": [
+    0.9917744705208928,
+    1.0315550653835626
+   ]
+  },
+  {
+   "qubits": [
+    19
+   ],
+   "size": 1,
+   "physical": [
+    60
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.7219076900287835,
+   "p_joint": 0.70813,
+   "p_separate": 0.7108,
+   "shots_separate": 10000,
+   "hits_separate": 7108,
+   "retention_joint": 0.9809148867381726,
+   "retention_separate": 0.9846134205491831,
+   "F_proxy": 0.997314453125,
+   "joint_over_separate": 0.9962436691052337,
+   "joint_over_separate_ci95": [
+    0.9835736431008102,
+    1.009198376139562
+   ]
+  },
+  {
+   "qubits": [
+    20
+   ],
+   "size": 1,
+   "physical": [
+    149
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.6134706459169547,
+   "p_joint": 0.60767,
+   "p_separate": 0.6132,
+   "shots_separate": 10000,
+   "hits_separate": 6132,
+   "retention_joint": 0.9905445420158867,
+   "retention_separate": 0.9995588282524095,
+   "F_proxy": 0.9964599609375,
+   "joint_over_separate": 0.9909817351598175,
+   "joint_over_separate_ci95": [
+    0.974971858835286,
+    1.0071610165502245
+   ]
+  },
+  {
+   "qubits": [
+    21,
+    22
+   ],
+   "size": 2,
+   "physical": [
+    105,
+    117
+   ],
+   "n_2q": 2,
+   "p_ideal": 0.8528446172881898,
+   "p_joint": 0.81826,
+   "p_separate": 0.8316,
+   "shots_separate": 10000,
+   "hits_separate": 8316,
+   "retention_joint": 0.9594479268707126,
+   "retention_separate": 0.9750896976336184,
+   "F_proxy": 0.9876452375203112,
+   "joint_over_separate": 0.9839586339586339,
+   "joint_over_separate_ci95": [
+    0.9750112288400352,
+    0.9931656582050625
+   ]
+  },
+  {
+   "qubits": [
+    23
+   ],
+   "size": 1,
+   "physical": [
+    77
+   ],
+   "n_2q": 0,
+   "p_ideal": 0.6134706459169547,
+   "p_joint": 0.61087,
+   "p_separate": 0.6094,
+   "shots_separate": 10000,
+   "hits_separate": 6094,
+   "retention_joint": 0.9957607655162254,
+   "retention_separate": 0.9933645628457574,
+   "F_proxy": 0.9940185546875,
+   "joint_over_separate": 1.0024122087298981,
+   "joint_over_separate_ci95": [
+    0.9859185241769154,
+    1.0196358073052376
+   ]
+  }
+ ]
+}

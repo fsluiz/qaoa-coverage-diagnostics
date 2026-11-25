@@ -1,0 +1,685 @@
+{
+  "analyzed_utc": "2026-09-19T10:22:18.518550+00:00",
+  "backend": "ibm_kingston",
+  "blocks": [
+    {
+      "classical_fidelity_to_ideal": 0.9983858765265987,
+      "counts": {
+        "00": 338,
+        "01": 4764,
+        "10": 4652,
+        "11": 246
+      },
+      "feasible_hits": 9662,
+      "mean_local_weight": 0.9908,
+      "optimal_hits": 9416,
+      "original_qubits": [
+        0,
+        1
+      ],
+      "p_feasible": 0.9662,
+      "p_opt": 0.9416,
+      "p_opt_ideal": 0.9585396546122325,
+      "p_opt_over_ideal": 0.982327643378421,
+      "shots": 10000,
+      "tag": "block_01",
+      "total_variation_from_ideal": 0.01693965461223281
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9939683958182676,
+      "counts": {
+        "0000": 858,
+        "0001": 1457,
+        "0010": 1499,
+        "0011": 459,
+        "0100": 1430,
+        "0101": 535,
+        "0110": 526,
+        "0111": 81,
+        "1000": 1366,
+        "1001": 484,
+        "1010": 501,
+        "1011": 75,
+        "1100": 465,
+        "1101": 66,
+        "1110": 81,
+        "1111": 117
+      },
+      "feasible_hits": 9142,
+      "mean_local_weight": 1.3069,
+      "optimal_hits": 5752,
+      "original_qubits": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "p_feasible": 0.9142,
+      "p_opt": 0.5752,
+      "p_opt_ideal": 0.6169861379745021,
+      "p_opt_over_ideal": 0.9322737815282506,
+      "shots": 10000,
+      "tag": "block_02",
+      "total_variation_from_ideal": 0.042184970543187914
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9929153090406968,
+      "counts": {
+        "000": 410,
+        "001": 2420,
+        "010": 2371,
+        "011": 133,
+        "100": 2386,
+        "101": 138,
+        "110": 146,
+        "111": 1996
+      },
+      "feasible_hits": 9590,
+      "mean_local_weight": 1.3999,
+      "optimal_hits": 7177,
+      "original_qubits": [
+        6,
+        7,
+        9
+      ],
+      "p_feasible": 0.959,
+      "p_opt": 0.7177,
+      "p_opt_ideal": 0.7505991629232418,
+      "p_opt_over_ideal": 0.9561694649443592,
+      "shots": 10000,
+      "tag": "block_03",
+      "total_variation_from_ideal": 0.03289916292324207
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9999959201599028,
+      "counts": {
+        "0": 5149,
+        "1": 4851
+      },
+      "feasible_hits": 10000,
+      "mean_local_weight": 0.4851,
+      "optimal_hits": 5149,
+      "original_qubits": [
+        8
+      ],
+      "p_feasible": 1.0,
+      "p_opt": 0.5149,
+      "p_opt_ideal": 0.5128809181919441,
+      "p_opt_over_ideal": 1.0039367458145523,
+      "shots": 10000,
+      "tag": "block_04",
+      "total_variation_from_ideal": 0.002019081808055767
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9999999858100179,
+      "counts": {
+        "0": 5130,
+        "1": 4870
+      },
+      "feasible_hits": 10000,
+      "mean_local_weight": 0.487,
+      "optimal_hits": 5130,
+      "original_qubits": [
+        10
+      ],
+      "p_feasible": 1.0,
+      "p_opt": 0.513,
+      "p_opt_ideal": 0.5128809181919441,
+      "p_opt_over_ideal": 1.0002321821768603,
+      "shots": 10000,
+      "tag": "block_05",
+      "total_variation_from_ideal": 0.0001190818080557543
+    },
+    {
+      "classical_fidelity_to_ideal": 0.999922873234366,
+      "counts": {
+        "0": 5041,
+        "1": 4959
+      },
+      "feasible_hits": 10000,
+      "mean_local_weight": 0.4959,
+      "optimal_hits": 5041,
+      "original_qubits": [
+        11
+      ],
+      "p_feasible": 1.0,
+      "p_opt": 0.5041,
+      "p_opt_ideal": 0.5128809181919441,
+      "p_opt_over_ideal": 0.9828792261897762,
+      "shots": 10000,
+      "tag": "block_06",
+      "total_variation_from_ideal": 0.008780918191944265
+    },
+    {
+      "classical_fidelity_to_ideal": 0.98138540096485,
+      "counts": {
+        "000": 365,
+        "001": 2483,
+        "010": 2396,
+        "011": 114,
+        "100": 2519,
+        "101": 116,
+        "110": 112,
+        "111": 1895
+      },
+      "feasible_hits": 9635,
+      "mean_local_weight": 1.3767,
+      "optimal_hits": 7398,
+      "original_qubits": [
+        12,
+        13,
+        14
+      ],
+      "p_feasible": 0.9635,
+      "p_opt": 0.7398,
+      "p_opt_ideal": 0.7783081869445203,
+      "p_opt_over_ideal": 0.9505232148518242,
+      "shots": 10000,
+      "tag": "block_07",
+      "total_variation_from_ideal": 0.03850818694452065
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9967502824736719,
+      "counts": {
+        "000": 98,
+        "001": 2293,
+        "010": 2234,
+        "011": 1231,
+        "100": 1234,
+        "101": 2025,
+        "110": 676,
+        "111": 209
+      },
+      "feasible_hits": 3465,
+      "mean_local_weight": 1.4252,
+      "optimal_hits": 3256,
+      "original_qubits": [
+        15,
+        16,
+        17
+      ],
+      "p_feasible": 0.3465,
+      "p_opt": 0.3256,
+      "p_opt_ideal": 0.3295355457928248,
+      "p_opt_over_ideal": 0.988057295053387,
+      "shots": 10000,
+      "tag": "block_08",
+      "total_variation_from_ideal": 0.016256367197953064
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9999512495849717,
+      "counts": {
+        "0": 5059,
+        "1": 4941
+      },
+      "feasible_hits": 10000,
+      "mean_local_weight": 0.4941,
+      "optimal_hits": 5059,
+      "original_qubits": [
+        18
+      ],
+      "p_feasible": 1.0,
+      "p_opt": 0.5059,
+      "p_opt_ideal": 0.5128809181919441,
+      "p_opt_over_ideal": 0.9863888127939057,
+      "shots": 10000,
+      "tag": "block_09",
+      "total_variation_from_ideal": 0.006980918191944241
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9999915562410328,
+      "counts": {
+        "0": 2807,
+        "1": 7193
+      },
+      "feasible_hits": 7193,
+      "mean_local_weight": 0.7193,
+      "optimal_hits": 7193,
+      "original_qubits": [
+        19
+      ],
+      "p_feasible": 0.7193,
+      "p_opt": 0.7193,
+      "p_opt_ideal": 0.7219076900287835,
+      "p_opt_over_ideal": 0.9963877791235615,
+      "shots": 10000,
+      "tag": "block_10",
+      "total_variation_from_ideal": 0.0026076900287836102
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9999987920927805,
+      "counts": {
+        "0": 3876,
+        "1": 6124
+      },
+      "feasible_hits": 6124,
+      "mean_local_weight": 0.6124,
+      "optimal_hits": 6124,
+      "original_qubits": [
+        20
+      ],
+      "p_feasible": 0.6124,
+      "p_opt": 0.6124,
+      "p_opt_ideal": 0.6134706459169547,
+      "p_opt_over_ideal": 0.9982547723773249,
+      "shots": 10000,
+      "tag": "block_11",
+      "total_variation_from_ideal": 0.0010706459169546045
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9991523110929806,
+      "counts": {
+        "00": 934,
+        "01": 4290,
+        "10": 4050,
+        "11": 726
+      },
+      "feasible_hits": 9066,
+      "mean_local_weight": 0.9792000000000001,
+      "optimal_hits": 8340,
+      "original_qubits": [
+        21,
+        22
+      ],
+      "p_feasible": 0.9066,
+      "p_opt": 0.834,
+      "p_opt_ideal": 0.8528446172881896,
+      "p_opt_over_ideal": 0.9779038093151009,
+      "shots": 10000,
+      "tag": "block_12",
+      "total_variation_from_ideal": 0.02142230864409503
+    },
+    {
+      "classical_fidelity_to_ideal": 0.9999836908649435,
+      "counts": {
+        "0": 3826,
+        "1": 6174
+      },
+      "feasible_hits": 6174,
+      "mean_local_weight": 0.6174,
+      "optimal_hits": 6174,
+      "original_qubits": [
+        23
+      ],
+      "p_feasible": 0.6174,
+      "p_opt": 0.6174,
+      "p_opt_ideal": 0.6134706459169547,
+      "p_opt_over_ideal": 1.006405121596604,
+      "shots": 10000,
+      "tag": "block_13",
+      "total_variation_from_ideal": 0.003929354083045344
+    }
+  ],
+  "hardware_job": {
+    "blocks": [
+      {
+        "F_exact": 0.9882774648263196,
+        "F_gates": 0.9943378871867499,
+        "F_readout": 0.9939050674438477,
+        "depth": 16,
+        "measured_physical_qubits": [
+          88,
+          89
+        ],
+        "n_two_qubit_gates": 3,
+        "readout_errors": {
+          "88": 0.002197265625,
+          "89": 0.00390625
+        },
+        "tag": "block_01",
+        "two_qubit_edges": [
+          {
+            "count": 3,
+            "edge": [
+              88,
+              89
+            ],
+            "error": 0.001890944354503904
+          }
+        ]
+      },
+      {
+        "F_exact": 0.9451510073629669,
+        "F_gates": 0.9672859984043853,
+        "F_readout": 0.977116394656873,
+        "depth": 63,
+        "measured_physical_qubits": [
+          122,
+          123,
+          124,
+          136
+        ],
+        "n_two_qubit_gates": 18,
+        "readout_errors": {
+          "122": 0.003662109375,
+          "123": 0.0076904296875,
+          "124": 0.003173828125,
+          "136": 0.008544921875
+        },
+        "tag": "block_02",
+        "two_qubit_edges": [
+          {
+            "count": 7,
+            "edge": [
+              122,
+              123
+            ],
+            "error": 0.001825852797017552
+          },
+          {
+            "count": 5,
+            "edge": [
+              123,
+              124
+            ],
+            "error": 0.001513107129570368
+          },
+          {
+            "count": 6,
+            "edge": [
+              123,
+              136
+            ],
+            "error": 0.002147216721081757
+          }
+        ]
+      },
+      {
+        "F_exact": 0.9670196830441301,
+        "F_gates": 0.9794057901541969,
+        "F_readout": 0.9873534471262246,
+        "depth": 36,
+        "measured_physical_qubits": [
+          88,
+          89,
+          90
+        ],
+        "n_two_qubit_gates": 9,
+        "readout_errors": {
+          "88": 0.002197265625,
+          "89": 0.00390625,
+          "90": 0.006591796875
+        },
+        "tag": "block_03",
+        "two_qubit_edges": [
+          {
+            "count": 4,
+            "edge": [
+              88,
+              89
+            ],
+            "error": 0.001890944354503904
+          },
+          {
+            "count": 5,
+            "edge": [
+              89,
+              90
+            ],
+            "error": 0.0026441560457200475
+          }
+        ]
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_04",
+        "two_qubit_edges": []
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_05",
+        "two_qubit_edges": []
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_06",
+        "two_qubit_edges": []
+      },
+      {
+        "F_exact": 0.9670196830441301,
+        "F_gates": 0.9794057901541969,
+        "F_readout": 0.9873534471262246,
+        "depth": 38,
+        "measured_physical_qubits": [
+          88,
+          89,
+          90
+        ],
+        "n_two_qubit_gates": 9,
+        "readout_errors": {
+          "88": 0.002197265625,
+          "89": 0.00390625,
+          "90": 0.006591796875
+        },
+        "tag": "block_07",
+        "two_qubit_edges": [
+          {
+            "count": 4,
+            "edge": [
+              88,
+              89
+            ],
+            "error": 0.001890944354503904
+          },
+          {
+            "count": 5,
+            "edge": [
+              89,
+              90
+            ],
+            "error": 0.0026441560457200475
+          }
+        ]
+      },
+      {
+        "F_exact": 0.9670196830441301,
+        "F_gates": 0.9794057901541969,
+        "F_readout": 0.9873534471262246,
+        "depth": 37,
+        "measured_physical_qubits": [
+          88,
+          89,
+          90
+        ],
+        "n_two_qubit_gates": 9,
+        "readout_errors": {
+          "88": 0.002197265625,
+          "89": 0.00390625,
+          "90": 0.006591796875
+        },
+        "tag": "block_08",
+        "two_qubit_edges": [
+          {
+            "count": 4,
+            "edge": [
+              88,
+              89
+            ],
+            "error": 0.001890944354503904
+          },
+          {
+            "count": 5,
+            "edge": [
+              89,
+              90
+            ],
+            "error": 0.0026441560457200475
+          }
+        ]
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_09",
+        "two_qubit_edges": []
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_10",
+        "two_qubit_edges": []
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_11",
+        "two_qubit_edges": []
+      },
+      {
+        "F_exact": 0.9882774648263196,
+        "F_gates": 0.9943378871867499,
+        "F_readout": 0.9939050674438477,
+        "depth": 15,
+        "measured_physical_qubits": [
+          88,
+          89
+        ],
+        "n_two_qubit_gates": 3,
+        "readout_errors": {
+          "88": 0.002197265625,
+          "89": 0.00390625
+        },
+        "tag": "block_12",
+        "two_qubit_edges": [
+          {
+            "count": 3,
+            "edge": [
+              88,
+              89
+            ],
+            "error": 0.001890944354503904
+          }
+        ]
+      },
+      {
+        "F_exact": 0.997802734375,
+        "F_gates": 1.0,
+        "F_readout": 0.997802734375,
+        "depth": 6,
+        "measured_physical_qubits": [
+          88
+        ],
+        "n_two_qubit_gates": 0,
+        "readout_errors": {
+          "88": 0.002197265625
+        },
+        "tag": "block_13",
+        "two_qubit_edges": []
+      }
+    ],
+    "calibration_date": "2026-09-19 06:40:50-03:00",
+    "creation_date": "2026-09-19 07:17:36.187114-03:00",
+    "job_id": "dan62g5r85ps73fdlp00",
+    "quantum_seconds": 44.130817058,
+    "status": "DONE",
+    "summary": {
+      "distinct_physical_qubits": [
+        88,
+        89,
+        90,
+        122,
+        123,
+        124,
+        136
+      ],
+      "independent_error_proxy_product": 0.8220112410493378,
+      "maximum_depth": 63,
+      "proxy_expected_hits_per_100k": 150.0481031100892,
+      "total_two_qubit_gates": 51
+    }
+  },
+  "job_id": "dan62g5r85ps73fdlp00",
+  "method": "produto das frequ\u00eancias de padr\u00f5es \u00f3timos dos 13 circuitos independentes; intervalo por posterior Jeffreys Beta(1/2,1/2), 200000 amostras",
+  "reference": {
+    "full_independent_error_proxy": 0.8166713214196704,
+    "full_job_id": "dakjch39k43c73aik9rg",
+    "full_measured_physical_qubits": 24,
+    "full_optimal_hits": 79,
+    "full_p_opt": 0.00079,
+    "full_physical_depth": 64,
+    "full_physical_two_qubit_gates": 49,
+    "full_shots": 100000,
+    "ideal_expected_hits_at_100k": 182.5377751751246,
+    "ideal_p_opt": 0.001825377751751246
+  },
+  "schema_version": 1,
+  "summary": {
+    "expected_global_cardinality": 11.3899,
+    "expected_optimal_hits_per_100k": 143.06274327774724,
+    "expected_optimal_hits_per_100k_95pct_interval": [
+      134.6843610865386,
+      151.78287431374852
+    ],
+    "fraction_of_ideal_p_opt": 0.7837432177558563,
+    "fraction_of_ideal_to_full_gap_recovered": 0.6187378777397043,
+    "improvement_over_full_pct": 81.09208009841424,
+    "loss_from_ideal_pct": 21.625678224414358,
+    "p_feasible_product_point_estimate": 0.06972835142987373,
+    "p_opt_product_95pct_credible_interval": [
+      0.001346843610865386,
+      0.0015178287431374853
+    ],
+    "p_opt_product_point_estimate": 0.0014306274327774723,
+    "p_opt_product_posterior_median": 0.0014297999838107092,
+    "posterior_probability_separate_at_least_ideal": 0.0,
+    "posterior_probability_separate_better_than_full": 1.0,
+    "ratio_to_full_hardware_p_opt": 1.8109208009841422
+  }
+}

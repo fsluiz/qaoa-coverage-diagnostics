@@ -8,6 +8,7 @@ Historical error descriptors are resource summaries, not predictions of C_alpha.
 from __future__ import annotations
 
 from collections import Counter
+import argparse
 import csv
 from datetime import datetime
 import hashlib
@@ -91,6 +92,11 @@ def normalized_job_errors(archive, ops):
 
 
 def main():
+    global OUT
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--out-dir', type=Path, default=OUT)
+    args = parser.parse_args()
+    OUT = args.out_dir
     provenance = {}
 
     def load(path):
@@ -254,7 +260,7 @@ def main():
                                  for c in missing_calibrations]+
                                 ['Execution-time schedules/idle durations and noise characterization for mechanism attribution.']),
                 interpretation='Reused layout is verified by QPY hashes; recovered campaign values are matched by job ID, backend and calibration date. Calibration descriptors do not determine covariance attenuation.')
-    OUT.mkdir(exist_ok=True)
+    OUT.mkdir(parents=True, exist_ok=True)
     (OUT/'physical_data_audit.json').write_text(json.dumps(report,indent=2)+'\n')
     table = [r'\begin{table*}[t]',r'\caption{Physical placement and output ratios for all six interacting blocks in E01--E03. Logical block labels refer to the sorted block sizes. Physical qubits are listed in logical-index order. Gate counts include native two-qubit instructions in a conservative backward cone, including shared instructions; counts do not partition the circuit. All three jobs use the same QPY checksum.}',
              r'\label{tab:sm_physical_campaign}',r'\small',r'\begin{ruledtabular}',

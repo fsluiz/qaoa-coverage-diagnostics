@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "full_reanalysis": true,
+  "steps": [
+    {
+      "name": "scientific_regression",
+      "status": "PASS",
+      "tests": 25,
+      "classes": [
+        "CountingTests",
+        "EncodingTests",
+        "StructuralTests",
+        "EnsembleTests",
+        "CampaignTests",
+        "DiagnosticRevisionTests",
+        "BlockCovarianceTests"
+      ],
+      "excluded": "ManuscriptTests: historical TeX/figure-layout tests require the separate manuscript."
+    },
+    {
+      "name": "diagnostic_controls",
+      "status": "PASS"
+    },
+    {
+      "name": "campaign_sensitivity",
+      "status": "PASS"
+    },
+    {
+      "name": "mixer_summary",
+      "status": "PASS"
+    },
+    {
+      "name": "ensemble_analysis",
+      "status": "PASS"
+    },
+    {
+      "name": "physical_audit",
+      "status": "PASS"
+    },
+    {
+      "name": "readout_audit",
+      "status": "PASS"
+    },
+    {
+      "name": "cross_block_points",
+      "status": "PASS"
+    },
+    {
+      "name": "block_bootstrap",
+      "status": "PASS"
+    },
+    {
+      "name": "e01_20261008",
+      "status": "PASS"
+    },
+    {
+      "name": "e02_20261014",
+      "status": "PASS"
+    },
+    {
+      "name": "e03_20261014",
+      "status": "PASS"
+    },
+    {
+      "name": "combine_epochs",
+      "status": "PASS"
+    },
+    {
+      "name": "campaign_figure",
+      "status": "PASS"
+    },
+    {
+      "name": "block_figure",
+      "status": "PASS"
+    },
+    {
+      "name": "make_block_figure",
+      "status": "PASS"
+    },
+    {
+      "name": "make_exact51_layout_figure",
+      "status": "PASS"
+    }
+  ],
+  "verified_data_files": 148,
+  "figures": [
+    "fig_blocks.pdf",
+    "fig_three_jobs.pdf",
+    "fig_exact51_routing.pdf",
+    "fig_block_covariance.pdf"
+  ],
+  "elapsed_seconds": 195.5
+}

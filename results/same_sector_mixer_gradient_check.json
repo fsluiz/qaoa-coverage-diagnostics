@@ -1,0 +1,49 @@
+{
+ "description": "Central-difference audit of same-sector mixer gradients",
+ "seed": 12,
+ "m": 2,
+ "p": 2,
+ "central_difference_step": 1e-06,
+ "rows": [
+  {
+   "mixer": "support_unweighted",
+   "parameters": [
+    0.07163019847264535,
+    0.16045784514145642,
+    1.5791334349950963,
+    1.028776469392839
+   ],
+   "value": 50.81764785150617,
+   "scaled_maximum_gradient_error": 2.128647686038943e-09,
+   "state_norm_error": 4.440892098500626e-16,
+   "maximum_probability_difference_from_reference_evolver": 0.0
+  },
+  {
+   "mixer": "complete_unweighted",
+   "parameters": [
+    0.08154797548653436,
+    0.3220002385510857,
+    0.5326895354332877,
+    1.5258050381256305
+   ],
+   "value": 54.37470951691995,
+   "scaled_maximum_gradient_error": 1.3544840945097774e-09,
+   "state_norm_error": 3.3306690738754696e-16,
+   "maximum_probability_difference_from_reference_evolver": 0.0
+  },
+  {
+   "mixer": "problem_weighted_rms_normalized",
+   "parameters": [
+    0.250680842428955,
+    0.3304869548807644,
+    0.5738378468683704,
+    1.853415673351392
+   ],
+   "value": 48.843112122073926,
+   "scaled_maximum_gradient_error": 8.28294800956375e-10,
+   "state_norm_error": 4.440892098500626e-16,
+   "maximum_probability_difference_from_reference_evolver": 0.0
+  }
+ ],
+ "all_checks_passed": true
+}

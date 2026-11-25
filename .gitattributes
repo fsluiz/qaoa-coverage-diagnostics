@@ -1,3 +1,6 @@
 *.py text eol=lf
 *.md text eol=lf
-*.json text eol=lf
+*.json -text
+*.csv -text
+*.qpy binary
+*.xlsx binary

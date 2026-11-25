@@ -1,0 +1,73 @@
+{
+ "description": "Independent angular-search stress test of the preliminary broad p=1 ensemble",
+ "comparisons": [
+  {
+   "seed": 3,
+   "m": 1,
+   "primary_grid_size": 9,
+   "primary_local_starts": 4,
+   "stress_grid_size": 13,
+   "stress_local_starts": 8,
+   "primary": {
+    "qwoa_p_opt": 0.4265734295483942,
+    "qaoa_p_opt": 0.24817427517430457,
+    "qwoa_over_qaoa": 1.7188462794896509
+   },
+   "stress": {
+    "qwoa_p_opt": 0.36735147662935114,
+    "qaoa_p_opt": 0.2506885667621819,
+    "qwoa_over_qaoa": 1.465369886524752
+   },
+   "relative_change_qwoa": -0.1388317903010048,
+   "relative_change_qaoa": 0.01013115314273172,
+   "same_winner": true
+  },
+  {
+   "seed": 3,
+   "m": 2,
+   "primary_grid_size": 9,
+   "primary_local_starts": 4,
+   "stress_grid_size": 13,
+   "stress_local_starts": 8,
+   "primary": {
+    "qwoa_p_opt": 0.17232929728024324,
+    "qaoa_p_opt": 0.15803974680792593,
+    "qwoa_over_qaoa": 1.090417447262075
+   },
+   "stress": {
+    "qwoa_p_opt": 0.15394704145406315,
+    "qaoa_p_opt": 0.15431108192552587,
+    "qwoa_over_qaoa": 0.9976408663142002
+   },
+   "relative_change_qwoa": -0.10666935986100334,
+   "relative_change_qaoa": -0.023593209668525406,
+   "same_winner": false
+  },
+  {
+   "seed": 3,
+   "m": 3,
+   "primary_grid_size": 9,
+   "primary_local_starts": 4,
+   "stress_grid_size": 13,
+   "stress_local_starts": 8,
+   "primary": {
+    "qwoa_p_opt": 0.04079426790654014,
+    "qaoa_p_opt": 0.05090945595859443,
+    "qwoa_over_qaoa": 0.8013102308482503
+   },
+   "stress": {
+    "qwoa_p_opt": 0.05089349084723291,
+    "qaoa_p_opt": 0.05081572892344707,
+    "qwoa_over_qaoa": 1.0015302727213258
+   },
+   "relative_change_qwoa": 0.24756475502465536,
+   "relative_change_qaoa": -0.0018410535603363698,
+   "same_winner": false
+  }
+ ],
+ "convergence_criterion": "all probabilities agree within 1% relative and every paired winner is unchanged",
+ "max_relative_probability_disagreement": 0.24756475502465536,
+ "winner_changed_in_any_case": true,
+ "optimizer_convergence_established": false,
+ "decision": "Do not use the broad p=1 point estimates as converged manuscript values; retain them as a preliminary breadth scan and implement a global/convergence study."
+}

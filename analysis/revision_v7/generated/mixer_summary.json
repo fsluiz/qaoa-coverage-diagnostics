@@ -1,0 +1,617 @@
+{
+  "scope": "Exploratory topology-only contrast U versus K; no new optimizations.",
+  "metadata": [
+    {
+      "seed": 0,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 680.0,
+      "mean_target_degree": 8.08695652173913,
+      "min_target_degree": 4,
+      "support_edges": 66,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 1,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 720.0,
+      "mean_target_degree": 7.826086956521739,
+      "min_target_degree": 3,
+      "support_edges": 63,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 2,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 660.0,
+      "mean_target_degree": 8.173913043478262,
+      "min_target_degree": 4,
+      "support_edges": 64,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 3,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 660.0,
+      "mean_target_degree": 7.695652173913044,
+      "min_target_degree": 3,
+      "support_edges": 63,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 4,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 540.0,
+      "mean_target_degree": 5.913043478260869,
+      "min_target_degree": 3,
+      "support_edges": 55,
+      "added_bridges": 0,
+      "alternative_radius_rule": false
+    },
+    {
+      "seed": 5,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 580.0,
+      "mean_target_degree": 6.695652173913044,
+      "min_target_degree": 3,
+      "support_edges": 55,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 6,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 720.0,
+      "mean_target_degree": 8.652173913043478,
+      "min_target_degree": 3,
+      "support_edges": 66,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 7,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 580.0,
+      "mean_target_degree": 6.695652173913044,
+      "min_target_degree": 3,
+      "support_edges": 58,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 9,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 700.0,
+      "mean_target_degree": 7.913043478260869,
+      "min_target_degree": 3,
+      "support_edges": 66,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 11,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 620.0,
+      "mean_target_degree": 6.956521739130435,
+      "min_target_degree": 3,
+      "support_edges": 60,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 12,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 660.0,
+      "mean_target_degree": 7.217391304347826,
+      "min_target_degree": 3,
+      "support_edges": 66,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 13,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 720.0,
+      "mean_target_degree": 7.956521739130435,
+      "min_target_degree": 5,
+      "support_edges": 58,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 14,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 580.0,
+      "mean_target_degree": 6.434782608695652,
+      "min_target_degree": 3,
+      "support_edges": 58,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 15,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 720.0,
+      "mean_target_degree": 7.956521739130435,
+      "min_target_degree": 5,
+      "support_edges": 60,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 16,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 580.0,
+      "mean_target_degree": 6.695652173913044,
+      "min_target_degree": 3,
+      "support_edges": 58,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 17,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 640.0,
+      "mean_target_degree": 7.3478260869565215,
+      "min_target_degree": 3,
+      "support_edges": 62,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 18,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 580.0,
+      "mean_target_degree": 6.739130434782608,
+      "min_target_degree": 3,
+      "support_edges": 55,
+      "added_bridges": 0,
+      "alternative_radius_rule": true
+    },
+    {
+      "seed": 19,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 500.0,
+      "mean_target_degree": 5.608695652173913,
+      "min_target_degree": 3,
+      "support_edges": 51,
+      "added_bridges": 0,
+      "alternative_radius_rule": false
+    },
+    {
+      "seed": 22,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 520.0,
+      "mean_target_degree": 5.913043478260869,
+      "min_target_degree": 3,
+      "support_edges": 53,
+      "added_bridges": 0,
+      "alternative_radius_rule": false
+    },
+    {
+      "seed": 23,
+      "base_indices": [
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "n_targets": 23,
+      "radius_km": 520.0,
+      "mean_target_degree": 5.478260869565218,
+      "min_target_degree": 3,
+      "support_edges": 49,
+      "added_bridges": 0,
+      "alternative_radius_rule": false
+    }
+  ],
+  "seed_effects": [
+    {
+      "seed": 0,
+      "mean_energy_difference": 0.0,
+      "mean_log_ratio": 0.0
+    },
+    {
+      "seed": 1,
+      "mean_energy_difference": -0.025335112239909325,
+      "mean_log_ratio": -0.020587130148999797
+    },
+    {
+      "seed": 2,
+      "mean_energy_difference": -0.3850320421068319,
+      "mean_log_ratio": 0.16691584718378216
+    },
+    {
+      "seed": 3,
+      "mean_energy_difference": 0.365316029240514,
+      "mean_log_ratio": -0.16699317999288454
+    },
+    {
+      "seed": 4,
+      "mean_energy_difference": -0.12096833409761369,
+      "mean_log_ratio": -0.02707998524981622
+    },
+    {
+      "seed": 5,
+      "mean_energy_difference": 0.30996147364623167,
+      "mean_log_ratio": -0.7018333666264743
+    },
+    {
+      "seed": 6,
+      "mean_energy_difference": 0.0,
+      "mean_log_ratio": 0.0
+    },
+    {
+      "seed": 7,
+      "mean_energy_difference": -0.15472211850581394,
+      "mean_log_ratio": 0.31499101546795855
+    },
+    {
+      "seed": 9,
+      "mean_energy_difference": 0.0,
+      "mean_log_ratio": 0.0
+    },
+    {
+      "seed": 11,
+      "mean_energy_difference": -0.5168274701115697,
+      "mean_log_ratio": 0.10540502878783892
+    },
+    {
+      "seed": 12,
+      "mean_energy_difference": 0.0,
+      "mean_log_ratio": 0.0
+    },
+    {
+      "seed": 13,
+      "mean_energy_difference": -0.8692882882982312,
+      "mean_log_ratio": 0.08878037373587648
+    },
+    {
+      "seed": 14,
+      "mean_energy_difference": 0.27441110905876087,
+      "mean_log_ratio": -0.09213892312285736
+    },
+    {
+      "seed": 15,
+      "mean_energy_difference": -0.3948099707013621,
+      "mean_log_ratio": 0.030622503412458386
+    },
+    {
+      "seed": 16,
+      "mean_energy_difference": 0.3156547238935327,
+      "mean_log_ratio": 0.001190435295422632
+    },
+    {
+      "seed": 17,
+      "mean_energy_difference": 0.5989696634974647,
+      "mean_log_ratio": 0.3030037717704759
+    },
+    {
+      "seed": 18,
+      "mean_energy_difference": 0.7570639751543418,
+      "mean_log_ratio": -0.0630536514285192
+    },
+    {
+      "seed": 19,
+      "mean_energy_difference": 1.067440982181889,
+      "mean_log_ratio": 0.24283045784454468
+    },
+    {
+      "seed": 22,
+      "mean_energy_difference": 1.2550257622581498,
+      "mean_log_ratio": -0.042003100358939734
+    },
+    {
+      "seed": 23,
+      "mean_energy_difference": 0.8619729932983446,
+      "mean_log_ratio": 0.03933230054481841
+    }
+  ],
+  "summary": {
+    "n_seeds": 20,
+    "distinct_base_sets": 1,
+    "complete_supports": 4,
+    "alternative_rule_seeds": 16,
+    "median_energy_difference": 0.0,
+    "energy_ci95": [
+      -0.0731517231687615,
+      0.3404853765670234
+    ],
+    "median_probability_ratio": 1.0,
+    "ratio_ci95": [
+      0.9764482185212675,
+      1.0661524610504505
+    ],
+    "energy_p": 0.27753025059514513,
+    "probability_p": 0.5014474714870738,
+    "exact_zero_energy_seeds": 4,
+    "exact_zero_probability_seeds": 4,
+    "energy_p_holm": 0.5550605011902903,
+    "probability_p_holm": 0.5550605011902903
+  },
+  "inference": {
+    "unit": "seed: mean over its three multiplicities",
+    "tests": "two-sided Wilcoxon, zero_method=wilcox, normal approximation, no continuity correction",
+    "family": "two exploratory endpoint tests; raw p values and Holm-adjusted values",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261021,
+    "interval": "pointwise percentile interval for the median seed effect"
+  }
+}

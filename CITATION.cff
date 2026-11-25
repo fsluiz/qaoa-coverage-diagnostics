@@ -3,6 +3,7 @@ message: "Please cite this software release and the associated arXiv article whe
 title: "QAOA coverage diagnostics"
 type: software
 version: "8.1.0"
+doi: "10.5281/zenodo.24540635"
 repository-code: "https://github.com/fsluiz/qaoa-coverage-diagnostics"
 authors:
   - family-names: "Luiz"

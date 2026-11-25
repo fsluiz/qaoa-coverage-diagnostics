@@ -2,11 +2,18 @@
   "version": "8.1.0",
   "contents": "code and reproducibility data",
   "repository": "https://github.com/fsluiz/qaoa-coverage-diagnostics",
-  "doi": null,
+  "doi": "10.5281/zenodo.24540635",
   "previous_code_only_doi": "10.5281/zenodo.24539594",
   "manuscript_included": false,
   "article_url": "https://arxiv.org/abs/2611.27507",
   "license": "MIT",
   "journal_submission_completed": false,
-  "archive_status": "awaiting version-specific Zenodo archive after GitHub release"
+  "archive_status": "published and verified against release commit",
+  "zenodo_record_id": 24540635,
+  "zenodo_concept_doi": "10.5281/zenodo.24539593",
+  "release_commit": "c44a7e2bd330c07867ab2b99fd316b55c4f491f7",
+  "release_url": "https://github.com/fsluiz/qaoa-coverage-diagnostics/releases/tag/v8.1.0",
+  "archived_files": 277,
+  "data_files_verified": 148,
+  "archive_sha256": "31ead33a9e5682f2890597a3b446354e736179fc95e7fec1c98d63ff1cf50b1f"
 }

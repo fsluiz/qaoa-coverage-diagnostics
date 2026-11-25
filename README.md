@@ -30,10 +30,12 @@ is recorded in [VERIFICATION.json](VERIFICATION.json).
 ## Citation and archive
 
 Release: https://github.com/fsluiz/qaoa-coverage-diagnostics/releases/tag/v8.1.0
-Version 8.1.0 adds the reproducibility data. Its Zenodo archive is generated
-through the repository integration after release publication. The earlier
-code-only version 8.0.0 has DOI https://doi.org/10.5281/zenodo.24539594; that DOI
-identifies the earlier software snapshot, not the newly added data.
+Version 8.1.0 adds the reproducibility data and is archived at
+**https://doi.org/10.5281/zenodo.24540635**.
+The Zenodo ZIP was verified byte for byte against release commit
+`c44a7e2bd330c07867ab2b99fd316b55c4f491f7`: 277 files, including 148 data/reference files.
+The earlier code-only version 8.0.0 remains available at
+https://doi.org/10.5281/zenodo.24539594.
 See `CITATION.cff` and `.zenodo.json` for author and release metadata.
 
 ## License
